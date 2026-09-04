@@ -84,14 +84,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// Liste des employés existants pour le menu déroulant "manager référent"
+// Liste des employés pouvant être "manager référent" (Managers et Admin RH)
 $stmt = $pdo->query("
-    SELECT e.id_employe, u.nom, u.prenom, e.poste
+    SELECT e.id_employe, u.nom, u.prenom, u.role, e.poste
     FROM Employe e 
     INNER JOIN Utilisateur u ON e.id_utilisateur = u.id_utilisateur
     WHERE e.statut = 'Actif' 
-    ORDER BY u.nom
+    AND u.role IN ('Manager', 'Administrateur RH')
+    ORDER BY u.role DESC, u.nom
 ");
+//$managers = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $employesExistants = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Variables pour pré-remplir le formulaire (mode modif) ou vides (mode ajout)

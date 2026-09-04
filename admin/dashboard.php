@@ -68,6 +68,7 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <a href="dashboard.php" class="lien-menu actif">Tableau de bord</a>
         <a href="employes.php" class="lien-menu">Employés</a>
+        <a href="mon_equipe.php" class="lien-menu">Mon équipe</a>
         <a href="evaluations.php" class="lien-menu">Évaluations</a>
         <a href="demandes.php" class="lien-menu">Demandes</a>
         <a href="criteres.php" class="lien-menu">Critères</a>

@@ -63,6 +63,7 @@ $totalActifs = $pdo->query("SELECT COUNT(*) FROM Employe WHERE statut = 'Actif'"
         </div>
 
         <a href="dashboard.php" class="lien-menu">Tableau de bord</a>
+        <a href="mon_equipe.php" class="lien-menu">Mon équipe</a>
         <a href="employes.php" class="lien-menu actif">Employés</a>
         <a href="evaluations.php" class="lien-menu">Évaluations</a>
         <a href="demandes.php" class="lien-menu">Demandes</a>

@@ -258,13 +258,18 @@ body {
 
 .menu-lateral {
     width: 220px;
-    background: #ffffff;
+    background: #4a5bd4;
     border-right: 1px solid #e5e7eb;
     padding: 1rem 0.75rem;
     display: flex;
     flex-direction: column;
     gap: 4px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
 }
+
 
 .logo-menu {
     display: flex;
@@ -272,11 +277,13 @@ body {
     gap: 8px;
     padding: 6px 8px;
     margin-bottom: 16px;
+    color: #ffffff;
 }
 
 .logo-menu span {
     font-size: 13px;
     font-weight: 500;
+     color: #ffffff;
 }
 
 .icone-logo-menu {
@@ -296,30 +303,30 @@ body {
     padding: 8px 10px;
     border-radius: 8px;
     font-size: 13px;
-    color: #4b5563;
+    color: #ffffff;
     text-decoration: none;
     display: block;
 }
 
 .lien-menu:hover {
-    background: #f4f5f7;
+   background: rgba(255, 255, 255, 0.1);  
 }
 
 .lien-menu.actif {
-    background: #4a5bd4;
+    background: rgba(255, 255, 255, 0.2); 
     color: #ffffff;
 }
 
 .pied-menu {
     margin-top: auto;
     padding-top: 12px;
-    border-top: 1px solid #e5e7eb;
+     border-top: 1px solid rgba(255, 255, 255, 0.2); 
     display: flex;
     align-items: center;
     gap: 8px;
     padding-left: 8px;
     font-size: 13px;
-    color: #4b5563;
+    color: #ffffff;
 }
 
 .avatar-mini {
@@ -337,13 +344,14 @@ body {
 
 .icone-deconnexion {
     margin-left: auto;
-    color: #9ca3af;
+    color: rgba(255, 255, 255, 0.8);
     display: flex;
 }
 
 .icone-deconnexion:hover {
-    color: #b91c1c;
+    color: #ffffff;
 }
+
 
 .zone-contenu {
     flex: 1;
@@ -412,7 +420,7 @@ body {
 }
 
 
-/* Ajouts pour les badges de la fiche employé */
+/*  les badges de la fiche employé */
 .badge-attention {
     background: #fef3c7;
     color: #92400e;
@@ -442,4 +450,370 @@ body {
     font-size: 13px;
     margin-bottom: 16px;
     border: 1px solid #bbf7d0;
+}
+
+/* Page Mon Équipe du Manager*/
+
+.actions-header {
+    display: flex;
+    gap: 10px;
+}
+
+.barre-recherche-equipe {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.barre-recherche-equipe input[type="text"] {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.barre-recherche-equipe input[type="text"]:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.tableau-equipe {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.tableau-equipe th {
+    text-align: left;
+    padding: 14px 16px;
+    background: #f9fafb;
+    color: #6b7280;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tableau-equipe td {
+    padding: 16px;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: middle;
+}
+
+.tableau-equipe tr:last-child td {
+    border-bottom: none;
+}
+
+.membre-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar-membre {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e8ecff;
+    color: #4a5bd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.membre-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.membre-nom {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111827;
+    margin: 0;
+}
+
+.membre-email {
+    font-size: 12px;
+    color: #9ca3af;
+    margin: 2px 0 0;
+}
+
+.poste-cell {
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.btn-evaluer {
+    background: #4a5bd4;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.btn-evaluer:hover {
+    background: #3d4cb8;
+}
+
+.section-demandes {
+    margin-top: 32px;
+}
+
+.titre-section-demandes {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 16px;
+}
+
+.liste-demandes {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.demande-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.demande-item:last-child {
+    border-bottom: none;
+}
+
+.demande-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.demande-nom {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111827;
+    margin: 0;
+}
+
+.demande-detail {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 4px 0 0;
+}
+
+.demande-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-action {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.btn-accepter {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.btn-accepter:hover {
+    background: #bbf7d0;
+}
+
+.btn-refuser {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.btn-refuser:hover {
+    background: #fecaca;
+}
+
+.texte-vide-demandes {
+    text-align: center;
+    padding: 32px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+/* ==== Page Objectifs (Manager) ==== */
+
+.formulaire-objectif {
+    max-width: 100%; 
+}
+
+.sous-titre-form {
+    font-size: 13px;
+    color: #6b7280;
+    margin: -8px 0 20px 0;
+}
+
+.grille-dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.astuce-smart {
+    background: #f0f9ff;
+    border-left: 3px solid #4a5bd4;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #4b5563;
+    margin: 16px 0;
+}
+
+.actions-formulaire {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.champ textarea {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.champ textarea:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.champ select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.champ select:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.badge-info {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-danger {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.badge-attention {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.btn-supprimer {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.btn-supprimer:hover {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+/* ==== Badges de rôle ==== */
+.badge-role {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.badge-administrateur-rh {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.badge-manager {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-employe {
+    background: #e5e7eb;
+    color: #4b5563;
+}
+
+.btn-secondaire {
+    background: #f3f4f6;
+    color: #4b5563;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.btn-secondaire:hover {
+    background: #e5e7eb;
+}
+
+/* Alignement des boutons dans le tableau Mon Équipe */
+
+.actions-cell {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.btn-mini {
+    padding: 6px 12px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.btn-evaluer {
+    background: #4a5bd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-evaluer:hover {
+    background: #3d4cb8;
 }

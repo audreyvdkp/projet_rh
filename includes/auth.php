@@ -1,6 +1,5 @@
 <?php
 // Vérifie que l'utilisateur est connecté ET qu'il a le bon rôle
-// À inclure en haut de chaque page protégée (admin, manager, employe)
 
 function verifierRole($roleAttendu) {
     session_start();
