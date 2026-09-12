@@ -49,6 +49,7 @@ $nomManager = $employe['manager_nom'] ? htmlspecialchars($employe['manager_preno
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiche Employé — <?= $nomComplet ?></title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -194,5 +195,6 @@ $nomManager = $employe['manager_nom'] ? htmlspecialchars($employe['manager_preno
     </div>
 </div>
 
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

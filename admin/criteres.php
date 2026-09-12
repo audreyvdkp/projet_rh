@@ -232,6 +232,7 @@ if (isset($_GET['modifier']) && !empty($_GET['modifier'])) {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion des critères — Administrateur RH</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -586,5 +587,6 @@ if (isset($_GET['modifier']) && !empty($_GET['modifier'])) {
     verifierTotaux();
 </script>
 
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

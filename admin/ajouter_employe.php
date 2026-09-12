@@ -114,6 +114,7 @@ $texteBouton = $modeModification ? "Enregistrer les modifications" : "Créer l'e
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $titrePage ?> — Administrateur RH</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -241,5 +242,6 @@ $texteBouton = $modeModification ? "Enregistrer les modifications" : "Créer l'e
     </div>
 </div>
 
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

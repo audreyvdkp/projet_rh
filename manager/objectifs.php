@@ -363,5 +363,6 @@ document.getElementById('filtre-employe').addEventListener('change', function() 
 });
 </script>
 
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

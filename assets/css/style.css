@@ -817,3 +817,223 @@ body {
 .btn-evaluer:hover {
     background: #3d4cb8;
 }
+
+/* ==== Accessoires responsives (injectés par app.js) ==== */
+
+.bouton-menu,
+.menu-voile {
+    display: none;
+}
+
+.tableau-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.zone-contenu,
+.panneau,
+.carte-stat {
+    min-width: 0;
+}
+
+img,
+svg,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablette : 2 colonnes, panneaux empilés */
+@media (max-width: 1100px) {
+    .zone-contenu {
+        padding: 1.5rem;
+        max-width: none;
+    }
+
+    .grille-cartes {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .grille-panneaux {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+/* Mobile / petite tablette : menu hors écran */
+@media (max-width: 768px) {
+    .conteneur-app {
+        flex-direction: column;
+    }
+
+    .bouton-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 220;
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        border: none;
+        border-radius: 10px;
+        background: #4a5bd4;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .menu-voile {
+        position: fixed;
+        inset: 0;
+        z-index: 180;
+        background: rgba(17, 24, 39, 0.45);
+    }
+
+    body.menu-ouvert {
+        overflow: hidden;
+    }
+
+    body.menu-ouvert .menu-voile {
+        display: block;
+    }
+
+    .menu-lateral {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        width: min(260px, 86vw);
+        height: 100vh;
+        height: 100dvh;
+        transform: translateX(-105%);
+        transition: transform 0.2s ease;
+    }
+
+    body.menu-ouvert .menu-lateral {
+        transform: translateX(0);
+    }
+
+    .lien-menu {
+        padding: 12px 12px;
+        font-size: 14px;
+    }
+
+    .zone-contenu {
+        padding: 4.5rem 1rem 1.5rem;
+        width: 100%;
+    }
+
+    .entete-page {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .entete-page .bouton-principal-inline,
+    .entete-page .bouton-secondaire,
+    .entete-page > div[style] {
+        width: 100%;
+    }
+
+    .entete-page > div[style] {
+        flex-wrap: wrap;
+    }
+
+    .entete-page > div[style] a {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    .grille-cartes,
+    .grille-panneaux,
+    .grille-dates {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+
+    .barre-filtres,
+    .barre-recherche-equipe,
+    .actions-header,
+    .actions-formulaire,
+    .barre-recherche-equipe form,
+    .filtres-demandes {
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .barre-filtres input[type="text"],
+    .barre-filtres select,
+    .barre-recherche-equipe input[type="text"],
+    .barre-recherche-equipe select,
+    .actions-header a,
+    .actions-formulaire .bouton-principal,
+    .actions-formulaire .bouton-secondaire {
+        width: 100%;
+    }
+
+    .tableau-donnees,
+    .tableau-equipe {
+        min-width: 620px;
+    }
+
+    .actions-cell {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .demande-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .demande-actions {
+        width: 100%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .pied-menu {
+        margin-top: 16px;
+    }
+
+    .zone-contenu [style*="font-size: 48px"] {
+        font-size: 32px !important;
+    }
+}
+
+/* Petit mobile */
+@media (max-width: 480px) {
+    .carte-connexion {
+        margin: 1rem;
+        padding: 1.5rem;
+        max-width: calc(100% - 2rem);
+    }
+
+    .titre-page {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .valeur-stat {
+        font-size: 20px;
+    }
+
+    .tableau-donnees,
+    .tableau-equipe {
+        min-width: 560px;
+        font-size: 12px;
+    }
+
+    .avatar-membre {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .section-demandes {
+        margin-top: 24px;
+    }
+}

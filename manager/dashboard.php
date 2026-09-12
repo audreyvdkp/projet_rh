@@ -73,6 +73,7 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau de bord — Manager</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -182,5 +183,6 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 </div>
 
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

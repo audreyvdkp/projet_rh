@@ -216,5 +216,6 @@ $demandesEnAttente = $stmtDemandes->fetchAll(PDO::FETCH_ASSOC);
         });
     });
 </script>
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>
