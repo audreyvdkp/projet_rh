@@ -216,18 +216,16 @@ foreach ($compteurs as $c) {
                                 <form method="POST" action="" style="display: inline;">
                                     <input type="hidden" name="id_demande" value="<?= $demande['id_demande'] ?>">
                                     <input type="hidden" name="action_demande" value="accepter">
-                                    <button type="submit" class="btn-action btn-accepter" title="Accepter" 
-                                            style="background: #22c55e; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: 500;">
-                                        ✓ Accepter
-                                    </button>
+                                   <button type="submit" style="background: #22c55e; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-weight: 500; min-width: 100px; white-space: nowrap;">
+    ✓ Accepter
+</button>
                                 </form>
                                 <form method="POST" action="" style="display: inline;">
                                     <input type="hidden" name="id_demande" value="<?= $demande['id_demande'] ?>">
                                     <input type="hidden" name="action_demande" value="refuser">
-                                    <button type="submit" class="btn-action btn-refuser" title="Refuser" 
-                                            style="background: #ef4444; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: 500;">
-                                        ✗ Refuser
-                                    </button>
+                                   <button type="submit" style="background: #ef4444; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-weight: 500; min-width: 100px; white-space: nowrap;">
+    ✗ Refuser
+</button>
                                 </form>
                             <?php else: ?>
                                 <span class="badge-statut" style="padding: 6px 12px; border-radius: 12px; font-size: 13px; font-weight: 500; 

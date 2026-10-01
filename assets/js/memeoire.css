@@ -1,0 +1,479 @@
+/* Reset et base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: #f5f7fb;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* Layout principal */
+.conteneur-app {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menu latéral */
+.menu-lateral {
+    width: 260px;
+    background: linear-gradient(180deg, #4a5bd4 0%, #3d4bb8 100%);
+    padding: 20px 0;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 20px 30px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 20px;
+}
+
+.icone-logo-menu {
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: #4a5bd4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo-menu span {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.lien-menu {
+    display: block;
+    padding: 12px 20px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: all 0.3s;
+    margin: 4px 10px;
+    border-radius: 8px;
+}
+
+.lien-menu:hover, .lien-menu.actif {
+    background: rgba(255,255,255,0.15);
+    color: white;
+}
+
+.pied-menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.avatar-mini {
+    width: 36px;
+    height: 36px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Zone de contenu */
+.zone-contenu {
+    flex: 1;
+    margin-left: 260px;
+    padding: 30px;
+    transition: margin-left 0.3s ease;
+}
+
+/* En-tête de page */
+.entete-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.titre-page {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.sous-titre-page {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 4px 0 0 0;
+}
+
+/* Panneaux */
+.panneau {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.titre-panneau {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Cartes de statistiques */
+.grille-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.carte-stat {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Boutons */
+.bouton-principal {
+    background: #4a5bd4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.3s;
+}
+
+.bouton-principal:hover {
+    background: #3d4bb8;
+}
+
+.bouton-secondaire {
+    background: white;
+    color: #4a5bd4;
+    border: 1px solid #4a5bd4;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+}
+
+.bouton-secondaire:hover {
+    background: #f9fafb;
+}
+
+/* Formulaires */
+.champ {
+    margin-bottom: 16px;
+}
+
+.champ label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #374151;
+    font-size: 14px;
+}
+
+.champ input, .champ select, .champ textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.champ input:focus, .champ select:focus, .champ textarea:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+/* Tableaux */
+.tableau-donnees {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableau-donnees th, .tableau-donnees td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tableau-donnees th {
+    font-weight: 600;
+    color: #6b7280;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.tableau-donnees tr:hover {
+    background: #f9fafb;
+}
+
+/* Messages */
+.message-erreur {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #dc2626;
+    margin-bottom: 20px;
+}
+
+.message-succes {
+    background: #dcfce7;
+    color: #166534;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #22c55e;
+    margin-bottom: 20px;
+}
+
+/* Connexion */
+.page-centree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.carte-connexion {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+    margin: 20px;
+}
+
+.logo-connexion {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icone-logo {
+    width: 64px;
+    height: 64px;
+    background: #4a5bd4;
+    color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto 16px;
+}
+
+.titre-connexion {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.sous-titre-connexion {
+    color: #6b7280;
+    margin: 4px 0 0 0;
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE & TABLETTE
+   ======================================== */
+
+/* Tablette (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .zone-contenu {
+        margin-left: 260px;
+        padding: 20px;
+    }
+    
+    .grille-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Menu latéral caché par défaut */
+    .menu-lateral {
+        transform: translateX(-100%);
+        width: 260px;
+    }
+    
+    .menu-lateral.mobile-open {
+        transform: translateX(0);
+    }
+    
+    /* Zone de contenu pleine largeur */
+    .zone-contenu {
+        margin-left: 0;
+        padding: 16px;
+    }
+    
+    /* En-tête adapté */
+    .entete-page {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .titre-page {
+        font-size: 22px;
+    }
+    
+    /* Stats en une colonne */
+    .grille-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Grilles en une colonne */
+    .zone-contenu > div[style*="grid-template-columns: 1fr 1fr"],
+    .zone-contenu > div[style*="grid-template-columns: 2fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Formulaires adaptés */
+    div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Tableaux scrollables */
+    .tableau-donnees {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    /* Boutons empilés */
+    .entete-page .bouton-principal,
+    .entete-page .bouton-secondaire {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    div[style*="display: flex; gap: 12px; justify-content: flex-end"] {
+        flex-direction: column;
+    }
+    
+    div[style*="display: flex; gap: 12px; justify-content: flex-end"] .bouton-principal,
+    div[style*="display: flex; gap: 12px; justify-content: flex-end"] .bouton-secondaire {
+        width: 100%;
+    }
+    
+    /* Carte de connexion plus petite */
+    .carte-connexion {
+        padding: 24px;
+        margin: 16px;
+    }
+    
+    /* Textes plus petits */
+    .titre-panneau {
+        font-size: 16px;
+    }
+}
+
+/* Petit mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .zone-contenu {
+        padding: 12px;
+    }
+    
+    .panneau {
+        padding: 16px;
+    }
+    
+    .carte-stat {
+        padding: 16px;
+    }
+    
+    .bouton-principal, .bouton-secondaire {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Overlay pour mobile */
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.mobile-overlay.show {
+    display: block;
+}
+
+/* Bouton hamburger */
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 1001;
+    background: #4a5bd4;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.menu-toggle.show {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}

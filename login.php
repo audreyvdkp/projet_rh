@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body class="page-centree">
 
+
     <div class="carte-connexion">
         <div class="logo-connexion">
             <div class="icone-logo">RH</div>
@@ -108,5 +109,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     });
 </script>
 <script src="assets/js/app.js" defer></script>
+
 </body>
 </html>
