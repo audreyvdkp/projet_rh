@@ -48,9 +48,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="carte-connexion">
         <div class="logo-connexion">
-            <div class="icone-logo">RH</div>
+           <img src="assets/images/logo-bsm-groupe - Copie.png" alt="BSM groupe" style="width: 80px; height: 80px; object-fit: contain;">
+            <h2>Portail BSM groupe</h2>
+<p style="color: #64748b; margin-bottom: 20px;">Accès réservé au personnel</p>
             <p class="titre-connexion">Connexion</p>
-            <p class="sous-titre-connexion">Système RH</p>
+            
         </div>
 
         <?php if ($erreur): ?>

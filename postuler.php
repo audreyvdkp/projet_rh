@@ -1,13 +1,12 @@
 <?php
 require_once 'config/db.php';
+session_start();
 
 $id_offre = (int)($_GET['id'] ?? 0);
-$message = "";
-$typeMessage = "";
 
-// Vérifier que l'offre existe et n'est pas expirée
+// Vérifier que l'offre existe
 if ($id_offre > 0) {
-    $stmt = $pdo->prepare("SELECT titre, date_limite, description, poids_competences, poids_experience, poids_diplome, poids_langues FROM offre_emploi WHERE id_offre = ? AND statut = 'Publiée'");
+    $stmt = $pdo->prepare("SELECT titre, date_limite, description FROM offre_emploi WHERE id_offre = ? AND statut = 'Publiée'");
     $stmt->execute([$id_offre]);
     $offre = $stmt->fetch(PDO::FETCH_ASSOC);
     
@@ -22,131 +21,114 @@ if ($id_offre > 0) {
 
 // Traitement du formulaire
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Token anti-doublon
+    if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['form_token']) {
+        header('Location: postuler.php?id=' . $id_offre . '&erreur=doublon');
+        exit;
+    }
+    unset($_SESSION['form_token']);
+    
     $prenom = trim($_POST['prenom'] ?? '');
     $nom = trim($_POST['nom'] ?? '');
     $email = trim($_POST['email'] ?? '');
     $telephone = trim($_POST['telephone'] ?? '');
     $lettre = trim($_POST['lettre'] ?? '');
     
-    // Gestion du fichier CV
     $cv_nom = null;
     if (isset($_FILES['cv']) && $_FILES['cv']['error'] === UPLOAD_ERR_OK) {
         $dossier_upload = 'uploads/cv/';
         if (!is_dir($dossier_upload)) {
             mkdir($dossier_upload, 0777, true);
         }
-        
         $extension = strtolower(pathinfo($_FILES['cv']['name'], PATHINFO_EXTENSION));
         $cv_nom = uniqid('cv_') . '.' . $extension;
         $chemin_final = $dossier_upload . $cv_nom;
-        
-        if (!move_uploaded_file($_FILES['cv']['tmp_name'], $chemin_final)) {
-            $message = "⚠️ Erreur lors de l'envoi du CV.";
-            $typeMessage = "erreur";
-        }
+        move_uploaded_file($_FILES['cv']['tmp_name'], $chemin_final);
     }
 
-    if (empty($prenom) || empty($nom) || empty($email) || empty($telephone)) {
-        $message = "⚠️ Veuillez remplir tous les champs obligatoires (*).";
-        $typeMessage = "erreur";
-    } elseif (!$cv_nom) {
-        $message = "️ Veuillez joindre votre CV (PDF ou Image).";
-        $typeMessage = "erreur";
-    } else {
-        try {
-            // Calcul du score IA en PHP (simple et fiable)
-            $score_ia = 0;
-            $description = strtolower($offre['description'] ?? '');
-            
-            // Liste de mots-clés à chercher dans la description de l'offre
-            $mots_cles = [
-                'python', 'java', 'javascript', 'php', 'html', 'css', 'sql', 'react', 'angular',
-                'photoshop', 'illustrator', 'indesign', 'figma', 'canva', 'django', 'flask',
-                'machine learning', 'deep learning', 'data science', 'git', 'docker',
-                'communication', 'leadership', 'gestion', 'créativité', 'design', 'marketing',
-                'vente', 'comptabilité', 'excel', 'word', 'powerpoint', 'fullstack', 'full stack',
-                'frontend', 'backend', 'node.js', 'vue.js', 'mysql', 'postgresql', 'mongodb'
-            ];
-            
-            // Compter combien de mots-clés sont dans la description
-            $mots_trouves = 0;
-            foreach ($mots_cles as $mot) {
-                if (strpos($description, $mot) !== false) {
-                    $mots_trouves++;
-                }
-            }
-            
-            // Score basé sur le nombre de mots-clés (max 100)
-            $score_ia = min(100, $mots_trouves * 5);
-            
-           // --- DÉBUT CALCUL SCORE IA (VERSION CORRIGÉE) ---
-$score_ia = 0;
+    if (empty($prenom) || empty($nom) || empty($email) || empty($telephone) || !$cv_nom) {
+        header('Location: postuler.php?id=' . $id_offre . '&erreur=incomplet');
+        exit;
+    }
 
-// 1. Créer le fichier de l'offre dans le dossier module_ia (plus fiable sous Windows)
-$dossierModule = __DIR__ . '/module_ia/';
-$fichierOffre = $dossierModule . 'offre_temp.txt';
+    // Vérification anti-doublon par email
+    $stmtVerif = $pdo->prepare("SELECT id_candidature FROM candidature WHERE email = ? AND id_offre = ?");
+    $stmtVerif->execute([$email, $id_offre]);
+    
+    if ($stmtVerif->fetch()) {
+        @unlink($chemin_final);
+        header('Location: postuler.php?id=' . $id_offre . '&erreur=deja_postule');
+        exit;
+    }
 
-// On écrit la description dans ce fichier
-file_put_contents($fichierOffre, $offre['description'] ?? '', LOCK_EX);
-
-// 2. Préparer les chemins
-$cheminCV_absolu = realpath($chemin_final);
-$cheminScript_absolu = realpath($dossierModule . 'analyser_cv.py');
-
-// 3. Lancer Python
-$commande = sprintf('python "%s" "%s" "%s" 2>&1', 
-    escapeshellarg($cheminScript_absolu), 
-    escapeshellarg($cheminCV_absolu), 
-    escapeshellarg($fichierOffre)
-);
-
-$sortie = shell_exec($commande);
-
-// 4. Récupérer le score
-if (is_numeric(trim($sortie))) {
-    $score_ia = (float)trim($sortie);
-} else {
-    // Si ça plante, on affiche l'erreur pour déboguer (tu pourras l'enlever plus tard)
-    $score_ia = 0; 
+    // CALCUL DU SCORE IA via fichier (100% fiable)
+    $score_ia = 0;
+    $dossierModule = __DIR__ . '/module_ia/';
+    $fichierOffre = $dossierModule . 'offre_temp.txt';
+    $fichierScore = $dossierModule . 'score_resultat.txt';
+    
+    file_put_contents($fichierOffre, $offre['description'] ?? '', LOCK_EX);
+    @unlink($fichierScore); // Supprimer l'ancien résultat
+    
+    $cheminCV_absolu = realpath($chemin_final);
+    $cheminScript_absolu = realpath($dossierModule . 'analyser_cv.py');
+    
+    $commande = sprintf('python "%s" "%s" "%s" "%s" 2>&1', 
+        escapeshellarg($cheminScript_absolu), 
+        escapeshellarg($cheminCV_absolu), 
+        escapeshellarg($fichierOffre),
+        escapeshellarg($fichierScore)
+    );
+    
+    shell_exec($commande);
+    
+    // Lire le score depuis le fichier
+    if (file_exists($fichierScore)) {
+        $contenu = trim(file_get_contents($fichierScore));
+        if (is_numeric($contenu)) {
+            $score_ia = (float)$contenu;
+        }
+    }
+    
+    @unlink($fichierOffre);
+    @unlink($fichierScore);
+    
+    // Insertion
+    $stmt = $pdo->prepare("
+        INSERT INTO candidature (id_offre, nom, prenom, email, telephone, cv, lettre_motivation, date_soumission, statut, score_ia)
+        VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), 'En attente', ?)
+    ");
+    $stmt->execute([$id_offre, $nom, $prenom, $email, $telephone, $cv_nom, $lettre, $score_ia]);
+    
+    // Redirection pour éviter les doublons (pattern PRG)
+    header('Location: postuler.php?id=' . $id_offre . '&succes=1');
+    exit;
 }
 
-// 5. Nettoyer le fichier temporaire
-@unlink($fichierOffre);
-// --- FIN CALCUL SCORE IA ---
+// Générer un token unique pour ce formulaire
+$_SESSION['form_token'] = md5(uniqid(rand(), true));
 
-// Vérifier si cette personne a déjà postulé à cette offre
-$stmtVerif = $pdo->prepare("SELECT id_candidature FROM candidature WHERE email = ? AND id_offre = ?");
-$stmtVerif->execute([$email, $id_offre]);
-
-if ($stmtVerif->fetch()) {
-    $message = "⚠️ Vous avez déjà postulé à cette offre. Une seule candidature par personne est autorisée.";
+// Messages d'erreur/succès via URL
+$message = "";
+$typeMessage = "";
+if (isset($_GET['succes'])) {
+    $message = "✅ Votre candidature a été envoyée avec succès !";
+    $typeMessage = "succes";
+} elseif (isset($_GET['erreur'])) {
+    switch ($_GET['erreur']) {
+        case 'deja_postule':
+            $message = "⚠️ Vous avez déjà postulé à cette offre avec cet email.";
+            break;
+        case 'incomplet':
+            $message = "⚠️ Veuillez remplir tous les champs obligatoires.";
+            break;
+        case 'doublon':
+            $message = "️ Soumission en double détectée.";
+            break;
+        default:
+            $message = "⚠️ Une erreur est survenue.";
+    }
     $typeMessage = "erreur";
-} else {
-    // Ici on met l'INSERT et le calcul du score IA
-    // ... (ton code d'insertion actuel)
-}
-// Insérer la candidature (Assure-toi que score_ia est bien dans ta requête INSERT)
-$stmt = $pdo->prepare("
-    INSERT INTO candidature (id_offre, nom, prenom, email, telephone, cv, lettre_motivation, date_soumission, statut, score_ia)
-    VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), 'En attente', ?)
-");
-$stmt->execute([$id_offre, $nom, $prenom, $email, $telephone, $cv_nom, $lettre, $score_ia]);
-            $stmt = $pdo->prepare("
-                INSERT INTO candidature (id_offre, nom, prenom, email, telephone, cv, lettre_motivation, date_soumission, statut, score_ia)
-                VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), 'En attente', ?)
-            ");
-            $stmt->execute([$id_offre, $nom, $prenom, $email, $telephone, $cv_nom, $lettre, $score_ia]);
-            
-            $message = "✅ Votre candidature a été envoyée avec succès ! Nous vous contacterons par email si votre profil retient notre attention.";
-            $typeMessage = "succes";
-            
-            $prenom = $nom = $email = $telephone = $lettre = '';
-            
-        } catch (PDOException $e) {
-            $message = "⚠️ Erreur : " . $e->getMessage();
-            $typeMessage = "erreur";
-        }
-    }
 }
 ?>
 <!DOCTYPE html>
@@ -162,23 +144,23 @@ $stmt->execute([$id_offre, $nom, $prenom, $email, $telephone, $cv_nom, $lettre, 
         .logo { font-size: 22px; font-weight: bold; color: #4a5bd4; display: flex; align-items: center; gap: 10px; text-decoration: none; }
         .logo span { background: #4a5bd4; color: white; padding: 5px 10px; border-radius: 8px; }
         .btn-retour { color: #64748b; text-decoration: none; font-weight: 500; }
-        .btn-retour:hover { color: #4a5bd4; }
         .container { max-width: 700px; margin: 40px auto; padding: 0 20px; }
         .form-header { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 24px; border-top: 5px solid #4a5bd4; text-align: center; }
         .form-header h1 { font-size: 24px; color: #1e293b; margin-bottom: 8px; }
         .form-container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
         .champ { margin-bottom: 20px; }
         .champ label { display: block; margin-bottom: 8px; font-weight: 500; color: #1e293b; font-size: 14px; }
-        .champ input, .champ textarea { width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 15px; font-family: inherit; transition: border 0.2s; }
+        .champ input, .champ textarea { width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 15px; font-family: inherit; }
         .champ input:focus, .champ textarea:focus { outline: none; border-color: #4a5bd4; }
         .champ textarea { resize: vertical; min-height: 120px; }
-        .btn-submit { width: 100%; background: #4a5bd4; color: white; border: none; padding: 14px; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s; margin-top: 10px; }
+        .btn-submit { width: 100%; background: #4a5bd4; color: white; border: none; padding: 14px; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; }
         .btn-submit:hover { background: #3d4bb8; }
+        .btn-submit:disabled { background: #94a3b8; cursor: not-allowed; }
         .alert { padding: 16px; border-radius: 8px; margin-bottom: 24px; font-size: 14px; }
         .alert-succes { background: #dcfce7; color: #166534; border-left: 4px solid #22c55e; }
         .alert-erreur { background: #fee2e2; color: #991b1b; border-left: 4px solid #ef4444; }
+        .info-ia { background: #eff6ff; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #3b82f6; margin-bottom: 20px; font-size: 13px; color: #1e40af; }
         footer { text-align: center; padding: 30px; color: #94a3b8; font-size: 14px; border-top: 1px solid #e2e8f0; background: white; margin-top: 40px; }
-        @media (max-width: 768px) { .form-container { padding: 24px; } }
     </style>
 </head>
 <body>
@@ -198,36 +180,48 @@ $stmt->execute([$id_offre, $nom, $prenom, $email, $telephone, $cv_nom, $lettre, 
         <?php endif; ?>
 
         <?php if ($typeMessage !== 'succes'): ?>
-            <form method="POST" action="" enctype="multipart/form-data" class="form-container">
+            <form method="POST" action="" enctype="multipart/form-data" class="form-container" id="formCandidature">
+                <input type="hidden" name="token" value="<?= $_SESSION['form_token'] ?>">
+                
+                <div class="info-ia">
+     <strong>Traitement rapide :</strong> Votre candidature sera analysée automatiquement par notre système pour garantir une réponse dans les plus brefs délais.
+</div>
+
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
                     <div class="champ">
                         <label>Prénom *</label>
-                        <input type="text" name="prenom" value="<?= htmlspecialchars($prenom ?? '') ?>" required>
+                        <input type="text" name="prenom" required>
                     </div>
                     <div class="champ">
                         <label>Nom *</label>
-                        <input type="text" name="nom" value="<?= htmlspecialchars($nom ?? '') ?>" required>
+                        <input type="text" name="nom" required>
                     </div>
                 </div>
                 <div class="champ">
                     <label>Adresse Email *</label>
-                    <input type="email" name="email" value="<?= htmlspecialchars($email ?? '') ?>" required placeholder="exemple@email.com">
+                    <input type="email" name="email" required placeholder="exemple@email.com">
                 </div>
                 <div class="champ">
                     <label>Numéro de téléphone *</label>
-                    <input type="tel" name="telephone" value="<?= htmlspecialchars($telephone ?? '') ?>" required placeholder="+229 XX XX XX XX">
+                    <input type="tel" name="telephone" required placeholder="+229 XX XX XX XX">
                 </div>
                 <div class="champ">
-                    <label>Votre CV (PDF, Word ou Image) *</label>
+                    <label>Votre CV (PDF) *</label>
                     <input type="file" name="cv" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
-                    <small style="color: #94a3b8; font-size: 12px; margin-top: 4px; display: block;">Taille maximale recommandée : 5 Mo</small>
                 </div>
                 <div class="champ">
                     <label>Lettre de motivation (Optionnel)</label>
-                    <textarea name="lettre" placeholder="Parlez-nous de vous, de votre parcours et de votre motivation..."><?= htmlspecialchars($lettre ?? '') ?></textarea>
+                    <textarea name="lettre" rows="6" placeholder="Parlez-nous de vous..."></textarea>
                 </div>
-                <button type="submit" class="btn-submit">Envoyer ma candidature</button>
+                <button type="submit" class="btn-submit" id="btnSubmit">Envoyer ma candidature</button>
             </form>
+            <script>
+                document.getElementById('formCandidature').addEventListener('submit', function() {
+                    var btn = document.getElementById('btnSubmit');
+                    btn.disabled = true;
+                    btn.textContent = ' Analyse en cours... (patientez)';
+                });
+            </script>
         <?php else: ?>
             <div style="text-align: center; padding: 40px; background: white; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
                 <p style="font-size: 18px; color: #1e293b; margin-bottom: 20px;">Merci pour votre candidature !</p>

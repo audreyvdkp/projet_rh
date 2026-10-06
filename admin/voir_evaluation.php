@@ -53,10 +53,12 @@ $details = $stmtDetail->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="conteneur-app">
    <div class="menu-lateral">
-    <div class="logo-menu">
-        <div class="icone-logo-menu">RH</div>
-        <span>Système RH</span>
+   <div class="logo-menu" style="padding: 20px 15px 15px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="background: white; border-radius: 10px; padding: 8px 12px; display: inline-block; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+        <img src="../assets/images/logo-bsm-groupe - Copie.png" alt="BSM groupe" style="height: 35px; width: auto; display: block;">
     </div>
+    <!-- <p style="color: white; font-size: 13px; font-weight: 600; margin: 0; letter-spacing: 1px;">BSM groupe</p> -->
+</div>
 
     <!-- GROUPE 1 : RECRUTEMENT -->
     <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Recrutement</p>

@@ -64,7 +64,12 @@ $modeNouvelle = isset($_GET['action']) && $_GET['action'] === 'nouvelle';
 
 <div class="conteneur-app">
     <div class="menu-lateral">
-        <div class="logo-menu"><div class="icone-logo-menu">RH</div><span>Système RH</span></div>
+        <div class="logo-menu" style="padding: 20px 15px 15px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="background: white; border-radius: 10px; padding: 8px 12px; display: inline-block; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+        <img src="../assets/images/logo-bsm-groupe - Copie.png" alt="BSM groupe" style="height: 35px; width: auto; display: block;">
+    </div>
+    <!-- <p style="color: white; font-size: 13px; font-weight: 600; margin: 0; letter-spacing: 1px;">BSM groupe</p> -->
+</div>
         <a href="dashboard.php" class="lien-menu">Tableau de bord</a>
         <a href="objectifs.php" class="lien-menu">Mes objectifs</a>
         <a href="demandes.php" class="lien-menu actif">Mes demandes</a>
@@ -82,18 +87,20 @@ $modeNouvelle = isset($_GET['action']) && $_GET['action'] === 'nouvelle';
     <div class="zone-contenu">
       <div class="entete-page" style="display: flex; justify-content: space-between; align-items: center;">
     <div>
-        <p class="titre-page">Ma demande</p>
+        <p class="titre-page">Mes demandes</p>
         <p class="sous-titre-page">Gérez vos demandes de congés et permissions</p>
     </div>
     <?php if (!$modeNouvelle): ?>
-        <a href="demandes.php?action=nouvelle" class="bouton-principal" style="float: right; padding: 10px 20px; background: #4a5bd4; color: white; text-decoration: none; border-radius: 8px; font-weight: 500; display: inline-flex; align-items: center; gap: 8px;">
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+        <a href="demandes.php?action=nouvelle" class="bouton-principal" style="padding: 10px 20px; background: #4a5bd4; color: white; text-decoration: none; border-radius: 8px; font-weight: 500; display: inline-flex; align-items: center; gap: 8px; width: auto;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
                 <line x1="5" y1="12" x2="19" y2="12"></line>
             </svg>
             Nouvelle demande
         </a>
-    <?php endif; ?>
+    </div>
+<?php endif; ?>
 </div>
 
         <?php if ($message): ?>

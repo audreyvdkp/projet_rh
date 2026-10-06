@@ -93,10 +93,15 @@ $demandesRecents = $stmtDemRecent->fetchAll(PDO::FETCH_ASSOC);
 
     <!-- Menu latéral Employé -->
     <div class="menu-lateral">
-        <div class="logo-menu">
-            <div class="icone-logo-menu">RH</div>
-            <span>Système RH</span>
-        </div>
+        
+        <div class="logo-menu" style="padding: 20px 15px 15px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="background: white; border-radius: 10px; padding: 8px 12px; display: inline-block; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+        <img src="../assets/images/logo-bsm-groupe - Copie.png" alt="BSM groupe" style="height: 35px; width: auto; display: block;">
+    </div>
+    <!-- <p style="color: white; font-size: 13px; font-weight: 600; margin: 0; letter-spacing: 1px;">BSM groupe</p> -->
+</div>
+
+    
 
         <a href="dashboard.php" class="lien-menu actif">Tableau de bord</a>
         <a href="objectifs.php" class="lien-menu">Mes objectifs</a>
@@ -137,8 +142,7 @@ $demandesRecents = $stmtDemRecent->fetchAll(PDO::FETCH_ASSOC);
         </div>
 
         <!-- Cartes de statistiques -->
-        <div class="grille-stats" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px;">
-            
+      <div class="grille-stats" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
             <!-- Dernière évaluation -->
             <div class="carte-stat" style="background: white; padding: 20px; border-radius: 12px; border: 1px solid #e5e7eb;">
                 <p style="font-size: 13px; color: #6b7280; margin-bottom: 8px;">Dernière évaluation</p>

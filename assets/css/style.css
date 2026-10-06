@@ -1041,3 +1041,205 @@ video {
 .lien-menu.actif:hover {
     background-color: rgba(255, 255, 255, 0.3) !important;
 }
+
+/* ========================================
+   RESPONSIVE COMPLET - ADMIN
+   ======================================== */
+
+/* 1. Structure principale : utiliser tout l'espace */
+.conteneur-app {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.menu-lateral {
+    width: 220px;
+    min-width: 220px;
+    background: #4a5bd4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    overflow-y: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.zone-contenu {
+    flex: 1;
+    margin-left: 220px;
+    padding: 30px;
+    width: calc(100% - 220px);
+    overflow-x: auto;
+}
+
+/* 2. Menu : empêcher les coupures de texte */
+.menu-lateral .lien-menu {
+    padding: 10px 15px;
+    margin: 2px 10px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-lateral .lien-menu:hover,
+.menu-lateral .lien-menu.actif {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.menu-lateral p {
+    padding: 0 15px;
+    margin: 15px 0 5px 15px !important;
+}
+
+/* 3. Tableaux : adapter à la largeur */
+.tableau-donnees {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.tableau-donnees th,
+.tableau-donnees td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* 4. Cartes statistiques : grille flexible */
+.panneau {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 5. Grille de statistiques responsive */
+@media (min-width: 1200px) {
+    .zone-contenu {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu-lateral {
+        width: 200px;
+        min-width: 200px;
+    }
+    .zone-contenu {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-lateral {
+        width: 180px;
+        min-width: 180px;
+    }
+    .zone-contenu {
+        margin-left: 180px;
+        width: calc(100% - 180px);
+        padding: 20px;
+    }
+    .menu-lateral .lien-menu {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteneur-app {
+        flex-direction: column;
+    }
+    .menu-lateral {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 5px;
+    }
+    .menu-lateral p {
+        width: 100%;
+        margin: 10px 0 5px 0 !important;
+    }
+    .menu-lateral .lien-menu {
+        flex: 1;
+        min-width: 120px;
+        text-align: center;
+        margin: 2px;
+    }
+    .zone-contenu {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+    .tableau-donnees {
+        font-size: 12px;
+    }
+    .tableau-donnees th,
+    .tableau-donnees td {
+        padding: 8px 6px;
+    }
+}
+
+/* 6. Empêcher le débordement horizontal global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* 7. Boutons d'action : toujours visibles */
+.btn-action,
+.btn-cv,
+.btn-lettre {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* 8. Header de page : flex responsive */
+.entete-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 24px;
+}
+
+.entete-page > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* 9. Filtres : s'adaptent à la largeur */
+.panneau form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.panneau form select,
+.panneau form input {
+    flex: 1;
+    min-width: 150px;
+}
+
+
