@@ -1,0 +1,1283 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f5f7;
+    color: #1a1a1a;
+}
+
+.page-centree {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte-connexion {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.logo-connexion {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icone-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: #e8ecff;
+    color: #4a5bd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.titre-connexion {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sous-titre-connexion {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 4px 0 0;
+}
+
+.champ {
+    margin-bottom: 12px;
+}
+
+.champ label {
+    display: block;
+    font-size: 13px;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.champ input,
+.champ select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.bouton-principal {
+    width: 100%;
+    background: #4a5bd4;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.bouton-principal:hover {
+    background: #3d4cb8;
+}
+
+.message-erreur {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.message-succes {
+    background: #dcfce7;
+    color: #15803d;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+/* ==== Pages internes (dashboards, listes...) ==== */
+.page-app {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.entete-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.titre-page {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.sous-titre-page {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 4px 0 0;
+}
+
+.bouton-secondaire {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    color: #1a1a1a;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bouton-secondaire:hover {
+    background: #f4f5f7;
+}
+
+.grille-cartes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.carte-stat {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.label-stat {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0 0 4px;
+}
+
+.valeur-stat {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.grille-panneaux {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 16px;
+}
+
+.panneau {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.titre-panneau {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 0 12px;
+}
+
+.tableau-donnees {
+    width: 100%;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+.tableau-donnees th {
+    text-align: left;
+    color: #6b7280;
+    font-weight: 400;
+    padding: 6px 8px 10px 0;
+}
+
+.tableau-donnees td {
+    padding: 8px 8px 8px 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.score-positif {
+    color: #16a34a;
+    font-weight: 500;
+}
+
+.texte-vide {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.ligne-demande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.ligne-demande:first-child {
+    border-top: none;
+}
+
+.nom-demande {
+    font-size: 13px;
+    margin: 0;
+}
+
+.detail-demande {
+    font-size: 12px;
+    color: #9ca3af;
+    margin: 0;
+}
+
+/* ==== Structure avec menu latéral ==== */
+.conteneur-app {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu-lateral {
+    width: 220px;
+    background: #4a5bd4;
+    border-right: 1px solid #e5e7eb;
+    padding: 1rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.logo-menu span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.icone-logo-menu {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    background: #e8ecff;
+    color: #4a5bd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.lien-menu {
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.lien-menu:hover {
+    background: rgba(255, 255, 255, 0.1);  
+}
+
+.lien-menu.actif {
+    background: rgba(255, 255, 255, 0.2); 
+    color: #ffffff;
+}
+
+.pied-menu {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 8px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.avatar-mini {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e8ecff;
+    color: #4a5bd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.icone-deconnexion {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+}
+
+.icone-deconnexion:hover {
+    color: #ffffff;
+}
+
+.zone-contenu {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1000px;
+}
+
+.bouton-principal-inline {
+    background: #4a5bd4;
+    color: #ffffff;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bouton-principal-inline:hover {
+    background: #3d4cb8;
+}
+
+.barre-filtres {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.barre-filtres input[type="text"] {
+    flex: 1;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.barre-filtres select {
+    padding: 9px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 13px;
+    background: #ffffff;
+}
+
+.badge-statut {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.badge-succes {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.badge-neutre {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.lien-action {
+    font-size: 12px;
+    color: #4a5bd4;
+    text-decoration: none;
+}
+
+/*  les badges de la fiche employé */
+.badge-attention {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.badge-danger {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* Messages de feedback pour les formulaires */
+.message-erreur {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    border: 1px solid #fecaca;
+}
+
+.message-succes {
+    background: #dcfce7;
+    color: #15803d;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    border: 1px solid #bbf7d0;
+}
+
+/* Page Mon Équipe du Manager*/
+.actions-header {
+    display: flex;
+    gap: 10px;
+}
+
+.barre-recherche-equipe {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.barre-recherche-equipe input[type="text"] {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.barre-recherche-equipe input[type="text"]:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.tableau-equipe {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.tableau-equipe th {
+    text-align: left;
+    padding: 14px 16px;
+    background: #f9fafb;
+    color: #6b7280;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tableau-equipe td {
+    padding: 16px;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: middle;
+}
+
+.tableau-equipe tr:last-child td {
+    border-bottom: none;
+}
+
+.membre-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar-membre {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e8ecff;
+    color: #4a5bd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.membre-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.membre-nom {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111827;
+    margin: 0;
+}
+
+.membre-email {
+    font-size: 12px;
+    color: #9ca3af;
+    margin: 2px 0 0;
+}
+
+.poste-cell {
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.btn-evaluer {
+    background: #4a5bd4;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.btn-evaluer:hover {
+    background: #3d4cb8;
+}
+
+.section-demandes {
+    margin-top: 32px;
+}
+
+.titre-section-demandes {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 16px;
+}
+
+.liste-demandes {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.demande-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.demande-item:last-child {
+    border-bottom: none;
+}
+
+.demande-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.demande-nom {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111827;
+    margin: 0;
+}
+
+.demande-detail {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 4px 0 0;
+}
+
+.demande-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-action {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.btn-accepter {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.btn-accepter:hover {
+    background: #bbf7d0;
+}
+
+.btn-refuser {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.btn-refuser:hover {
+    background: #fecaca;
+}
+
+.texte-vide-demandes {
+    text-align: center;
+    padding: 32px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* ==== Page Objectifs (Manager) ==== */
+.formulaire-objectif {
+    max-width: 100%; 
+}
+
+.sous-titre-form {
+    font-size: 13px;
+    color: #6b7280;
+    margin: -8px 0 20px 0;
+}
+
+.grille-dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.astuce-smart {
+    background: #f0f9ff;
+    border-left: 3px solid #4a5bd4;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #4b5563;
+    margin: 16px 0;
+}
+
+.actions-formulaire {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.champ textarea {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.champ textarea:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.champ select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.champ select:focus {
+    outline: none;
+    border-color: #4a5bd4;
+}
+
+.badge-info {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-danger {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.badge-attention {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.btn-supprimer {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.btn-supprimer:hover {
+    background: #fee2e2;
+    color: #b91c1b;
+}
+
+/* ==== Badges de rôle ==== */
+.badge-role {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.badge-administrateur-rh {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.badge-manager {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-employe {
+    background: #e5e7eb;
+    color: #4b5563;
+}
+
+.btn-secondaire {
+    background: #f3f4f6;
+    color: #4b5563;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.btn-secondaire:hover {
+    background: #e5e7eb;
+}
+
+/* Alignement des boutons dans le tableau Mon Équipe */
+.actions-cell {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.btn-mini {
+    padding: 6px 12px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.btn-evaluer {
+    background: #4a5bd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-evaluer:hover {
+    background: #3d4cb8;
+}
+
+/* ==== Accessoires responsives (injectés par app.js) ==== */
+
+.bouton-menu,
+.menu-voile {
+    display: none;
+}
+
+.tableau-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.zone-contenu,
+.panneau,
+.carte-stat {
+    min-width: 0;
+}
+
+img,
+svg,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablette : 2 colonnes, panneaux empilés */
+@media (max-width: 1100px) {
+    .zone-contenu {
+        padding: 1.5rem;
+        max-width: none;
+    }
+
+    .grille-cartes {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .grille-panneaux {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+/* Mobile / petite tablette : menu hors écran */
+@media (max-width: 768px) {
+    .conteneur-app {
+        flex-direction: column;
+    }
+
+    .bouton-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 220;
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        border: none;
+        border-radius: 10px;
+        background: #4a5bd4;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .menu-voile {
+        position: fixed;
+        inset: 0;
+        z-index: 180;
+        background: rgba(17, 24, 39, 0.45);
+    }
+
+    body.menu-ouvert {
+        overflow: hidden;
+    }
+
+    body.menu-ouvert .menu-voile {
+        display: block;
+    }
+
+    .menu-lateral {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        width: min(260px, 86vw);
+        height: 100vh;
+        height: 100dvh;
+        transform: translateX(-105%);
+        transition: transform 0.2s ease;
+    }
+
+    body.menu-ouvert .menu-lateral {
+        transform: translateX(0);
+    }
+
+    .lien-menu {
+        padding: 12px 12px;
+        font-size: 14px;
+    }
+
+    .zone-contenu {
+        padding: 4.5rem 1rem 1.5rem;
+        width: 100%;
+    }
+
+    .entete-page {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .entete-page .bouton-principal-inline,
+    .entete-page .bouton-secondaire,
+    .entete-page > div[style] {
+        width: 100%;
+    }
+
+    .entete-page > div[style] {
+        flex-wrap: wrap;
+    }
+
+    .entete-page > div[style] a {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    .grille-cartes,
+    .grille-panneaux,
+    .grille-dates {
+        grid-template-columns: minmax(0, 1fr) !important;
+    }
+
+    .barre-filtres,
+    .barre-recherche-equipe,
+    .actions-header,
+    .actions-formulaire,
+    .barre-recherche-equipe form,
+    .filtres-demandes {
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .barre-filtres input[type="text"],
+    .barre-filtres select,
+    .barre-recherche-equipe input[type="text"],
+    .barre-recherche-equipe select,
+    .actions-header a,
+    .actions-formulaire .bouton-principal,
+    .actions-formulaire .bouton-secondaire {
+        width: 100%;
+    }
+
+    .tableau-donnees,
+    .tableau-equipe {
+        min-width: 620px;
+    }
+
+    .actions-cell {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .demande-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .demande-actions {
+        width: 100%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .pied-menu {
+        margin-top: 16px;
+    }
+
+    .zone-contenu [style*="font-size: 48px"] {
+        font-size: 32px !important;
+    }
+}
+
+/* Petit mobile */
+@media (max-width: 480px) {
+    .carte-connexion {
+        margin: 1rem;
+        padding: 1.5rem;
+        max-width: calc(100% - 2rem);
+    }
+
+    .titre-page {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .valeur-stat {
+        font-size: 20px;
+    }
+
+    .tableau-donnees,
+    .tableau-equipe {
+        min-width: 560px;
+        font-size: 12px;
+    }
+
+    .avatar-membre {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .section-demandes {
+        margin-top: 24px;
+    }
+}
+
+/* Style du lien actif dans le menu */
+.lien-menu.actif {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border-left: 4px solid #ffffff !important;
+    padding-left: 11px !important; /* Compense la bordure de 4px */
+}
+
+.lien-menu.actif:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* ========================================
+   RESPONSIVE COMPLET - ADMIN
+   ======================================== */
+
+/* 1. Structure principale : utiliser tout l'espace */
+.conteneur-app {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.menu-lateral {
+    width: 220px;
+    min-width: 220px;
+    background: #4a5bd4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    overflow-y: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.zone-contenu {
+    flex: 1;
+    margin-left: 220px;
+    padding: 30px;
+    width: calc(100% - 220px);
+    overflow-x: auto;
+}
+
+/* 2. Menu : empêcher les coupures de texte */
+.menu-lateral .lien-menu {
+    padding: 10px 15px;
+    margin: 2px 10px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-lateral .lien-menu:hover,
+.menu-lateral .lien-menu.actif {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.menu-lateral p {
+    padding: 0 15px;
+    margin: 15px 0 5px 15px !important;
+}
+
+/* 3. Tableaux : adapter à la largeur */
+.tableau-donnees {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.tableau-donnees th,
+.tableau-donnees td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* 4. Cartes statistiques : grille flexible */
+.panneau {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 5. Grille de statistiques responsive */
+@media (min-width: 1200px) {
+    .zone-contenu {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu-lateral {
+        width: 200px;
+        min-width: 200px;
+    }
+    .zone-contenu {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-lateral {
+        width: 180px;
+        min-width: 180px;
+    }
+    .zone-contenu {
+        margin-left: 180px;
+        width: calc(100% - 180px);
+        padding: 20px;
+    }
+    .menu-lateral .lien-menu {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteneur-app {
+        flex-direction: column;
+    }
+    .menu-lateral {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 5px;
+    }
+    .menu-lateral p {
+        width: 100%;
+        margin: 10px 0 5px 0 !important;
+    }
+    .menu-lateral .lien-menu {
+        flex: 1;
+        min-width: 120px;
+        text-align: center;
+        margin: 2px;
+    }
+    .zone-contenu {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+    .tableau-donnees {
+        font-size: 12px;
+    }
+    .tableau-donnees th,
+    .tableau-donnees td {
+        padding: 8px 6px;
+    }
+}
+
+/* 6. Empêcher le débordement horizontal global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* 7. Boutons d'action : toujours visibles */
+.btn-action,
+.btn-cv,
+.btn-lettre {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* 8. Header de page : flex responsive */
+.entete-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 24px;
+}
+
+.entete-page > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* 9. Filtres : s'adaptent à la largeur */
+.panneau form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.panneau form select,
+.panneau form input {
+    flex: 1;
+    min-width: 150px;
+}
+
+
+
+
+/* === CENTRAGE SUR GRANDS ÉCRANS === */
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+    padding: 0 20px;
+}
+
+.container, .main-content, .dashboard, .page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Centrer les cartes et tableaux */
+.carte, .tableau, .section {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* === CENTRAGE SUR GRANDS ÉCRANS === */
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+    padding: 0 20px;
+}
+
+.container, .main-content, .dashboard, .page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Centrer les cartes et tableaux */
+.carte, .tableau, .section {
+    max-width: 100%;
+    margin: 0 auto;
+}

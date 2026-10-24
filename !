@@ -1,0 +1,61 @@
+Ajout de la partie externe du site
+
+# Conflicts:
+#	admin/ajouter_employe.php
+#	assets/css/style.css
+#	login.php
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto de96033
+# Last command done (1 command done):
+#    pick e932149 # Ajout de la partie externe du site
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'de96033'.
+#
+# Changes to be committed:
+#	modified:   admin/ajouter_employe.php
+#	new file:   admin/ajouter_offre.php
+#	new file:   admin/candidatures.php
+#	modified:   admin/criteres.php
+#	modified:   admin/dashboard.php
+#	new file:   admin/demandes.php
+#	modified:   admin/employes.php
+#	modified:   admin/evaluations.php
+#	modified:   admin/evaluer_employe.php
+#	modified:   admin/fiche_employe.php
+#	modified:   admin/fixer_objectif.php
+#	modified:   admin/mon_equipe.php
+#	new file:   admin/offres.php
+#	modified:   admin/voir_evaluation.php
+#	modified:   assets/css/style.css
+#	new file:   assets/js/memeoire.css
+#	new file:   employe/dashboard.php
+#	new file:   employe/demandes.php
+#	new file:   employe/evaluations.php
+#	new file:   employe/objectifs.php
+#	new file:   employe/profil.php
+#	new file:   employe/voir_evaluation.php
+#	modified:   login.php
+#	modified:   manager/demandes.php
+#	new file:   module_ia/extraire_et_calculer.py
+#	new file:   offre-detail.php
+#	new file:   offres.php
+#	new file:   postuler.php
+#	new file:   uploads/cv/cv_6abcee3800e5f.pdf
+#	new file:   uploads/cv/cv_6abd0366d5b8e.pdf
+#	new file:   uploads/cv/cv_6abd39b6bd1df.pdf
+#	new file:   uploads/cv/cv_6abd3cf456d6a.pdf
+#	new file:   uploads/cv/cv_6abd4132c3be2.pdf
+#	new file:   uploads/cv/cv_6abd436a3da3b.pdf
+#	new file:   uploads/cv/cv_6abd43bdcea1b.png
+#
+# Untracked files:
+#	module_ia/analyser_cv.py
+#	module_ia/debug.log
+#	uploads/cv/cv_6abe3aea39c77.pdf
+#	uploads/cv/cv_6abe3c02cd4a0.pdf
+#	uploads/cv/cv_6abe442370083.pdf
+#	uploads/cv/cv_6abe4459a98f5.pdf
+#

@@ -1,0 +1,1001 @@
+﻿poste,competences_requises,competences_candidat,experience_requise,experience_candidat,diplome_requis,diplome_candidat,langues_requises,langues_candidat,score_compatibilite
+Developpeur Mobile,Kotlin; Firebase; Dart,Git; Flutter; Java; Kotlin; Asana; Laravel,2,4,Bac,Bac,Français (intermédiaire),Français (avancé),63.3
+Graphiste,Branding; InDesign; Photoshop; Canva; Illustrator; Typographie,Aucune information,3,2,Bac,Licence,Français (avancé),Français (courant),38.3
+Developpeur Web,JavaScript; PHP; Git; HTML/CSS; Laravel; MySQL,Laravel; MySQL; PHP; Git; JavaScript,2,3,Master,Master,Français (avancé),Français (courant),90.8
+Social Media Manager,Analytics; TikTok; Facebook; Meta Ads,LinkedIn; TikTok; Instagram,2,6,Master,Bac,Français (courant),Français (courant); Anglais (intermédiaire),51.3
+Social Media Manager,TikTok; Facebook; Instagram; Analytics; LinkedIn; Meta Ads,Instagram,4,4,Licence,Licence,Français (avancé); Anglais (avancé),Français (avancé),49.2
+Content Manager,Copywriting; SEO; Content Strategy; Analytics; Canva; WordPress,Analytics; Canva; WordPress; SEO; Copywriting; Content Strategy,1,4,Bac,Bac,Français (avancé),Français (avancé),100.0
+Data Analyst,Data Visualization; Excel; Python; SQL; Pandas,SQL; Pandas; Python; Excel,2,3,Licence,Bac,Anglais (courant),Français (courant); Anglais (débutant),81.5
+Data Analyst,Pandas; Excel; Power BI,HTML/CSS; Gestion de projet,1,7,Bac,Bac,Anglais (intermédiaire); Français (courant),Français (avancé),40.0
+UI/UX Designer,UX Research; Illustrator; Adobe XD; Prototypage,UX Research; Photoshop; Illustrator,4,3,Bac,Bac,Anglais (avancé),Français (avancé); Anglais (avancé),67.5
+Developpeur Web,JavaScript; Laravel; PHP; Git,MySQL; PHP; Laravel; Git; HTML/CSS; JavaScript,1,5,Bac,Master,Français (courant),Français (courant); Anglais (intermédiaire),100.0
+Chef de projet digital,Scrum; Agile; Gestion de projet; Asana; Communication; ClickUp,Aucune information,4,5,Licence,Bac,Français (avancé); Anglais (débutant),Français (avancé); Anglais (débutant),37.5
+Chef de projet digital,ClickUp; Scrum; Asana; Gestion de projet,Gestion de projet; Agile; Communication; ClickUp; Asana,2,7,Bac,Bac,Français (intermédiaire); Anglais (avancé),Français (intermédiaire),81.3
+SEO/SEA,SEM; Google Analytics; Search Console,Google Ads; SEO,3,4,Licence,Bac,Français (avancé); Anglais (avancé),Français (courant),32.5
+Content Manager,Content Strategy; Analytics; SEO; WordPress; Copywriting; Canva,WordPress; Content Strategy; SEO,1,0,Master,Master,Français (avancé),Français (courant); Anglais (intermédiaire),52.5
+Data Analyst,Excel; SQL; Data Visualization; Python; Pandas,Python; Data Visualization; Power BI; Excel; Pandas; SQL,4,4,Bac,Bac,Anglais (avancé); Français (intermédiaire),Français (intermédiaire),95.0
+Graphiste,InDesign; Illustrator; Canva; Typographie; Branding,InDesign,1,5,Master,Master,Français (avancé),Français (courant),56.0
+Community Manager,Analytics; TikTok; Instagram; Copywriting,Aucune information,3,6,Master,Licence,Anglais (débutant); Français (courant),Français (avancé); Anglais (débutant),37.5
+UI/UX Designer,Adobe XD; Illustrator; Prototypage; Photoshop; Figma,Photoshop; Prototypage; Adobe XD; Illustrator; Figma; UX Research,1,6,Bac,Bac,Français (intermédiaire),Français (avancé),100.0
+Graphiste,InDesign; Branding; Canva,Photoshop; Illustrator; InDesign,2,3,Bac,Master,Français (avancé),Français (intermédiaire),63.3
+UI/UX Designer,Illustrator; Figma; UX Research,Adobe XD; UX Research; Figma; Photoshop; Illustrator; Prototypage,2,6,Bac,Bac,Anglais (avancé); Français (courant),Français (courant),95.0
+Data Analyst,Data Visualization; Pandas; Excel; Python; Power BI; SQL,Power BI; Excel; Pandas; SQL,2,1,Master,Licence,Français (avancé); Anglais (avancé),Français (avancé),59.2
+Developpeur Web,PHP; JavaScript; Laravel; Git; MySQL; HTML/CSS,MySQL; Git; HTML/CSS; Laravel,3,4,Master,Bac,Français (courant); Anglais (intermédiaire),Français (intermédiaire); Anglais (débutant),74.2
+UI/UX Designer,Illustrator; Prototypage; Figma; Adobe XD; Photoshop,UX Research; Adobe XD; Illustrator,2,6,Licence,Master,Anglais (débutant); Français (intermédiaire),Français (intermédiaire); Anglais (avancé),67.0
+Data Analyst,Python; SQL; Excel; Data Visualization; Power BI,Pandas; Python; Power BI,2,3,Bac,Master,Français (avancé),Français (avancé),67.0
+Graphiste,Typographie; Photoshop; Branding; Illustrator,Illustrator; Photoshop; Canva; Branding,2,5,Bac,Master,Français (courant),Français (courant),86.2
+Social Media Manager,Meta Ads; Analytics; LinkedIn; TikTok; Instagram; Facebook,Meta Ads; LinkedIn; Instagram; Analytics; TikTok; Facebook,4,1,Licence,Licence,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (intermédiaire),85.0
+UI/UX Designer,Adobe XD; Illustrator; UX Research; Photoshop,Illustrator; UX Research; Figma; Prototypage,2,3,Bac,Master,Anglais (débutant); Français (avancé),Français (intermédiaire),67.5
+Content Manager,Canva; WordPress; Copywriting; SEO; Analytics; Content Strategy,Canva; WordPress; Analytics,2,5,Licence,Licence,Anglais (débutant),Français (intermédiaire),62.5
+UI/UX Designer,Illustrator; Prototypage; Figma,Figma,1,2,Master,Bac,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (courant),55.8
+SEO/SEA,SEM; Google Analytics; SEO; Google Ads; Search Console,Search Console; SEO; Keyword Research; SEM; Google Analytics; Google Ads,1,1,Licence,Bac,Français (courant),Français (intermédiaire); Anglais (intermédiaire),92.5
+Graphiste,Typographie; InDesign; Branding; Photoshop; Canva; Illustrator,Typographie; Canva; Branding; InDesign; Excel; Analytics,3,5,Bac,Bac,Français (avancé),Français (courant),81.7
+Community Manager,Copywriting; Facebook; TikTok,Aucune information,4,6,Master,Licence,Français (courant); Anglais (courant),Français (courant); Anglais (avancé),37.5
+Chef de projet digital,ClickUp; Scrum; Asana; Communication,Scrum; Agile; Asana; Communication; Gestion de projet; ClickUp,4,6,Licence,Licence,Anglais (débutant); Français (avancé),Français (avancé); Anglais (courant),100.0
+Chef de projet digital,Asana; Communication; Gestion de projet; Scrum,Instagram,3,8,Master,Bac,Français (intermédiaire),Français (courant),37.5
+Developpeur Web,MySQL; Laravel; Git,HTML/CSS; JavaScript; MySQL,2,3,Licence,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (courant); Anglais (avancé),63.3
+Graphiste,Photoshop; Branding; Illustrator; Typographie; InDesign,Illustrator; InDesign; Typographie; Canva; Photoshop; Branding; Firebase; UX Research,4,0,Licence,Bac,Français (intermédiaire),Français (courant),72.5
+UI/UX Designer,Figma; UX Research; Photoshop; Adobe XD; Illustrator; Prototypage,Illustrator; Figma; Prototypage; Adobe XD; Photoshop; UX Research,3,5,Bac,Bac,Anglais (avancé),Français (avancé); Anglais (débutant),100.0
+Developpeur Mobile,Flutter; Java; Git; Firebase,Java; Git,2,4,Master,Bac,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (intermédiaire),65.0
+Graphiste,InDesign; Photoshop; Illustrator; Branding,Aucune information,2,5,Master,Master,Français (intermédiaire),Français (intermédiaire),45.0
+Developpeur Web,MySQL; HTML/CSS; Git; PHP,Aucune information,2,5,Licence,Bac,Anglais (débutant),Français (avancé),27.5
+Developpeur Web,MySQL; JavaScript; HTML/CSS; Laravel,JavaScript; Git; HTML/CSS; PHP,1,3,Licence,Master,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (courant),72.5
+Developpeur Mobile,Kotlin; Java; Flutter; Firebase,Java; Git; Firebase; LinkedIn; Gestion de projet,3,6,Master,Licence,Français (avancé),Français (intermédiaire),65.0
+SEO/SEA,Google Analytics; SEO; Google Ads; SEM; Search Console,Aucune information,4,2,Licence,Bac,Français (courant); Anglais (avancé),Français (intermédiaire),22.5
+Data Analyst,Data Visualization; Pandas; Power BI,Power BI; Data Visualization; Python; Pandas,4,2,Bac,Licence,Anglais (courant),Français (intermédiaire); Anglais (avancé),90.0
+Developpeur Web,HTML/CSS; Laravel; MySQL; Git,PHP; Git; HTML/CSS; MySQL; JavaScript; Laravel,1,2,Master,Master,Français (courant); Anglais (courant),Français (intermédiaire),95.0
+Chef de projet digital,Scrum; ClickUp; Communication; Gestion de projet; Agile; Asana,Agile; Asana; Gestion de projet; ClickUp; Scrum; Communication,1,7,Licence,Licence,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (débutant),100.0
+Chef de projet digital,Scrum; Communication; ClickUp; Agile; Gestion de projet,Communication; Scrum; ClickUp; Agile; Asana,1,5,Licence,Bac,Anglais (débutant); Français (avancé),Français (courant),76.5
+Data Analyst,Python; SQL; Power BI; Excel; Data Visualization; Pandas,Excel; Pandas; Power BI; SQL; Data Visualization; Python,4,3,Licence,Master,Anglais (débutant); Français (avancé),Français (intermédiaire),90.0
+Developpeur Mobile,Flutter; Kotlin; Git; Java; Dart; Firebase,Firebase; Git; TikTok; Agile,1,5,Licence,Bac,Anglais (courant),Français (intermédiaire); Anglais (avancé),55.8
+SEO/SEA,SEM; Keyword Research; Google Ads; SEO,SEO; SEM; Google Analytics; Keyword Research; Search Console; Scrum,4,2,Master,Master,Anglais (avancé); Français (intermédiaire),Français (avancé),71.3
+Community Manager,Canva; Analytics; Facebook; Copywriting,Aucune information,4,5,Master,Licence,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (avancé),37.5
+Developpeur Web,MySQL; Laravel; HTML/CSS; PHP; Git; JavaScript,Git; PHP,2,5,Master,Bac,Français (courant),Français (avancé); Anglais (intermédiaire),55.8
+SEO/SEA,Google Ads; Search Console; Google Analytics; SEM,Google Analytics; SEO; SEM; Keyword Research; Search Console,3,1,Bac,Master,Anglais (courant); Français (intermédiaire),Français (avancé),67.9
+Data Analyst,Python; Power BI; Data Visualization; SQL; Pandas,Aucune information,4,7,Licence,Bac,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (débutant),37.5
+Content Manager,Analytics; WordPress; Canva; Copywriting,Aucune information,3,2,Master,Licence,Français (courant); Anglais (courant),Français (intermédiaire); Anglais (débutant),30.8
+Data Analyst,Power BI; Data Visualization; Excel; Pandas,Python; Power BI; Pandas; SQL; Data Visualization,4,3,Master,Licence,Anglais (débutant),Français (avancé); Anglais (intermédiaire),73.8
+Social Media Manager,Analytics; TikTok; Meta Ads,LinkedIn; Facebook; Instagram; TikTok; Meta Ads; Analytics,1,1,Licence,Bac,Français (courant); Anglais (avancé),Français (courant),87.5
+Data Analyst,Pandas; SQL; Data Visualization; Power BI,SQL; Data Visualization; Excel; Python; Power BI; Pandas; Copywriting,2,3,Master,Master,Anglais (courant),Français (avancé); Anglais (courant),100.0
+Developpeur Web,HTML/CSS; Git; PHP; MySQL,JavaScript; Laravel; PHP,1,6,Licence,Master,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (avancé),58.8
+Developpeur Web,Git; HTML/CSS; JavaScript,JavaScript; Laravel; ClickUp,1,5,Licence,Master,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (débutant),63.3
+Content Manager,Canva; Content Strategy; Analytics; WordPress; Copywriting,Canva; Analytics,2,0,Licence,Licence,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (débutant),47.0
+UI/UX Designer,Figma; UX Research; Prototypage; Illustrator; Adobe XD; Photoshop,Figma; Illustrator; Photoshop; Prototypage; Adobe XD,3,5,Bac,Bac,Anglais (courant),Français (intermédiaire),80.8
+Social Media Manager,Meta Ads; Analytics; Instagram,Meta Ads; TikTok; Agile,2,1,Master,Licence,Français (courant); Anglais (courant),Français (intermédiaire),40.8
+Data Analyst,Pandas; Excel; Python,Aucune information,2,6,Licence,Bac,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (courant),37.5
+Data Analyst,Power BI; Data Visualization; Pandas; SQL,Git; Scrum,2,1,Licence,Licence,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (intermédiaire),35.0
+Content Manager,Canva; Copywriting; SEO; Content Strategy; WordPress; Analytics,Git; PHP,4,1,Bac,Licence,Anglais (intermédiaire); Français (avancé),Français (intermédiaire),25.0
+Community Manager,TikTok; Facebook; Copywriting; Instagram; Analytics,Aucune information,2,5,Bac,Bac,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (courant),45.0
+Developpeur Mobile,Java; Git; Kotlin; Firebase; Dart,Java,3,5,Bac,Licence,Français (avancé); Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),56.0
+SEO/SEA,Keyword Research; SEO; SEM; Google Ads; Google Analytics; Search Console,Keyword Research; Google Ads; Google Analytics; Search Console,3,6,Bac,Master,Français (courant),Français (courant),81.7
+UI/UX Designer,Adobe XD; UX Research; Prototypage; Photoshop; Figma,Prototypage; UX Research; Photoshop; Illustrator; Adobe XD,2,3,Master,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé); Anglais (avancé),81.5
+Developpeur Web,JavaScript; PHP; MySQL; Laravel; Git,PHP; JavaScript; Git; Laravel; HTML/CSS,1,6,Bac,Master,Anglais (débutant); Français (avancé),Français (courant),84.0
+Chef de projet digital,Agile; ClickUp; Communication; Scrum,Communication,1,7,Master,Master,Français (courant),Français (avancé); Anglais (courant),58.8
+Social Media Manager,LinkedIn; Analytics; TikTok; Meta Ads; Facebook,TikTok; Meta Ads,3,2,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (débutant),60.3
+Social Media Manager,Analytics; LinkedIn; Instagram; TikTok; Facebook,Analytics; Meta Ads; Facebook; TikTok; Instagram,3,0,Master,Licence,Anglais (avancé); Français (courant),Français (courant); Anglais (avancé),61.5
+Chef de projet digital,Scrum; Communication; Gestion de projet; Agile,Gestion de projet; Scrum; ClickUp; Agile; Asana; Communication,3,2,Bac,Master,Anglais (débutant),Français (courant); Anglais (débutant),93.3
+Graphiste,Branding; InDesign; Canva; Photoshop; Typographie; Illustrator,InDesign; Canva; Branding,4,6,Bac,Bac,Français (courant),Français (avancé),72.5
+Community Manager,Analytics; Canva; TikTok,Aucune information,1,2,Master,Licence,Anglais (intermédiaire),Français (courant),27.5
+SEO/SEA,Google Ads; SEM; Google Analytics,Google Analytics; Google Ads; SEM; SEO,1,0,Licence,Licence,Anglais (avancé),Français (avancé),70.0
+UI/UX Designer,Figma; Photoshop; Illustrator; Prototypage,Aucune information,2,6,Master,Bac,Anglais (débutant); Français (avancé),Français (avancé); Anglais (courant),37.5
+SEO/SEA,Google Analytics; Google Ads; Search Console,Keyword Research; SEM; SEO; Search Console; Google Ads,1,0,Bac,Master,Anglais (intermédiaire),Français (courant); Anglais (avancé),61.7
+UI/UX Designer,Illustrator; Figma; Photoshop; Prototypage; Adobe XD,Aucune information,2,4,Master,Master,Anglais (courant),Français (courant),35.0
+Developpeur Web,Git; PHP; HTML/CSS; Laravel; MySQL; JavaScript,JavaScript; MySQL; Laravel; PHP; Git; HTML/CSS,3,1,Bac,Master,Français (avancé); Anglais (avancé),Français (intermédiaire); Anglais (courant),86.7
+UI/UX Designer,Figma; Illustrator; UX Research; Adobe XD,Photoshop; Prototypage,2,6,Bac,Master,Français (intermédiaire),Français (courant); Anglais (débutant),45.0
+Graphiste,InDesign; Photoshop; Typographie; Illustrator; Branding,InDesign; Illustrator; Canva,3,2,Licence,Master,Français (courant),Français (courant),60.3
+Developpeur Mobile,Flutter; Git; Dart; Firebase; Java; Kotlin,Java; Git; Dart,1,2,Bac,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (intermédiaire); Anglais (avancé),72.5
+SEO/SEA,Search Console; SEO; Keyword Research; Google Analytics; Google Ads,Keyword Research,3,3,Master,Bac,Français (intermédiaire),Français (courant); Anglais (avancé),48.5
+Social Media Manager,LinkedIn; Meta Ads; Facebook; TikTok; Analytics,Instagram; Meta Ads; TikTok; Analytics,4,2,Licence,Bac,Anglais (débutant); Français (avancé),Français (courant),55.5
+UI/UX Designer,Prototypage; Illustrator; Figma; Adobe XD; Photoshop; UX Research,Aucune information,2,3,Master,Bac,Anglais (débutant); Français (avancé),Français (avancé),32.5
+Social Media Manager,Analytics; Facebook; TikTok; Instagram; Meta Ads,Instagram; Laravel,2,2,Licence,Master,Français (courant),Français (avancé); Anglais (avancé),56.0
+Data Analyst,Pandas; Python; Data Visualization; SQL,Pandas; Python; SQL; Power BI; Data Visualization; Excel,4,5,Master,Bac,Anglais (intermédiaire); Français (courant),Français (courant),87.5
+Content Manager,SEO; Canva; WordPress; Content Strategy,Analytics; SEO,2,4,Licence,Licence,Français (intermédiaire),Français (avancé),58.8
+Data Analyst,SQL; Excel; Python; Pandas; Power BI,SEO,2,4,Bac,Master,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (intermédiaire),45.0
+Content Manager,Canva; Content Strategy; Copywriting,Canva; WordPress,3,1,Licence,Licence,Anglais (avancé),Français (intermédiaire); Anglais (débutant),50.0
+Social Media Manager,TikTok; Analytics; Meta Ads; Instagram,LinkedIn; Illustrator,2,1,Licence,Bac,Anglais (avancé),Français (intermédiaire); Anglais (courant),27.5
+Content Manager,SEO; Analytics; Copywriting; Canva; Content Strategy; WordPress,WordPress; Analytics; Canva,2,1,Licence,Bac,Anglais (courant); Français (courant),Français (intermédiaire); Anglais (débutant),55.0
+Community Manager,Copywriting; Canva; TikTok; Analytics; Facebook; Instagram,Facebook; Canva; Figma; Typographie,4,4,Bac,Licence,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (intermédiaire),63.3
+Data Analyst,Pandas; Data Visualization; Python; Power BI; Excel,Pandas,4,0,Licence,Bac,Anglais (débutant); Français (courant),Français (courant); Anglais (avancé),28.5
+Chef de projet digital,Scrum; Gestion de projet; Communication; ClickUp; Asana; Agile,Gestion de projet; Asana; ClickUp; Agile; Scrum,4,1,Master,Licence,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (avancé),68.3
+Chef de projet digital,Communication; Gestion de projet; Scrum; Asana; Agile,Aucune information,4,1,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),30.0
+UI/UX Designer,UX Research; Adobe XD; Illustrator; Photoshop; Prototypage; Figma,Illustrator; Prototypage; UX Research; Adobe XD; Figma,2,4,Master,Licence,Anglais (débutant),Français (courant); Anglais (débutant),83.3
+Chef de projet digital,Scrum; Asana; Gestion de projet; Agile,ClickUp; Asana,3,4,Licence,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),58.8
+SEO/SEA,Google Ads; Google Analytics; SEO; Search Console; SEM,Keyword Research,3,4,Licence,Master,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (avancé),45.0
+Content Manager,SEO; WordPress; Analytics; Copywriting,Analytics; Canva,2,0,Bac,Master,Anglais (courant),Français (avancé),28.7
+Chef de projet digital,Communication; Scrum; Asana; Gestion de projet; ClickUp; Agile,ClickUp,1,2,Master,Bac,Français (courant),Français (intermédiaire),46.7
+Chef de projet digital,Communication; Asana; Agile; ClickUp,ClickUp; Gestion de projet,3,2,Master,Master,Anglais (courant),Français (courant); Anglais (avancé),52.1
+Developpeur Mobile,Dart; Git; Firebase; Java; Flutter,Java,1,3,Master,Licence,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (avancé),48.5
+Developpeur Mobile,Dart; Git; Firebase; Flutter,Firebase; Kotlin; Java; Git; Flutter; Dart,1,5,Licence,Bac,Français (courant); Anglais (intermédiaire),Français (intermédiaire); Anglais (courant),92.5
+Community Manager,Canva; Copywriting; TikTok; Analytics,Instagram,1,3,Master,Master,Anglais (avancé); Français (courant),Français (courant),40.0
+Data Analyst,Pandas; SQL; Data Visualization; Excel; Python; Power BI,Pandas; Data Visualization; SQL; Excel; Python; Power BI,3,7,Bac,Bac,Français (avancé),Français (courant),100.0
+Developpeur Mobile,Flutter; Git; Dart; Firebase; Java; Kotlin,Firebase; Flutter; Dart,1,0,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (avancé); Anglais (intermédiaire),45.0
+Developpeur Web,Git; PHP; MySQL,Git; HTML/CSS,4,3,Bac,Licence,Anglais (débutant),Français (avancé); Anglais (intermédiaire),58.3
+Social Media Manager,Instagram; Meta Ads; LinkedIn,Facebook; TikTok; LinkedIn; Meta Ads; Instagram; Analytics,2,1,Master,Licence,Français (avancé),Français (courant); Anglais (débutant),82.5
+Developpeur Mobile,Kotlin; Git; Flutter,Flutter; Git; Kotlin; Java,2,3,Bac,Licence,Français (courant),Français (courant); Anglais (débutant),100.0
+Developpeur Web,JavaScript; MySQL; Laravel; HTML/CSS,HTML/CSS,3,3,Master,Licence,Français (courant); Anglais (débutant),Français (avancé); Anglais (avancé),51.3
+UI/UX Designer,Prototypage; Illustrator; Figma; Adobe XD; Photoshop; UX Research,Adobe XD; Prototypage; Illustrator,4,2,Licence,Master,Anglais (débutant),Français (courant); Anglais (courant),62.5
+Developpeur Web,Git; JavaScript; Laravel; HTML/CSS; PHP; MySQL,MySQL; PHP; Laravel; JavaScript; Git; HTML/CSS,2,4,Licence,Bac,Anglais (débutant),Français (avancé),82.5
+Content Manager,Canva; SEO; Copywriting; Content Strategy,Canva; SEO; Content Strategy; Analytics; WordPress,1,6,Bac,Licence,Français (intermédiaire),Français (intermédiaire); Anglais (courant),86.2
+Social Media Manager,TikTok; Analytics; LinkedIn; Instagram; Facebook,LinkedIn; Facebook,4,1,Licence,Master,Anglais (intermédiaire),Français (courant); Anglais (débutant),52.0
+Content Manager,Copywriting; SEO; Content Strategy; Canva; WordPress; Analytics,Analytics; Canva; Content Strategy; WordPress; SEO; Meta Ads; Instagram,2,1,Licence,Master,Anglais (avancé); Français (courant),Français (avancé),75.8
+Developpeur Web,HTML/CSS; PHP; JavaScript,Laravel; PHP; HTML/CSS; MySQL; Git,4,4,Bac,Master,Français (avancé),Français (intermédiaire),81.7
+Chef de projet digital,Agile; Communication; ClickUp; Gestion de projet; Asana; Scrum,Aucune information,3,3,Bac,Bac,Français (avancé); Anglais (courant),Français (intermédiaire); Anglais (courant),45.0
+Social Media Manager,LinkedIn; Facebook; TikTok; Instagram; Analytics,Facebook; Analytics; Meta Ads; Instagram; TikTok,2,3,Master,Bac,Anglais (débutant),Français (avancé); Anglais (débutant),81.5
+Chef de projet digital,Communication; Asana; Agile; Gestion de projet; ClickUp; Scrum,Aucune information,2,4,Master,Master,Anglais (intermédiaire); Français (intermédiaire),Français (avancé); Anglais (courant),45.0
+Social Media Manager,Instagram; Meta Ads; Analytics,LinkedIn; Meta Ads; TikTok; Instagram,4,1,Bac,Master,Français (courant); Anglais (débutant),Français (courant),61.7
+Social Media Manager,Facebook; LinkedIn; Instagram,TikTok; LinkedIn; Meta Ads; Facebook; Instagram,1,3,Licence,Licence,Anglais (avancé); Français (avancé),Français (intermédiaire); Anglais (intermédiaire),100.0
+SEO/SEA,Keyword Research; Google Analytics; Google Ads,Search Console; Google Ads; SEM; Keyword Research; Google Analytics,1,2,Bac,Licence,Français (courant); Anglais (avancé),Français (courant); Anglais (débutant),100.0
+UI/UX Designer,Adobe XD; Illustrator; Prototypage,Prototypage; Figma,4,6,Bac,Licence,Français (intermédiaire),Français (avancé),63.3
+SEO/SEA,SEO; Keyword Research; Google Ads; Google Analytics; Search Console; SEM,Google Ads; SEO; Search Console,2,3,Bac,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),72.5
+Community Manager,Analytics; Canva; Instagram; Copywriting,Copywriting; Canva,1,2,Bac,Licence,Français (courant); Anglais (débutant),Français (intermédiaire); Anglais (courant),72.5
+Community Manager,Copywriting; Instagram; Canva; Analytics; Facebook,Canva; TikTok,4,3,Licence,Licence,Anglais (avancé); Français (courant),Français (courant); Anglais (débutant),51.0
+Content Manager,Analytics; Content Strategy; WordPress; Copywriting,Copywriting; WordPress; Canva; Analytics; SEO; Content Strategy,4,1,Master,Licence,Anglais (débutant),Français (avancé),67.5
+SEO/SEA,SEM; Keyword Research; Search Console,Keyword Research; Search Console; SEO; SEM; Google Analytics,4,2,Master,Bac,Français (courant); Anglais (courant),Français (intermédiaire); Anglais (courant),82.5
+SEO/SEA,SEM; SEO; Keyword Research; Search Console; Google Ads,SEM; Search Console,2,4,Master,Master,Anglais (courant),Français (courant); Anglais (intermédiaire),67.0
+Chef de projet digital,Asana; ClickUp; Agile,Asana; ClickUp,1,8,Master,Licence,Anglais (courant),Français (courant); Anglais (avancé),74.2
+Chef de projet digital,Agile; Asana; Communication; Gestion de projet; ClickUp,Scrum; Gestion de projet; Communication; Asana; Agile,1,6,Licence,Licence,Français (courant),Français (courant); Anglais (avancé),89.0
+UI/UX Designer,UX Research; Illustrator; Prototypage; Figma,Adobe XD; UX Research; Photoshop; Illustrator; Figma,2,6,Licence,Master,Anglais (courant); Français (avancé),Français (intermédiaire); Anglais (avancé),86.2
+Chef de projet digital,Asana; ClickUp; Communication,ClickUp; Gestion de projet; Power BI; Canva,4,4,Master,Master,Français (courant); Anglais (avancé),Français (courant); Anglais (intermédiaire),63.3
+Developpeur Mobile,Firebase; Flutter; Dart; Git,Git; Kotlin; Dart; Java,2,5,Master,Master,Anglais (avancé); Français (intermédiaire),Français (intermédiaire),67.5
+UI/UX Designer,Photoshop; Adobe XD; Prototypage; Illustrator; UX Research; Figma,Illustrator; Prototypage; UX Research; Adobe XD; Photoshop; Figma,3,3,Bac,Licence,Français (intermédiaire); Anglais (avancé),Français (avancé); Anglais (débutant),100.0
+Graphiste,Photoshop; InDesign; Illustrator; Branding; Canva,Photoshop; InDesign; Branding; Canva,2,0,Licence,Master,Français (courant),Français (courant),69.0
+Graphiste,Photoshop; Illustrator; InDesign; Typographie; Branding; Canva,Illustrator; Typographie; InDesign; Canva; Branding; Photoshop,3,6,Bac,Bac,Français (intermédiaire),Français (courant),100.0
+Developpeur Web,JavaScript; MySQL; Laravel; Git; HTML/CSS,Git; PHP; MySQL; HTML/CSS; JavaScript; Laravel; TikTok; Analytics,3,1,Master,Master,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (intermédiaire),86.7
+Community Manager,Canva; Analytics; Facebook; TikTok; Copywriting; Instagram,Copywriting; Facebook,3,6,Master,Master,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (avancé),63.3
+Social Media Manager,Meta Ads; LinkedIn; Instagram,TikTok; Analytics; Instagram; Meta Ads; LinkedIn; Facebook,4,6,Bac,Bac,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (courant),100.0
+Developpeur Mobile,Git; Kotlin; Flutter; Dart,Firebase; Branding,2,0,Master,Licence,Anglais (avancé),Français (intermédiaire),7.5
+SEO/SEA,Search Console; Google Ads; SEM; Google Analytics; SEO,Aucune information,1,4,Bac,Master,Anglais (intermédiaire),Français (avancé); Anglais (débutant),45.0
+Social Media Manager,LinkedIn; Instagram; Analytics,Aucune information,1,2,Bac,Bac,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (débutant),45.0
+UI/UX Designer,Prototypage; UX Research; Figma,Prototypage; Illustrator; Adobe XD,2,1,Licence,Bac,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (avancé),45.8
+SEO/SEA,Google Ads; Search Console; Google Analytics; SEM; SEO,Keyword Research,2,1,Master,Master,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (courant),35.0
+Graphiste,Canva; Photoshop; Illustrator; Typographie; Branding; InDesign,Branding; Canva; InDesign; Typographie; Photoshop; Illustrator,3,6,Licence,Bac,Français (courant),Français (avancé),92.5
+Developpeur Mobile,Firebase; Dart; Flutter,Git; Flutter; Dart; Kotlin; Java,1,4,Licence,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (courant),69.2
+Social Media Manager,Meta Ads; Facebook; TikTok; LinkedIn; Instagram; Analytics,Aucune information,1,4,Bac,Bac,Anglais (intermédiaire),Français (intermédiaire); Anglais (courant),45.0
+Developpeur Web,HTML/CSS; PHP; Laravel; Git,HTML/CSS,3,2,Master,Master,Français (courant); Anglais (avancé),Français (avancé),47.1
+SEO/SEA,Keyword Research; SEO; Google Analytics; SEM; Search Console,Keyword Research; Google Ads; Google Analytics; SEO; Search Console; SEM,4,5,Licence,Master,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (intermédiaire),100.0
+Developpeur Web,Laravel; PHP; Git,PHP; JavaScript; Git; HTML/CSS; Laravel; MySQL,3,5,Licence,Licence,Français (courant),Français (intermédiaire); Anglais (courant),100.0
+Social Media Manager,Meta Ads; Facebook; Instagram,Aucune information,2,6,Master,Licence,Anglais (débutant),Français (courant),27.5
+Developpeur Mobile,Flutter; Firebase; Dart; Git; Java; Kotlin,Flutter,4,0,Licence,Bac,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (intermédiaire),26.7
+Developpeur Web,HTML/CSS; MySQL; PHP; Git; JavaScript; Laravel,Aucune information,4,6,Bac,Master,Anglais (débutant),Français (avancé); Anglais (débutant),45.0
+Developpeur Mobile,Java; Dart; Git,Dart; Kotlin; Firebase; Java; Git,1,3,Master,Master,Anglais (débutant),Français (courant),90.0
+Chef de projet digital,Scrum; Agile; Communication; Gestion de projet; Asana,Asana; ClickUp; Agile,2,3,Bac,Licence,Anglais (avancé),Français (courant); Anglais (courant),67.0
+Developpeur Mobile,Dart; Firebase; Flutter,Dart; Firebase; Git; Java; Flutter,2,2,Licence,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (débutant),92.5
+Chef de projet digital,Agile; ClickUp; Communication; Gestion de projet,Scrum,1,5,Bac,Master,Français (intermédiaire),Français (courant); Anglais (courant),45.0
+Content Manager,WordPress; Analytics; Content Strategy; Canva; SEO,WordPress; SEO; Canva,2,3,Bac,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),78.0
+Social Media Manager,Instagram; TikTok; Meta Ads; Analytics,LinkedIn; Meta Ads; Analytics; Facebook,2,1,Bac,Licence,Anglais (avancé),Français (courant); Anglais (débutant),62.5
+Data Analyst,Power BI; Excel; Data Visualization,Python,4,3,Licence,Bac,Anglais (intermédiaire); Français (avancé),Français (intermédiaire),27.5
+Chef de projet digital,Gestion de projet; Scrum; Communication; Agile; Asana,ClickUp; Asana; Scrum; Agile; Canva,2,5,Licence,Master,Français (intermédiaire),Français (avancé); Anglais (courant),78.0
+Content Manager,Content Strategy; SEO; Canva; Copywriting,Aucune information,3,0,Bac,Master,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (courant),25.0
+Content Manager,SEO; Copywriting; Analytics; Canva,WordPress; Content Strategy; Copywriting; Analytics; SEO; Canva,1,2,Bac,Licence,Français (courant),Français (avancé); Anglais (intermédiaire),100.0
+SEO/SEA,Search Console; Google Analytics; Google Ads; Keyword Research; SEM; SEO,Search Console; Agile; Instagram,2,6,Licence,Master,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (débutant),54.2
+Content Manager,Analytics; Content Strategy; WordPress; SEO,Copywriting; SEO,2,0,Licence,Master,Français (intermédiaire),Français (intermédiaire),38.7
+Developpeur Web,Laravel; HTML/CSS; PHP; JavaScript; MySQL,Git; HTML/CSS; Laravel,1,3,Master,Licence,Français (avancé),Français (intermédiaire); Anglais (avancé),59.5
+Chef de projet digital,Scrum; ClickUp; Agile; Gestion de projet,Aucune information,3,6,Bac,Bac,Anglais (courant); Français (intermédiaire),Français (courant),40.0
+Developpeur Mobile,Java; Kotlin; Git; Firebase; Flutter,Flutter,4,1,Master,Licence,Anglais (avancé),Français (intermédiaire),23.5
+Community Manager,Instagram; Facebook; Copywriting; Analytics; TikTok,Aucune information,2,5,Bac,Master,Français (avancé); Anglais (débutant),Français (avancé); Anglais (courant),45.0
+Developpeur Web,Laravel; MySQL; PHP; HTML/CSS,MySQL; PHP; Git; JavaScript; Laravel,1,2,Licence,Bac,Anglais (avancé); Français (avancé),Français (avancé); Anglais (courant),78.8
+Chef de projet digital,Scrum; Asana; Agile; ClickUp; Gestion de projet,Agile; ClickUp; Gestion de projet; Asana,1,7,Master,Master,Anglais (intermédiaire); Français (intermédiaire),Français (courant),84.0
+Developpeur Mobile,Kotlin; Flutter; Dart; Java; Git; Firebase,Aucune information,2,5,Bac,Licence,Français (intermédiaire),Français (courant); Anglais (avancé),45.0
+Content Manager,Copywriting; WordPress; Content Strategy; SEO; Analytics,Aucune information,3,1,Licence,Master,Français (intermédiaire); Anglais (intermédiaire),Français (courant); Anglais (courant),31.7
+Developpeur Mobile,Firebase; Java; Kotlin,Illustrator,4,4,Licence,Master,Anglais (intermédiaire); Français (avancé),Français (intermédiaire),40.0
+SEO/SEA,Search Console; Google Ads; SEO; Google Analytics; Keyword Research,Google Analytics; Search Console; Keyword Research; Google Ads; SEO; SEM; Copywriting,3,6,Licence,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),100.0
+Developpeur Mobile,Git; Dart; Kotlin; Firebase,Aucune information,4,4,Master,Licence,Français (courant); Anglais (intermédiaire),Français (avancé); Anglais (débutant),37.5
+Content Manager,SEO; Analytics; Content Strategy,Aucune information,1,5,Bac,Bac,Anglais (courant),Français (intermédiaire); Anglais (avancé),45.0
+SEO/SEA,Search Console; SEO; Google Ads,Keyword Research; Google Analytics; Search Console; SEO,3,2,Licence,Master,Français (courant); Anglais (débutant),Français (avancé),70.0
+Developpeur Web,PHP; Laravel; JavaScript; HTML/CSS; MySQL; Git,Laravel; HTML/CSS; PHP; Canva; Instagram,3,5,Master,Master,Français (avancé); Anglais (avancé),Français (avancé); Anglais (intermédiaire),72.5
+SEO/SEA,SEM; Google Analytics; Google Ads; Search Console; Keyword Research,Search Console; Google Analytics; Keyword Research; Google Ads,4,3,Master,Bac,Français (courant),Français (avancé); Anglais (débutant),76.5
+Social Media Manager,TikTok; Analytics; Instagram; Facebook; Meta Ads,Facebook; LinkedIn; TikTok; Instagram; Meta Ads,1,5,Master,Bac,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (intermédiaire),81.5
+Graphiste,Typographie; Illustrator; Canva; InDesign; Branding,Aucune information,3,5,Bac,Licence,Français (avancé),Français (avancé),45.0
+UI/UX Designer,UX Research; Figma; Adobe XD; Illustrator; Prototypage,Photoshop; Illustrator; Figma; Adobe XD; Scrum; ClickUp,3,0,Licence,Licence,Anglais (débutant); Français (courant),Français (avancé),53.0
+SEO/SEA,SEM; SEO; Google Ads; Keyword Research; Google Analytics,Search Console; Google Ads; SEO; Keyword Research; Google Analytics; SEM,3,0,Licence,Bac,Français (intermédiaire); Anglais (débutant),Français (avancé); Anglais (intermédiaire),72.5
+UI/UX Designer,Illustrator; Figma; Adobe XD; Photoshop,Illustrator; Figma; Prototypage,4,5,Master,Licence,Anglais (avancé); Français (avancé),Français (intermédiaire),60.0
+Data Analyst,Python; Data Visualization; SQL; Pandas,Pandas; Data Visualization; Excel,3,4,Licence,Licence,Français (avancé),Français (courant); Anglais (intermédiaire),72.5
+Data Analyst,Power BI; SQL; Excel; Pandas; Data Visualization,Data Visualization,2,3,Bac,Master,Français (intermédiaire); Anglais (intermédiaire),Français (courant); Anglais (courant),56.0
+Developpeur Mobile,Kotlin; Flutter; Git; Firebase; Dart,Flutter; Kotlin; Java; Dart; Firebase,1,4,Master,Licence,Français (intermédiaire),Français (avancé); Anglais (courant),81.5
+Developpeur Web,Git; PHP; MySQL; HTML/CSS; JavaScript,Aucune information,4,3,Bac,Bac,Anglais (avancé),Français (avancé); Anglais (courant),40.0
+Data Analyst,Excel; Power BI; Data Visualization; Python,SQL; Python,1,1,Master,Master,Français (courant); Anglais (courant),Français (intermédiaire),53.8
+Data Analyst,Data Visualization; Python; Excel,Aucune information,2,0,Licence,Licence,Anglais (débutant); Français (courant),Français (courant); Anglais (débutant),25.0
+Developpeur Mobile,Flutter; Kotlin; Dart,Flutter; Firebase; Java; Kotlin; Git,2,3,Licence,Licence,Anglais (débutant); Français (avancé),Français (intermédiaire),76.7
+SEO/SEA,SEO; Google Ads; Search Console; SEM,SEM; Google Analytics; SEO; Keyword Research,1,5,Licence,Bac,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (avancé),65.0
+SEO/SEA,SEO; Search Console; Google Analytics; SEM; Google Ads; Keyword Research,Search Console; Google Ads; SEM; Keyword Research; Google Analytics; ClickUp; Git,2,0,Master,Master,Français (intermédiaire); Anglais (débutant),Français (intermédiaire),65.8
+Chef de projet digital,Scrum; Agile; ClickUp; Communication; Gestion de projet; Asana,Scrum; Agile; ClickUp,3,7,Bac,Bac,Anglais (courant),Français (avancé),62.5
+Developpeur Mobile,Kotlin; Flutter; Java; Dart; Firebase; Git,Firebase; Flutter,1,6,Bac,Licence,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (avancé),63.3
+Chef de projet digital,Communication; ClickUp; Agile; Gestion de projet; Asana,Agile; Communication; Scrum; ClickUp; Gestion de projet,1,6,Licence,Bac,Anglais (avancé); Français (avancé),Français (intermédiaire); Anglais (courant),81.5
+Developpeur Mobile,Dart; Git; Kotlin; Firebase; Java; Flutter,Kotlin; Java; Dart,4,0,Bac,Master,Anglais (avancé),Français (intermédiaire),42.5
+SEO/SEA,Keyword Research; Google Ads; Search Console; Google Analytics; SEO; SEM,Search Console; Google Ads; Google Analytics; Keyword Research,4,2,Master,Licence,Anglais (courant); Français (intermédiaire),Français (intermédiaire),59.2
+Content Manager,Analytics; Content Strategy; Copywriting; Canva; WordPress,Analytics; SEO; Copywriting; Canva; WordPress,2,4,Bac,Licence,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (avancé),89.0
+Data Analyst,Power BI; Python; Pandas; Data Visualization; SQL,SQL; Excel,2,2,Bac,Bac,Français (courant),Français (avancé),56.0
+Data Analyst,Excel; Power BI; Python,Data Visualization; Python; Power BI; SQL; Excel,2,5,Master,Master,Français (avancé); Anglais (courant),Français (courant); Anglais (courant),100.0
+Content Manager,SEO; Copywriting; Analytics; Content Strategy; WordPress; Canva,Analytics,4,3,Bac,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),49.2
+UI/UX Designer,Prototypage; Photoshop; Figma; Adobe XD,Photoshop,4,6,Master,Master,Français (courant),Français (courant); Anglais (intermédiaire),58.8
+Content Manager,WordPress; Copywriting; SEO; Analytics; Content Strategy,SEO,2,2,Licence,Licence,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (avancé),56.0
+Chef de projet digital,Agile; Asana; ClickUp,Asana; ClickUp; Agile; Scrum; Communication,2,4,Master,Bac,Français (avancé),Français (avancé),92.5
+Data Analyst,Power BI; Python; Excel; Data Visualization; Pandas; SQL,Python; SQL; Pandas; Excel; Power BI,1,3,Bac,Master,Français (avancé),Français (intermédiaire),90.8
+Developpeur Mobile,Flutter; Git; Firebase; Kotlin,Firebase; Java; Flutter; Kotlin; Git; Dart,1,3,Bac,Master,Français (avancé),Français (avancé); Anglais (intermédiaire),100.0
+SEO/SEA,Keyword Research; SEO; Search Console,SEO; Google Analytics; Keyword Research; SEM; Facebook,1,3,Master,Master,Anglais (intermédiaire),Français (avancé); Anglais (intermédiaire),81.7
+Graphiste,Typographie; Canva; InDesign; Branding,Branding; Illustrator; Photoshop; Canva; Instagram; Keyword Research,2,4,Licence,Bac,Français (courant),Français (courant),65.0
+Social Media Manager,LinkedIn; Meta Ads; Instagram; Facebook,Analytics,2,6,Bac,Bac,Français (courant); Anglais (débutant),Français (intermédiaire),40.0
+Data Analyst,Excel; Python; Data Visualization,Data Visualization,1,1,Bac,Licence,Anglais (débutant); Français (intermédiaire),Français (avancé); Anglais (avancé),63.3
+Chef de projet digital,Asana; Gestion de projet; Communication; ClickUp; Agile; Scrum,Scrum; Communication,3,6,Licence,Licence,Français (avancé),Français (courant),63.3
+Social Media Manager,LinkedIn; Analytics; TikTok; Instagram; Meta Ads; Facebook,Instagram; Meta Ads; Analytics; LinkedIn; Facebook; TikTok,2,6,Master,Master,Anglais (avancé),Français (avancé); Anglais (débutant),100.0
+SEO/SEA,SEO; Keyword Research; Google Analytics; SEM,Google Ads; Keyword Research; Google Analytics; TikTok; HTML/CSS,4,3,Master,Licence,Anglais (débutant),Français (avancé); Anglais (avancé),60.0
+Content Manager,Content Strategy; SEO; Canva; WordPress,WordPress; SEO,2,1,Master,Bac,Anglais (intermédiaire),Français (courant); Anglais (débutant),55.0
+Graphiste,Canva; Typographie; Branding; Photoshop; InDesign,Branding; Typographie; Illustrator; Canva,3,2,Bac,Master,Français (intermédiaire),Français (courant),71.3
+Community Manager,Instagram; Copywriting; Canva; Analytics; TikTok; Facebook,Instagram; Analytics; Facebook,4,2,Master,Bac,Français (courant),Français (intermédiaire); Anglais (courant),55.0
+Content Manager,Analytics; SEO; Canva,Canva; Analytics; SEO; Copywriting; WordPress,3,3,Master,Bac,Anglais (débutant),Français (courant); Anglais (courant),92.5
+Content Manager,SEO; Content Strategy; WordPress; Copywriting,Content Strategy,2,4,Bac,Master,Anglais (avancé),Français (intermédiaire); Anglais (courant),58.8
+Graphiste,Branding; Canva; Typographie; Photoshop; InDesign; Illustrator,Typographie,2,3,Master,Master,Français (intermédiaire),Français (courant),54.2
+Graphiste,Canva; Illustrator; Photoshop; Typographie; InDesign; Branding,Branding; Typographie; Photoshop,2,4,Master,Master,Français (intermédiaire),Français (avancé),72.5
+Chef de projet digital,Gestion de projet; Communication; Agile; Asana,Gestion de projet; ClickUp; Scrum; Communication; Asana,4,1,Master,Licence,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (courant),63.7
+Graphiste,InDesign; Branding; Canva,Branding; Photoshop; Typographie; Illustrator,3,5,Bac,Licence,Français (avancé),Français (avancé),63.3
+Developpeur Mobile,Git; Java; Firebase; Dart,Dart; Git; Java; Flutter; Kotlin; Firebase,4,2,Master,Master,Anglais (avancé); Français (avancé),Français (courant); Anglais (intermédiaire),90.0
+UI/UX Designer,UX Research; Adobe XD; Illustrator,Photoshop; Prototypage; Figma; Illustrator; Adobe XD; UX Research,2,6,Bac,Bac,Anglais (débutant),Français (intermédiaire); Anglais (avancé),100.0
+Developpeur Mobile,Firebase; Dart; Kotlin,Java; Kotlin; Firebase,1,4,Master,Bac,Anglais (courant),Français (intermédiaire),64.2
+Chef de projet digital,Agile; Scrum; Asana; Communication; ClickUp; Gestion de projet,Communication,2,1,Master,Licence,Anglais (avancé),Français (avancé),26.7
+SEO/SEA,Keyword Research; Google Ads; SEO; Google Analytics; SEM; Search Console,Keyword Research,3,3,Master,Licence,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (avancé),46.7
+SEO/SEA,Keyword Research; SEO; Google Analytics,Keyword Research; SEM; Google Ads,3,6,Bac,Licence,Anglais (courant); Français (avancé),Français (avancé),58.3
+Developpeur Web,PHP; MySQL; HTML/CSS; Laravel; Git; JavaScript,MySQL; Data Visualization; Content Strategy,3,2,Licence,Bac,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (courant),40.0
+Social Media Manager,Instagram; Meta Ads; TikTok; Facebook; LinkedIn,Instagram; TikTok; Analytics; Facebook; Meta Ads,4,6,Master,Master,Français (courant),Français (courant); Anglais (débutant),89.0
+Developpeur Mobile,Java; Flutter; Kotlin; Dart; Firebase; Git,Java; Firebase; Git; Flutter; Kotlin; Dart,4,3,Master,Licence,Anglais (débutant); Français (intermédiaire),Français (courant),82.5
+Social Media Manager,Analytics; Instagram; LinkedIn; Facebook; Meta Ads; TikTok,Facebook; TikTok; Meta Ads; LinkedIn,1,1,Bac,Master,Anglais (courant),Français (avancé); Anglais (courant),81.7
+Content Manager,Copywriting; SEO; Canva; Content Strategy; WordPress,Canva; SEO,4,4,Master,Master,Anglais (débutant); Français (avancé),Français (courant); Anglais (courant),67.0
+Community Manager,Copywriting; Canva; Analytics; Facebook,Facebook; Instagram; Canva; Copywriting; Analytics; TikTok,2,2,Master,Licence,Anglais (avancé),Français (courant); Anglais (avancé),92.5
+SEO/SEA,Search Console; Google Ads; SEO,Google Analytics; Search Console; Keyword Research; Google Ads; SEM,2,3,Licence,Bac,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (avancé),74.2
+Content Manager,Copywriting; Analytics; Content Strategy; Canva,Copywriting; Canva; SEO; WordPress,4,2,Master,Licence,Français (avancé); Anglais (courant),Français (intermédiaire); Anglais (intermédiaire),55.0
+Developpeur Mobile,Dart; Firebase; Kotlin,Git; Firebase,3,4,Licence,Licence,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (avancé),63.3
+Developpeur Web,HTML/CSS; Laravel; MySQL; Git,Search Console,1,0,Bac,Bac,Anglais (intermédiaire),Français (intermédiaire),15.0
+Developpeur Mobile,Firebase; Java; Dart,Kotlin,1,5,Master,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (courant); Anglais (intermédiaire),37.5
+Developpeur Web,MySQL; Git; JavaScript; HTML/CSS; Laravel,HTML/CSS; JavaScript; Git; MySQL; Laravel,4,3,Bac,Master,Anglais (courant),Français (avancé); Anglais (avancé),95.0
+Community Manager,Canva; TikTok; Instagram; Analytics; Facebook,Canva; Copywriting; WordPress,1,3,Master,Licence,Anglais (courant),Français (intermédiaire); Anglais (courant),48.5
+Community Manager,Facebook; Copywriting; TikTok; Analytics,Analytics,4,3,Master,Licence,Anglais (avancé); Français (courant),Français (avancé); Anglais (avancé),46.2
+Graphiste,InDesign; Branding; Typographie; Illustrator; Photoshop,Aucune information,1,4,Bac,Licence,Français (courant),Français (avancé),45.0
+Content Manager,SEO; Copywriting; WordPress; Canva; Content Strategy; Analytics,Canva; WordPress; SEO; Content Strategy; Copywriting,2,2,Bac,Licence,Anglais (débutant); Français (courant),Français (avancé); Anglais (débutant),90.8
+Chef de projet digital,Asana; Agile; Scrum,Scrum,1,4,Licence,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire),58.3
+Graphiste,Canva; Illustrator; Photoshop; Typographie; Branding; InDesign,Illustrator; Photoshop,2,4,Licence,Master,Français (courant),Français (courant),63.3
+Chef de projet digital,Scrum; Asana; Agile; Gestion de projet; ClickUp,Asana,1,6,Bac,Bac,Anglais (avancé); Français (avancé),Français (courant); Anglais (intermédiaire),56.0
+Chef de projet digital,Asana; Agile; Scrum; Gestion de projet,Communication; Scrum,4,1,Bac,Bac,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (avancé),43.8
+Social Media Manager,Analytics; Instagram; Facebook; TikTok; Meta Ads; LinkedIn,LinkedIn; Meta Ads; TikTok; Analytics; Instagram,2,4,Licence,Licence,Anglais (courant),Français (intermédiaire); Anglais (intermédiaire),90.8
+Content Manager,WordPress; Content Strategy; SEO; Canva,Analytics; Content Strategy; Canva; Copywriting; WordPress; SEO,3,2,Licence,Master,Anglais (courant); Français (courant),Français (avancé); Anglais (débutant),93.3
+Data Analyst,SQL; Pandas; Power BI; Excel; Python; Data Visualization,Data Visualization; Python; Pandas; Power BI,3,3,Licence,Bac,Français (avancé); Anglais (débutant),Français (courant); Anglais (intermédiaire),74.2
+Content Manager,Analytics; Canva; Copywriting; WordPress; SEO; Content Strategy,WordPress; Canva; Analytics; SEO; Copywriting; Content Strategy,1,0,Bac,Master,Anglais (intermédiaire),Français (courant); Anglais (avancé),80.0
+Developpeur Mobile,Flutter; Dart; Kotlin; Git; Firebase,Kotlin; Dart; Git; Firebase; Agile; Copywriting,4,5,Bac,Licence,Français (avancé),Français (courant),89.0
+Developpeur Mobile,Dart; Java; Git; Firebase,Firebase; Java,3,2,Master,Licence,Anglais (débutant),Français (intermédiaire); Anglais (avancé),58.3
+Social Media Manager,Meta Ads; Analytics; Instagram; LinkedIn,Aucune information,3,2,Licence,Master,Anglais (intermédiaire); Français (intermédiaire),Français (courant); Anglais (débutant),38.3
+Community Manager,TikTok; Instagram; Copywriting,Aucune information,3,1,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),31.7
+Graphiste,InDesign; Photoshop; Canva; Typographie; Branding,Canva,1,5,Master,Master,Français (avancé),Français (courant),56.0
+Developpeur Mobile,Flutter; Java; Git; Kotlin; Firebase,Dart; Java; Flutter; Firebase; Kotlin; Git,3,0,Licence,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (courant); Anglais (débutant),80.0
+Data Analyst,SQL; Python; Power BI; Data Visualization,SQL,1,7,Bac,Master,Anglais (débutant); Français (intermédiaire),Français (courant),53.8
+Community Manager,Canva; Copywriting; Analytics,Analytics; Copywriting; Instagram,2,5,Bac,Master,Français (avancé); Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),81.7
+SEO/SEA,Search Console; Keyword Research; SEO; SEM; Google Ads,Keyword Research; SEO,4,1,Licence,Licence,Français (courant); Anglais (courant),Français (intermédiaire); Anglais (intermédiaire),52.0
+UI/UX Designer,Figma; Adobe XD; Prototypage; Photoshop; Illustrator; UX Research,Adobe XD; Photoshop; Figma; UX Research,1,0,Bac,Licence,Français (avancé),Français (avancé); Anglais (avancé),61.7
+Graphiste,Illustrator; Branding; InDesign; Canva,Branding; Typographie; Photoshop,4,0,Master,Licence,Français (courant),Français (intermédiaire),31.2
+Content Manager,WordPress; Canva; Analytics; Content Strategy; SEO,Analytics; Canva; TikTok,3,5,Master,Bac,Français (courant); Anglais (intermédiaire),Français (avancé),54.5
+Content Manager,SEO; Analytics; Canva,Canva; Analytics,1,0,Bac,Licence,Anglais (courant),Français (avancé),51.7
+Community Manager,Copywriting; TikTok; Facebook; Analytics,Instagram,3,3,Licence,Master,Anglais (intermédiaire),Français (avancé); Anglais (avancé),45.0
+Content Manager,Canva; SEO; Content Strategy; Analytics,Analytics; Scrum; Power BI,3,1,Master,Bac,Anglais (avancé); Français (avancé),Français (avancé); Anglais (avancé),37.9
+UI/UX Designer,Adobe XD; Prototypage; UX Research; Illustrator; Figma; Photoshop,Photoshop; Illustrator; Prototypage; Adobe XD; UX Research; Figma,2,0,Licence,Bac,Français (courant),Français (courant); Anglais (débutant),72.5
+Community Manager,Copywriting; Instagram; Analytics; TikTok,Copywriting,1,3,Licence,Master,Anglais (avancé),Français (avancé); Anglais (intermédiaire),58.8
+SEO/SEA,SEM; Google Ads; Keyword Research; SEO; Google Analytics; Search Console,Search Console; Google Ads; Keyword Research; SEO; Google Analytics,4,3,Bac,Master,Anglais (intermédiaire); Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),85.8
+Chef de projet digital,ClickUp; Communication; Agile; Asana,Agile; ClickUp; Gestion de projet; Communication,4,3,Master,Master,Anglais (avancé); Français (courant),Français (avancé); Anglais (courant),81.2
+SEO/SEA,Google Ads; Google Analytics; SEM,Google Analytics; Keyword Research; SEO,4,1,Licence,Licence,Anglais (avancé); Français (courant),Français (courant),43.3
+Data Analyst,SQL; Pandas; Data Visualization,Power BI,4,3,Licence,Licence,Anglais (avancé); Français (intermédiaire),Français (intermédiaire); Anglais (débutant),40.0
+UI/UX Designer,Figma; UX Research; Illustrator,Illustrator; Figma; Adobe XD; UX Research,3,5,Bac,Bac,Français (intermédiaire); Anglais (intermédiaire),Français (avancé); Anglais (débutant),100.0
+Developpeur Web,MySQL; HTML/CSS; Git; Laravel; PHP; JavaScript,Aucune information,2,6,Bac,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),45.0
+Chef de projet digital,Scrum; Gestion de projet; ClickUp; Communication,Gestion de projet,4,8,Licence,Bac,Français (courant),Français (intermédiaire); Anglais (débutant),51.3
+Social Media Manager,Instagram; Facebook; TikTok,Instagram; Analytics; TikTok,3,5,Bac,Master,Français (intermédiaire),Français (avancé); Anglais (courant),81.7
+Chef de projet digital,Agile; Communication; Asana; Scrum; ClickUp,Scrum; Agile; Asana,4,6,Bac,Master,Français (intermédiaire); Anglais (intermédiaire),Français (courant); Anglais (débutant),78.0
+Developpeur Web,JavaScript; HTML/CSS; PHP,JavaScript; HTML/CSS,4,2,Master,Bac,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (avancé),64.2
+Chef de projet digital,Scrum; Gestion de projet; Communication; Asana; ClickUp; Agile,Agile; Scrum; ClickUp; Gestion de projet; Communication,1,8,Bac,Master,Anglais (débutant),Français (avancé); Anglais (avancé),90.8
+Community Manager,Facebook; TikTok; Copywriting; Canva; Instagram,Copywriting; Analytics; Facebook; Canva; TikTok,1,2,Bac,Master,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (intermédiaire),89.0
+Developpeur Web,Git; Laravel; HTML/CSS; MySQL,HTML/CSS; MySQL; PHP; Git,3,2,Licence,Licence,Français (intermédiaire); Anglais (avancé),Français (avancé); Anglais (intermédiaire),79.6
+Developpeur Web,Git; JavaScript; Laravel; MySQL; HTML/CSS,MySQL; PHP; HTML/CSS; Laravel; JavaScript,2,1,Master,Licence,Anglais (débutant),Français (avancé); Anglais (courant),71.5
+Data Analyst,SQL; Python; Excel; Pandas; Power BI,SQL; Data Visualization; Excel; Pandas,1,4,Licence,Licence,Anglais (courant),Français (avancé); Anglais (avancé),78.0
+Data Analyst,SQL; Python; Power BI; Data Visualization,Power BI; Python; Communication; Illustrator,1,0,Bac,Master,Français (courant); Anglais (courant),Français (intermédiaire),47.5
+Graphiste,InDesign; Typographie; Branding; Illustrator,Photoshop; Typographie,1,4,Licence,Master,Français (avancé),Français (courant),58.8
+Data Analyst,Pandas; Excel; Data Visualization; Python; SQL,Excel; Pandas; Power BI; Python; Scrum,2,0,Bac,Bac,Anglais (avancé),Français (avancé); Anglais (courant),58.0
+SEO/SEA,Search Console; Keyword Research; SEM; Google Analytics,SEM; Keyword Research; Google Ads; SEO; Search Console; Google Analytics,3,5,Licence,Master,Français (intermédiaire); Anglais (intermédiaire),Français (avancé),95.0
+Graphiste,Illustrator; Branding; InDesign; Typographie,Canva; Photoshop; Branding,4,2,Bac,Licence,Français (avancé),Français (intermédiaire),48.8
+UI/UX Designer,Photoshop; Prototypage; Adobe XD; UX Research; Figma,UX Research; Figma; Photoshop; Illustrator,4,4,Master,Licence,Anglais (débutant),Français (avancé); Anglais (courant),70.5
+UI/UX Designer,Illustrator; Figma; Photoshop; Prototypage; Adobe XD; UX Research,UX Research; Figma; Illustrator; Prototypage; Adobe XD,3,0,Master,Licence,Français (courant),Français (courant); Anglais (débutant),63.3
+Content Manager,Analytics; Content Strategy; Canva,SEO,3,6,Licence,Master,Français (intermédiaire),Français (courant),45.0
+UI/UX Designer,Prototypage; Photoshop; Illustrator; UX Research; Adobe XD; Figma,UX Research; Photoshop; Figma,2,4,Master,Master,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (courant),72.5
+Community Manager,TikTok; Copywriting; Facebook,Facebook; Instagram; Canva; TikTok; Copywriting; Analytics,1,3,Master,Licence,Français (avancé); Anglais (avancé),Français (avancé); Anglais (avancé),92.5
+UI/UX Designer,Adobe XD; UX Research; Illustrator; Prototypage; Photoshop; Figma,Aucune information,3,1,Master,Master,Français (intermédiaire),Français (courant),31.7
+Developpeur Mobile,Kotlin; Git; Java; Firebase,Git; Java; Kotlin; Dart,4,1,Master,Licence,Anglais (courant),Français (courant); Anglais (avancé),63.7
+Graphiste,Canva; Branding; InDesign; Photoshop; Typographie,Canva; Photoshop; Illustrator; InDesign,4,6,Master,Licence,Français (avancé),Français (courant),70.5
+Developpeur Mobile,Dart; Git; Flutter,Flutter; Git; Java; Firebase,3,4,Master,Master,Anglais (courant),Français (intermédiaire); Anglais (intermédiaire),81.7
+Community Manager,Instagram; Facebook; TikTok; Canva; Analytics,TikTok; Copywriting; Facebook; Instagram; Analytics; JavaScript,1,2,Master,Licence,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (avancé),81.5
+Community Manager,Analytics; Facebook; Instagram,Analytics; Instagram,2,6,Master,Master,Anglais (courant); Français (courant),Français (avancé),76.7
+UI/UX Designer,Illustrator; UX Research; Prototypage; Figma,UX Research; Photoshop; Figma; Prototypage,4,6,Master,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (courant),78.8
+Chef de projet digital,ClickUp; Gestion de projet; Scrum; Communication; Asana,Aucune information,4,7,Licence,Licence,Anglais (avancé),Français (courant),35.0
+Developpeur Web,JavaScript; MySQL; Git,HTML/CSS; JavaScript,3,6,Licence,Master,Anglais (avancé); Français (avancé),Français (avancé),58.3
+Graphiste,Typographie; Illustrator; InDesign; Canva; Photoshop,Aucune information,1,5,Bac,Licence,Français (courant),Français (avancé),45.0
+Community Manager,Instagram; Facebook; Copywriting; TikTok; Canva,Facebook; Analytics; Instagram; Canva; Copywriting,1,5,Master,Bac,Français (courant),Français (intermédiaire); Anglais (avancé),81.5
+Developpeur Mobile,Firebase; Git; Kotlin; Dart; Flutter; Java,Aucune information,3,6,Bac,Licence,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (intermédiaire),45.0
+Graphiste,Illustrator; Canva; Photoshop; Branding; Typographie; InDesign,Pandas; Prototypage,1,6,Licence,Licence,Français (intermédiaire),Français (avancé),45.0
+Chef de projet digital,Communication; Agile; Gestion de projet; Asana,Gestion de projet; Agile; ClickUp,4,6,Licence,Master,Anglais (avancé),Français (avancé),62.5
+Graphiste,Canva; Typographie; Photoshop,Aucune information,3,5,Licence,Bac,Français (intermédiaire),Français (intermédiaire),37.5
+Social Media Manager,LinkedIn; TikTok; Instagram,Instagram; TikTok; LinkedIn; Facebook; Analytics,2,5,Master,Licence,Anglais (débutant),Français (avancé),82.5
+Graphiste,Typographie; Branding; Illustrator,Branding; Canva; Photoshop,4,2,Licence,Master,Français (avancé),Français (intermédiaire),53.3
+Developpeur Mobile,Kotlin; Java; Git; Firebase,Aucune information,2,3,Master,Master,Français (avancé),Français (intermédiaire); Anglais (courant),45.0
+Graphiste,Photoshop; Illustrator; Typographie; Branding,Photoshop; Typographie; Canva; InDesign; Branding; Illustrator,1,3,Licence,Licence,Français (courant),Français (intermédiaire),100.0
+Developpeur Mobile,Firebase; Dart; Flutter; Kotlin,Dart; Git; Search Console,2,1,Licence,Licence,Français (courant),Français (courant); Anglais (débutant),48.8
+UI/UX Designer,UX Research; Prototypage; Illustrator,Aucune information,2,5,Bac,Master,Français (intermédiaire); Anglais (courant),Français (intermédiaire); Anglais (débutant),45.0
+Chef de projet digital,Scrum; Communication; Asana; ClickUp,Communication; Agile; Scrum; Asana,4,1,Licence,Master,Français (courant),Français (avancé),71.2
+SEO/SEA,Keyword Research; Google Ads; Search Console,Keyword Research; Search Console; Google Ads; SEM; SEO; Google Analytics,1,6,Master,Bac,Anglais (intermédiaire),Français (avancé),82.5
+UI/UX Designer,UX Research; Figma; Prototypage; Photoshop,Photoshop; Prototypage,3,6,Licence,Licence,Anglais (intermédiaire),Français (courant); Anglais (avancé),72.5
+Data Analyst,SQL; Python; Power BI; Excel,Pandas; Excel; Power BI; Python,1,5,Bac,Bac,Anglais (intermédiaire),Français (intermédiaire),76.2
+Developpeur Mobile,Kotlin; Git; Dart; Java,Dart; Kotlin; Git; Photoshop,2,3,Bac,Master,Anglais (intermédiaire); Français (avancé),Français (avancé); Anglais (intermédiaire),86.2
+Graphiste,Illustrator; Photoshop; Branding; Typographie; Canva,InDesign; Asana,1,1,Licence,Master,Français (intermédiaire),Français (intermédiaire),45.0
+UI/UX Designer,Figma; Illustrator; Prototypage; UX Research,Adobe XD; UX Research; Photoshop; Prototypage; Figma,4,4,Licence,Bac,Français (intermédiaire); Anglais (intermédiaire),Français (courant),73.8
+Developpeur Web,Git; JavaScript; PHP,Git; Laravel; PHP,4,0,Master,Master,Anglais (intermédiaire); Français (avancé),Français (intermédiaire),56.7
+Social Media Manager,Instagram; Facebook; Meta Ads; Analytics; TikTok,Instagram; LinkedIn; Analytics,2,2,Master,Master,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (débutant),67.0
+Developpeur Mobile,Kotlin; Firebase; Flutter; Dart; Java; Git,Flutter; Java; Firebase; Kotlin; Git,2,3,Master,Master,Anglais (avancé),Français (courant); Anglais (débutant),90.8
+Data Analyst,Pandas; SQL; Data Visualization,Pandas; SQL; Data Visualization; Power BI; Excel,3,6,Bac,Licence,Anglais (avancé),Français (intermédiaire); Anglais (avancé),100.0
+Chef de projet digital,Gestion de projet; Communication; Agile; Scrum; Asana; ClickUp,Agile; Communication; ClickUp,3,4,Master,Bac,Français (avancé),Français (avancé); Anglais (avancé),65.0
+UI/UX Designer,Adobe XD; UX Research; Figma; Prototypage; Photoshop; Illustrator,Adobe XD; Figma,4,6,Licence,Master,Anglais (courant); Français (avancé),Français (intermédiaire); Anglais (intermédiaire),63.3
+Social Media Manager,LinkedIn; Meta Ads; Analytics; Instagram; TikTok,LinkedIn,2,2,Licence,Bac,Anglais (intermédiaire),Français (courant); Anglais (intermédiaire),48.5
+UI/UX Designer,UX Research; Prototypage; Photoshop; Figma,Figma; Agile,2,1,Master,Licence,Français (courant),Français (courant); Anglais (courant),41.2
+Data Analyst,Data Visualization; Excel; Pandas,Aucune information,2,6,Licence,Licence,Français (avancé); Anglais (intermédiaire),Français (avancé),40.0
+Social Media Manager,Facebook; Meta Ads; TikTok; LinkedIn,Analytics; Facebook,3,0,Licence,Bac,Français (avancé); Anglais (intermédiaire),Français (avancé),26.2
+Developpeur Web,JavaScript; Laravel; Git; HTML/CSS; PHP; MySQL,MySQL; Laravel; PHP; Git; JavaScript; HTML/CSS,1,3,Master,Bac,Français (courant),Français (intermédiaire); Anglais (courant),92.5
+Data Analyst,Data Visualization; Excel; Power BI,Python; Excel,2,4,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (courant),50.8
+Chef de projet digital,ClickUp; Asana; Scrum; Gestion de projet; Communication; Agile,Asana,2,8,Master,Licence,Français (courant),Français (courant); Anglais (avancé),46.7
+SEO/SEA,SEO; SEM; Google Analytics,SEM,4,3,Bac,Bac,Français (courant); Anglais (intermédiaire),Français (intermédiaire),53.3
+Content Manager,Canva; Content Strategy; Analytics; WordPress; Copywriting,Aucune information,1,2,Bac,Licence,Anglais (avancé); Français (intermédiaire),Français (courant); Anglais (débutant),45.0
+Developpeur Mobile,Git; Flutter; Firebase; Kotlin; Dart,Kotlin; Java; Flutter; Dart,4,1,Licence,Licence,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (débutant),63.0
+UI/UX Designer,Photoshop; UX Research; Illustrator,Adobe XD; UX Research; Figma; Photoshop,3,4,Bac,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (courant),76.7
+Social Media Manager,Meta Ads; Analytics; TikTok,LinkedIn; Analytics,2,1,Bac,Bac,Anglais (intermédiaire),Français (courant); Anglais (courant),53.3
+Graphiste,Canva; Typographie; Photoshop,InDesign; Typographie; Asana,1,4,Bac,Licence,Français (avancé),Français (courant),63.3
+Community Manager,Analytics; Facebook; Instagram,Instagram; Analytics,2,3,Master,Master,Français (intermédiaire),Français (avancé),81.7
+Developpeur Web,Git; PHP; Laravel; JavaScript; MySQL; HTML/CSS,HTML/CSS; PHP,4,6,Bac,Bac,Français (avancé); Anglais (courant),Français (avancé),58.3
+Graphiste,Typographie; InDesign; Photoshop; Canva,Illustrator; Branding,2,4,Master,Bac,Français (courant),Français (courant),37.5
+Developpeur Mobile,Java; Flutter; Dart,Flutter; Dart; Git; Java; Kotlin,2,0,Licence,Bac,Français (avancé),Français (courant),72.5
+Graphiste,Canva; Photoshop; InDesign; Branding,InDesign; Typographie; Photoshop; Canva; Illustrator; Branding; Analytics,4,4,Bac,Master,Français (intermédiaire),Français (avancé),100.0
+Chef de projet digital,Gestion de projet; ClickUp; Asana; Scrum,Aucune information,2,7,Bac,Master,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (débutant),45.0
+Developpeur Mobile,Dart; Git; Java,Dart; Firebase; Adobe XD,1,1,Master,Licence,Français (intermédiaire),Français (avancé),55.8
+Content Manager,Analytics; Canva; Copywriting; SEO; Content Strategy,Instagram,4,1,Master,Master,Français (intermédiaire); Anglais (avancé),Français (avancé),25.0
+Developpeur Web,Git; PHP; Laravel,JavaScript; PHP; HTML/CSS; MySQL,4,6,Master,Licence,Français (intermédiaire); Anglais (courant),Français (avancé),50.8
+Chef de projet digital,Gestion de projet; Asana; Communication; ClickUp; Agile; Scrum,ClickUp; Communication; Gestion de projet; Agile; Asana; Scrum,4,4,Bac,Master,Anglais (courant); Français (courant),Français (avancé); Anglais (avancé),100.0
+Community Manager,Canva; Facebook; Analytics; TikTok; Instagram; Copywriting,Canva; Copywriting,2,4,Master,Master,Anglais (intermédiaire),Français (avancé); Anglais (courant),63.3
+Developpeur Web,JavaScript; PHP; Laravel,PHP; Git; MySQL,3,3,Licence,Licence,Anglais (débutant),Français (intermédiaire); Anglais (courant),63.3
+Graphiste,Branding; Photoshop; Typographie; Illustrator; Canva,Aucune information,3,6,Bac,Licence,Français (avancé),Français (intermédiaire),45.0
+SEO/SEA,SEO; SEM; Search Console; Google Ads; Google Analytics,Aucune information,4,1,Licence,Licence,Anglais (avancé),Français (avancé); Anglais (intermédiaire),30.0
+Content Manager,Copywriting; Canva; SEO; Content Strategy; WordPress,Canva; SEO; WordPress; Copywriting,2,0,Licence,Master,Français (intermédiaire); Anglais (débutant),Français (avancé); Anglais (débutant),69.0
+Data Analyst,Power BI; SQL; Excel; Python; Pandas; Data Visualization,Excel; Pandas; Power BI,4,2,Master,Bac,Français (avancé); Anglais (avancé),Français (courant); Anglais (débutant),55.0
+UI/UX Designer,Adobe XD; Illustrator; Photoshop; Prototypage; UX Research; Figma,UX Research,2,2,Licence,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),54.2
+Graphiste,InDesign; Typographie; Illustrator; Canva; Photoshop; Branding,Analytics,2,3,Bac,Master,Français (courant),Français (intermédiaire),45.0
+Developpeur Web,Laravel; MySQL; HTML/CSS; PHP,Git; PHP; JavaScript; HTML/CSS; Laravel,3,6,Licence,Bac,Français (avancé),Français (courant),78.8
+Social Media Manager,LinkedIn; Instagram; Meta Ads,Facebook; Instagram; Analytics,1,2,Master,Licence,Anglais (courant),Français (courant),45.8
+Graphiste,Illustrator; Typographie; Photoshop; Canva; InDesign; Branding,Branding; InDesign; Photoshop,4,3,Licence,Licence,Français (avancé),Français (courant),67.5
+UI/UX Designer,Illustrator; Photoshop; Prototypage; Figma; UX Research,Illustrator; Photoshop; Prototypage; UX Research,1,6,Master,Licence,Anglais (avancé),Français (avancé); Anglais (intermédiaire),81.5
+Community Manager,Facebook; Instagram; TikTok; Analytics; Canva,Facebook; Canva,4,3,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (courant),49.5
+UI/UX Designer,Prototypage; Figma; Photoshop; Adobe XD; Illustrator,UX Research; Adobe XD; Illustrator; Photoshop; Figma,4,5,Master,Licence,Français (intermédiaire),Français (courant); Anglais (débutant),81.5
+UI/UX Designer,Prototypage; Adobe XD; Illustrator; UX Research,UX Research,4,2,Licence,Licence,Anglais (intermédiaire),Français (avancé); Anglais (courant),48.8
+UI/UX Designer,Illustrator; Prototypage; Adobe XD; Figma; Photoshop; UX Research,Adobe XD; Figma; Illustrator; Photoshop; UX Research,1,1,Licence,Bac,Anglais (débutant),Français (intermédiaire),73.3
+Developpeur Mobile,Kotlin; Java; Git,Dart; Kotlin; Firebase; Java; Git,4,3,Master,Bac,Français (avancé); Anglais (courant),Français (avancé); Anglais (intermédiaire),87.5
+Graphiste,Illustrator; Canva; Typographie; Photoshop; Branding; InDesign,Branding; Canva; Firebase,2,6,Master,Licence,Français (courant),Français (intermédiaire),55.8
+Graphiste,Typographie; Canva; InDesign; Photoshop; Branding; Illustrator,Branding; Typographie,1,6,Licence,Bac,Français (avancé),Français (avancé),55.8
+Data Analyst,Excel; Power BI; Data Visualization; Python; Pandas; SQL,Python,3,6,Bac,Bac,Anglais (avancé); Français (avancé),Français (intermédiaire); Anglais (avancé),54.2
+UI/UX Designer,Photoshop; UX Research; Illustrator; Adobe XD; Prototypage; Figma,Illustrator; Adobe XD; UX Research; Figma; Photoshop,3,1,Licence,Bac,Anglais (courant),Français (courant); Anglais (avancé),70.0
+Chef de projet digital,Agile; ClickUp; Communication; Scrum; Asana; Gestion de projet,Aucune information,4,3,Licence,Licence,Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),40.0
+Data Analyst,Pandas; Data Visualization; SQL; Excel; Python,Power BI; Python; Excel; Pandas; SQL; Data Visualization,2,1,Licence,Licence,Français (avancé),Français (courant); Anglais (avancé),90.0
+Chef de projet digital,Communication; Asana; Agile; Scrum; ClickUp; Gestion de projet,Agile; Asana; Gestion de projet; Communication; ClickUp; Scrum; Kotlin,3,3,Master,Licence,Français (intermédiaire),Français (avancé); Anglais (avancé),92.5
+SEO/SEA,Google Analytics; Google Ads; SEO; Keyword Research; Search Console; SEM,SEO; Google Analytics; Google Ads; SEM; Keyword Research,3,3,Master,Licence,Anglais (avancé),Français (avancé); Anglais (courant),83.3
+SEO/SEA,Keyword Research; Google Ads; SEM; Google Analytics; Search Console,Search Console; Google Ads; SEM; Google Analytics; SEO,1,3,Bac,Bac,Anglais (avancé); Français (courant),Français (intermédiaire),84.0
+UI/UX Designer,UX Research; Photoshop; Adobe XD; Prototypage,Aucune information,4,4,Licence,Licence,Français (courant),Français (avancé); Anglais (débutant),45.0
+Content Manager,Copywriting; Analytics; WordPress; Content Strategy; Canva,Canva; WordPress; Content Strategy; SEO; Copywriting; Analytics,1,3,Master,Master,Français (avancé); Anglais (débutant),Français (courant); Anglais (avancé),100.0
+UI/UX Designer,Adobe XD; Figma; Photoshop; Illustrator,Figma; UX Research; Adobe XD,1,3,Licence,Master,Français (avancé),Français (avancé); Anglais (courant),72.5
+Chef de projet digital,Gestion de projet; Communication; Asana; ClickUp; Scrum,Aucune information,3,3,Bac,Bac,Français (intermédiaire),Français (avancé); Anglais (avancé),45.0
+Graphiste,Typographie; Branding; Illustrator; Photoshop; Canva; InDesign,Aucune information,2,5,Licence,Master,Français (courant),Français (avancé),45.0
+Chef de projet digital,ClickUp; Gestion de projet; Scrum,Canva; TikTok,2,7,Licence,Master,Français (courant); Anglais (intermédiaire),Français (avancé); Anglais (débutant),45.0
+Developpeur Web,Git; HTML/CSS; JavaScript; PHP; MySQL; Laravel,Git; HTML/CSS; PHP; Laravel; MySQL,4,3,Master,Bac,Français (courant); Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),78.3
+Social Media Manager,Instagram; Meta Ads; Analytics; TikTok; LinkedIn; Facebook,LinkedIn; Instagram; Meta Ads; Analytics; Facebook; TikTok,2,1,Licence,Master,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (intermédiaire),90.0
+Community Manager,Instagram; Copywriting; Facebook; Canva,Copywriting; Facebook; Analytics; Instagram; TikTok; Canva,3,0,Licence,Master,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (courant),80.0
+Social Media Manager,Meta Ads; TikTok; Instagram,LinkedIn; Facebook; Meta Ads; TikTok; Analytics; Instagram,1,1,Master,Master,Anglais (débutant),Français (intermédiaire); Anglais (débutant),100.0
+Social Media Manager,Analytics; TikTok; LinkedIn; Meta Ads,TikTok; Analytics; Instagram; Facebook; Meta Ads,4,3,Master,Bac,Français (courant),Français (avancé); Anglais (débutant),73.8
+Community Manager,Facebook; TikTok; Copywriting; Canva,Copywriting; Canva; Instagram; Facebook; Analytics; TikTok,4,3,Licence,Master,Français (avancé),Français (avancé),95.0
+Chef de projet digital,Agile; Gestion de projet; Communication; ClickUp,Aucune information,3,0,Licence,Master,Français (courant); Anglais (débutant),Français (courant),20.0
+Content Manager,Analytics; Content Strategy; Copywriting,Aucune information,4,4,Licence,Master,Anglais (avancé); Français (intermédiaire),Français (courant),40.0
+Graphiste,Typographie; InDesign; Canva; Photoshop; Illustrator; Branding,Typographie; Illustrator; InDesign; Photoshop; Canva,1,2,Master,Master,Français (intermédiaire),Français (avancé),90.8
+UI/UX Designer,Figma; Prototypage; Photoshop,Photoshop; UX Research; Prototypage; Figma; Illustrator; Adobe XD,2,4,Licence,Master,Français (courant); Anglais (courant),Français (avancé); Anglais (avancé),100.0
+Content Manager,Copywriting; Analytics; Content Strategy; Canva,Content Strategy; Analytics,2,0,Master,Bac,Français (intermédiaire); Anglais (courant),Français (intermédiaire),40.0
+Developpeur Mobile,Git; Dart; Kotlin,Java; Git; Kotlin; Dart; Firebase,2,3,Licence,Master,Anglais (débutant),Français (intermédiaire),90.0
+SEO/SEA,Google Ads; Keyword Research; Search Console; SEM,SEM; SEO; Google Ads,4,2,Bac,Bac,Français (courant),Français (courant); Anglais (intermédiaire),62.5
+Developpeur Mobile,Java; Firebase; Flutter; Kotlin; Git,Git; Flutter,1,1,Licence,Master,Anglais (intermédiaire); Français (avancé),Français (intermédiaire); Anglais (débutant),67.0
+Community Manager,Instagram; Canva; Facebook; Copywriting,Copywriting; TikTok; Canva,3,6,Bac,Licence,Anglais (intermédiaire),Français (courant); Anglais (courant),72.5
+UI/UX Designer,Illustrator; UX Research; Adobe XD; Photoshop; Prototypage; Figma,Prototypage; Figma,4,3,Licence,Master,Anglais (débutant),Français (intermédiaire); Anglais (courant),58.3
+UI/UX Designer,Prototypage; Photoshop; Figma,Illustrator; Prototypage; Figma; UX Research; Photoshop; Adobe XD,1,1,Bac,Bac,Français (intermédiaire),Français (courant),100.0
+Developpeur Mobile,Git; Java; Flutter; Dart; Kotlin,Aucune information,3,2,Licence,Licence,Anglais (avancé),Français (courant); Anglais (avancé),38.3
+Data Analyst,Excel; SQL; Pandas; Power BI,Aucune information,1,5,Bac,Bac,Anglais (courant); Français (avancé),Français (courant); Anglais (courant),45.0
+SEO/SEA,Google Analytics; Google Ads; SEM,Google Ads,3,4,Licence,Bac,Français (avancé); Anglais (courant),Français (avancé); Anglais (débutant),55.8
+Developpeur Mobile,Flutter; Firebase; Git; Java; Dart,Dart; Flutter; Firebase; Git; Java; Communication; Copywriting,1,1,Licence,Licence,Anglais (débutant),Français (courant); Anglais (débutant),100.0
+Data Analyst,SQL; Excel; Data Visualization; Python,Power BI; Pandas; Excel; Data Visualization; Python; SQL; UX Research,4,4,Master,Master,Français (courant); Anglais (avancé),Français (avancé); Anglais (débutant),100.0
+Graphiste,Photoshop; Illustrator; Typographie; Branding; Canva,Branding; InDesign; Canva; Photoshop; Illustrator,4,2,Master,Master,Français (courant),Français (intermédiaire),79.0
+Chef de projet digital,Scrum; Asana; Gestion de projet; Agile; Communication,ClickUp; Agile; Gestion de projet; Asana; Excel; Power BI,3,7,Bac,Licence,Français (avancé),Français (courant); Anglais (avancé),78.0
+Developpeur Web,HTML/CSS; PHP; MySQL; Laravel; Git; JavaScript,MySQL; Laravel; Git; Dart; WordPress,2,2,Master,Master,Français (avancé),Français (intermédiaire),72.5
+Developpeur Mobile,Kotlin; Dart; Java; Git; Firebase,Kotlin,1,6,Licence,Licence,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (courant),56.0
+Data Analyst,Data Visualization; Pandas; SQL; Python,Pandas; SQL,2,4,Master,Bac,Français (courant),Français (courant),65.0
+Data Analyst,Data Visualization; Pandas; Power BI; Python; SQL,Aucune information,1,7,Licence,Licence,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (avancé),45.0
+Graphiste,InDesign; Canva; Branding,Photoshop; Branding,3,5,Bac,Bac,Français (courant),Français (intermédiaire),63.3
+Graphiste,Illustrator; InDesign; Branding; Photoshop,Photoshop; Branding; InDesign; Illustrator; Typographie; Canva,1,2,Bac,Bac,Français (avancé),Français (avancé),100.0
+Graphiste,Branding; Typographie; Canva,Aucune information,1,0,Master,Licence,Français (courant),Français (avancé),17.5
+Developpeur Mobile,Flutter; Git; Kotlin; Dart,Flutter; Firebase; Git; Dart; InDesign,4,6,Bac,Master,Français (courant),Français (courant),86.2
+Chef de projet digital,ClickUp; Communication; Agile; Scrum; Gestion de projet; Asana,JavaScript; Google Ads,3,3,Master,Master,Français (avancé),Français (avancé); Anglais (débutant),45.0
+Social Media Manager,LinkedIn; Meta Ads; Analytics; Facebook; TikTok; Instagram,LinkedIn; Meta Ads; TikTok; Instagram,1,4,Bac,Bac,Anglais (avancé),Français (courant); Anglais (avancé),81.7
+Social Media Manager,TikTok; Facebook; Instagram; Meta Ads; Analytics,Instagram; Facebook; TikTok; Meta Ads; Analytics,1,3,Licence,Master,Français (avancé); Anglais (débutant),Français (avancé),95.0
+Social Media Manager,LinkedIn; TikTok; Instagram; Facebook; Analytics,Instagram; Analytics; LinkedIn; TikTok; Facebook; SEO; Content Strategy,1,2,Licence,Master,Français (intermédiaire),Français (courant); Anglais (courant),100.0
+Developpeur Web,PHP; HTML/CSS; MySQL; JavaScript; Git,Aucune information,2,1,Licence,Bac,Français (avancé); Anglais (avancé),Français (avancé); Anglais (avancé),27.5
+Community Manager,TikTok; Copywriting; Instagram; Facebook,Firebase; Facebook,2,5,Bac,Bac,Anglais (avancé),Français (intermédiaire); Anglais (intermédiaire),58.8
+Chef de projet digital,Asana; Communication; Scrum; Gestion de projet,Scrum,4,3,Master,Master,Français (intermédiaire),Français (avancé); Anglais (débutant),53.8
+Content Manager,Analytics; SEO; WordPress; Copywriting; Canva; Content Strategy,Copywriting; SEO; Canva; WordPress; Analytics,2,6,Licence,Master,Français (intermédiaire),Français (courant); Anglais (débutant),90.8
+SEO/SEA,SEM; Keyword Research; Search Console; SEO; Google Ads,Keyword Research; SEM,3,6,Master,Master,Anglais (avancé); Français (courant),Français (courant); Anglais (avancé),67.0
+Graphiste,Illustrator; Canva; Typographie; Branding; InDesign; Photoshop,Photoshop,2,4,Licence,Licence,Français (avancé),Français (avancé),54.2
+Developpeur Web,JavaScript; HTML/CSS; MySQL; Laravel; Git; PHP,Git; PHP,4,2,Licence,Master,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (courant),53.3
+Data Analyst,Excel; SQL; Python,SQL; Excel,1,4,Bac,Bac,Français (courant); Anglais (avancé),Français (intermédiaire),76.7
+Data Analyst,Python; Excel; Pandas; SQL; Power BI,Pandas; SQL; Power BI; Python; Excel,4,3,Master,Licence,Anglais (débutant),Français (avancé); Anglais (avancé),87.5
+Data Analyst,Data Visualization; Power BI; Excel; Python; SQL; Pandas,Pandas; Python; Excel,4,4,Master,Master,Français (avancé); Anglais (débutant),Français (avancé); Anglais (courant),72.5
+Graphiste,Canva; Typographie; InDesign; Illustrator; Photoshop; Branding,Illustrator; Canva; Photoshop,2,1,Bac,Licence,Français (avancé),Français (courant),62.5
+Content Manager,Analytics; Copywriting; WordPress; Canva; Content Strategy; SEO,WordPress,1,3,Master,Licence,Français (intermédiaire); Anglais (avancé),Français (intermédiaire); Anglais (courant),46.7
+Data Analyst,Power BI; Python; Excel,Python; Facebook,1,1,Bac,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé),58.3
+Graphiste,Canva; Typographie; Illustrator; InDesign; Branding,Photoshop,2,3,Master,Bac,Français (courant),Français (avancé),37.5
+Graphiste,Branding; Canva; Typographie; Illustrator; Photoshop,Typographie; InDesign; Canva; Branding; Photoshop,1,1,Licence,Master,Français (intermédiaire),Français (intermédiaire),89.0
+SEO/SEA,Search Console; Keyword Research; SEO; Google Ads,Keyword Research; Google Analytics; SEO; Search Console; SEM,1,3,Bac,Master,Anglais (avancé),Français (intermédiaire); Anglais (courant),86.2
+Developpeur Mobile,Git; Kotlin; Dart; Java; Flutter,Kotlin; Git; Java; Dart; Firebase,1,3,Licence,Bac,Français (avancé),Français (intermédiaire); Anglais (intermédiaire),81.5
+UI/UX Designer,UX Research; Illustrator; Prototypage; Adobe XD; Figma,Illustrator,1,6,Master,Bac,Anglais (avancé),Français (courant); Anglais (courant),48.5
+Developpeur Mobile,Firebase; Flutter; Git; Java,Git,1,1,Master,Master,Anglais (avancé),Français (avancé); Anglais (avancé),58.8
+Chef de projet digital,Communication; Gestion de projet; Agile,Agile; Communication; ClickUp; Gestion de projet,4,5,Master,Bac,Anglais (débutant); Français (courant),Français (intermédiaire); Anglais (intermédiaire),92.5
+Developpeur Web,MySQL; Laravel; PHP,Aucune information,2,0,Bac,Licence,Français (avancé),Français (courant); Anglais (courant),25.0
+Graphiste,Canva; Photoshop; Illustrator; Branding; InDesign; Typographie,InDesign; Photoshop; Canva; Branding; Illustrator; Content Strategy; UX Research,3,5,Bac,Master,Français (courant),Français (intermédiaire),90.8
+Developpeur Mobile,Git; Firebase; Kotlin; Flutter,Kotlin; Git; Dart; Java; Flutter,2,5,Licence,Licence,Anglais (courant),Français (courant),76.2
+Social Media Manager,Meta Ads; Analytics; LinkedIn,Facebook,4,0,Master,Licence,Français (courant),Français (intermédiaire); Anglais (débutant),17.5
+Graphiste,Photoshop; Illustrator; InDesign,Illustrator; Photoshop; Typographie,4,4,Licence,Licence,Français (avancé),Français (avancé),81.7
+Community Manager,Analytics; Facebook; Canva; TikTok; Instagram,Copywriting; Illustrator; Canva,1,5,Bac,Master,Anglais (courant); Français (intermédiaire),Français (courant),51.0
+SEO/SEA,Google Ads; SEM; SEO; Keyword Research; Search Console,Google Ads; Analytics,1,6,Bac,Bac,Français (avancé),Français (courant); Anglais (courant),56.0
+Chef de projet digital,Scrum; Communication; Gestion de projet; ClickUp; Agile,ClickUp; Agile,2,5,Licence,Licence,Anglais (débutant); Français (intermédiaire),Français (intermédiaire); Anglais (avancé),67.0
+SEO/SEA,Google Ads; SEM; SEO; Search Console; Google Analytics; Keyword Research,SEM; Search Console,3,2,Master,Licence,Français (courant),Français (avancé); Anglais (intermédiaire),49.2
+Social Media Manager,Analytics; LinkedIn; Instagram; Facebook,LinkedIn; Analytics; Meta Ads,2,2,Bac,Licence,Anglais (débutant),Français (intermédiaire); Anglais (débutant),72.5
+SEO/SEA,SEO; SEM; Google Ads,Search Console; Google Analytics; SEO; Keyword Research; Google Ads,2,5,Licence,Bac,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (courant),74.2
+Social Media Manager,Analytics; Instagram; TikTok,Meta Ads,4,5,Master,Bac,Anglais (avancé),Français (courant); Anglais (avancé),37.5
+SEO/SEA,Search Console; Keyword Research; SEO; Google Analytics; SEM; Google Ads,Google Analytics; SEM; SEO; Keyword Research,2,6,Licence,Licence,Anglais (débutant); Français (courant),Français (intermédiaire),76.7
+Graphiste,Typographie; InDesign; Photoshop; Canva; Illustrator; Branding,InDesign; Canva; Illustrator; Photoshop; Branding,1,1,Bac,Licence,Français (avancé),Français (intermédiaire),90.8
+Developpeur Mobile,Java; Dart; Kotlin; Flutter; Firebase; Git,Kotlin; Dart; Flutter; Java; Git; Firebase,2,2,Licence,Bac,Anglais (courant); Français (courant),Français (avancé); Anglais (courant),92.5
+Developpeur Mobile,Flutter; Firebase; Kotlin,Java; Kotlin; Firebase,1,3,Bac,Licence,Français (intermédiaire),Français (intermédiaire); Anglais (débutant),81.7
+Social Media Manager,Instagram; TikTok; LinkedIn; Analytics; Facebook,Analytics; LinkedIn; Instagram,3,6,Licence,Master,Français (intermédiaire),Français (avancé); Anglais (intermédiaire),78.0
+Chef de projet digital,Gestion de projet; ClickUp; Scrum; Agile; Communication; Asana,ClickUp; Communication; Agile; Scrum,3,7,Bac,Master,Anglais (courant); Français (avancé),Français (intermédiaire),76.7
+SEO/SEA,Keyword Research; Google Ads; Search Console; Google Analytics; SEO,Search Console; Keyword Research; SEM; SEO; Google Ads; Google Analytics,2,4,Licence,Bac,Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),92.5
+Developpeur Mobile,Git; Flutter; Dart,Git; Flutter; Dart; Firebase; Kotlin; Canva; InDesign,3,4,Licence,Master,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (intermédiaire),100.0
+SEO/SEA,Google Ads; Search Console; Google Analytics; SEO; Keyword Research; SEM,Google Analytics; Google Ads; Search Console; Keyword Research,1,0,Bac,Licence,Français (avancé); Anglais (avancé),Français (avancé); Anglais (débutant),61.7
+SEO/SEA,Google Analytics; Search Console; Google Ads; Keyword Research; SEO; SEM,Google Analytics; Google Ads; SEM; Search Console; Keyword Research; SEO,4,1,Bac,Master,Anglais (débutant); Français (courant),Français (courant),80.0
+Social Media Manager,Meta Ads; Facebook; TikTok; LinkedIn; Instagram,TikTok; Instagram; Meta Ads; Analytics; Facebook; LinkedIn,2,6,Licence,Bac,Anglais (intermédiaire); Français (avancé),Français (intermédiaire),87.5
+UI/UX Designer,Prototypage; Illustrator; Photoshop,Figma; Prototypage; Photoshop,4,1,Master,Master,Anglais (courant); Français (courant),Français (courant),61.7
+UI/UX Designer,Prototypage; Figma; Photoshop; Adobe XD; UX Research,Adobe XD,2,1,Licence,Master,Anglais (courant); Français (avancé),Français (intermédiaire),41.0
+Content Manager,Analytics; SEO; Canva,Aucune information,4,3,Master,Bac,Français (avancé),Français (intermédiaire),32.5
+Social Media Manager,Instagram; LinkedIn; Analytics; Facebook; TikTok; Meta Ads,Analytics; Facebook; LinkedIn; TikTok; Instagram; Meta Ads,4,3,Licence,Licence,Français (courant); Anglais (courant),Français (courant); Anglais (intermédiaire),95.0
+Developpeur Mobile,Kotlin; Java; Dart; Flutter; Git; Firebase,Kotlin; Git; Firebase,1,0,Master,Licence,Anglais (courant),Français (courant); Anglais (intermédiaire),45.0
+SEO/SEA,SEM; Keyword Research; Search Console,SEO; Google Ads; Keyword Research; Search Console; SEM,1,0,Master,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),72.5
+UI/UX Designer,Prototypage; Photoshop; Figma,UX Research; Figma; Adobe XD,1,4,Bac,Licence,Anglais (courant); Français (avancé),Français (intermédiaire),58.3
+Content Manager,Analytics; Copywriting; Content Strategy; Canva; WordPress; SEO,Copywriting,1,1,Bac,Bac,Français (avancé),Français (intermédiaire); Anglais (avancé),54.2
+Social Media Manager,Instagram; Meta Ads; LinkedIn; Facebook; Analytics,Facebook; TikTok; LinkedIn,3,1,Licence,Master,Anglais (courant),Français (courant); Anglais (débutant),53.7
+Graphiste,Branding; Typographie; Illustrator; Canva; Photoshop,Illustrator; Photoshop; InDesign; Branding,3,5,Licence,Master,Français (courant),Français (courant),78.0
+Social Media Manager,TikTok; Analytics; Meta Ads,Instagram; LinkedIn; Facebook,2,0,Bac,Bac,Français (avancé); Anglais (avancé),Français (intermédiaire); Anglais (courant),25.0
+Chef de projet digital,Gestion de projet; Asana; Communication,Asana,3,6,Master,Bac,Français (avancé),Français (courant); Anglais (intermédiaire),55.8
+Content Manager,Canva; Content Strategy; SEO; Analytics; WordPress; Copywriting,Analytics; Copywriting; SEO; Content Strategy; Canva,2,1,Bac,Licence,Anglais (courant); Français (courant),Français (avancé),75.8
+Community Manager,Canva; Copywriting; Instagram; Analytics; Facebook,Aucune information,3,0,Licence,Bac,Français (intermédiaire); Anglais (intermédiaire),Français (courant); Anglais (avancé),17.5
+Community Manager,Facebook; Canva; Instagram; Copywriting; TikTok; Analytics,Canva; Copywriting; TikTok; Facebook; Analytics,4,1,Bac,Master,Français (courant),Français (intermédiaire),75.8
+Graphiste,Photoshop; InDesign; Illustrator; Branding,Illustrator; InDesign; Photoshop,3,5,Bac,Bac,Français (courant),Français (intermédiaire),86.2
+Developpeur Mobile,Firebase; Git; Kotlin; Dart; Flutter,Java; Flutter; Git; Firebase; Dart,1,4,Master,Licence,Français (intermédiaire); Anglais (courant),Français (intermédiaire); Anglais (courant),81.5
+Developpeur Web,HTML/CSS; Laravel; Git; JavaScript; PHP,JavaScript; Laravel; Git; PHP,1,0,Licence,Bac,Français (avancé); Anglais (intermédiaire),Français (courant),56.5
+Chef de projet digital,Asana; Communication; Gestion de projet; Scrum; Agile; ClickUp,Communication; ClickUp; Figma; Dart,1,3,Licence,Licence,Français (intermédiaire); Anglais (avancé),Français (intermédiaire); Anglais (débutant),63.3
+Social Media Manager,Instagram; Analytics; LinkedIn,Analytics; Instagram; TikTok; Meta Ads; LinkedIn; Facebook,3,6,Bac,Bac,Anglais (courant); Français (avancé),Français (intermédiaire); Anglais (avancé),100.0
+Developpeur Web,PHP; MySQL; Git; JavaScript,PHP; Git; Laravel,1,5,Licence,Master,Anglais (intermédiaire); Français (intermédiaire),Français (avancé); Anglais (intermédiaire),72.5
+Developpeur Mobile,Kotlin; Dart; Git; Flutter; Java,Java; Dart; Kotlin; Flutter; Firebase; Git,1,1,Master,Licence,Français (avancé),Français (intermédiaire); Anglais (avancé),92.5
+Developpeur Web,Git; JavaScript; MySQL; HTML/CSS; PHP; Laravel,PHP; MySQL; HTML/CSS; Laravel; JavaScript,3,2,Licence,Master,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (débutant),84.2
+Developpeur Web,PHP; HTML/CSS; JavaScript; MySQL,PHP; Git; Laravel; JavaScript,3,2,Bac,Licence,Anglais (courant); Français (courant),Français (avancé); Anglais (intermédiaire),65.8
+Developpeur Web,MySQL; HTML/CSS; JavaScript; Git,Aucune information,3,1,Bac,Master,Français (courant); Anglais (débutant),Français (courant),26.7
+Content Manager,SEO; Canva; WordPress; Content Strategy,Analytics,3,5,Licence,Licence,Français (intermédiaire); Anglais (avancé),Français (courant),40.0
+Social Media Manager,Analytics; Facebook; LinkedIn; Meta Ads; Instagram; TikTok,Aucune information,1,0,Bac,Master,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (avancé),25.0
+Data Analyst,SQL; Power BI; Pandas,Aucune information,4,0,Licence,Master,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (courant),25.0
+Community Manager,TikTok; Analytics; Facebook; Canva,Aucune information,2,2,Bac,Bac,Anglais (débutant),Français (courant); Anglais (courant),45.0
+Graphiste,Branding; Photoshop; Typographie; InDesign,Aucune information,3,4,Master,Licence,Français (avancé),Français (intermédiaire),37.5
+Content Manager,Copywriting; WordPress; Content Strategy; SEO; Canva,Analytics; Canva; Copywriting; Content Strategy; WordPress,3,1,Bac,Licence,Français (avancé); Anglais (courant),Français (intermédiaire); Anglais (courant),75.7
+SEO/SEA,SEM; Google Ads; Search Console; Keyword Research,SEM,2,1,Licence,Master,Anglais (avancé),Français (avancé); Anglais (intermédiaire),48.8
+Community Manager,TikTok; Instagram; Copywriting,Facebook,4,3,Master,Master,Français (avancé),Français (avancé),40.0
+Data Analyst,Data Visualization; Python; Pandas; SQL,Data Visualization; Python; SQL; Pandas; Excel; Power BI; Google Analytics; PHP,4,0,Bac,Bac,Français (intermédiaire),Français (avancé); Anglais (débutant),80.0
+Developpeur Mobile,Dart; Git; Java; Flutter,Aucune information,3,2,Licence,Master,Français (intermédiaire); Anglais (avancé),Français (courant); Anglais (intermédiaire),38.3
+Developpeur Web,JavaScript; MySQL; PHP,Illustrator,4,2,Bac,Master,Français (courant),Français (courant); Anglais (intermédiaire),35.0
+Developpeur Mobile,Dart; Flutter; Kotlin; Java; Git; Firebase,Aucune information,1,4,Master,Bac,Français (intermédiaire); Anglais (courant),Français (courant); Anglais (avancé),37.5
+Content Manager,Analytics; Canva; SEO; Copywriting,Canva; Copywriting,3,6,Master,Master,Anglais (débutant); Français (courant),Français (intermédiaire),67.5
+UI/UX Designer,Photoshop; Adobe XD; Illustrator; Prototypage,Photoshop; Adobe XD; Figma; Prototypage; Illustrator; Copywriting,4,2,Bac,Licence,Anglais (intermédiaire),Français (avancé); Anglais (débutant),90.0
+Social Media Manager,Analytics; Instagram; LinkedIn; Meta Ads,Aucune information,4,3,Master,Master,Français (avancé); Anglais (courant),Français (courant); Anglais (débutant),40.0
+Developpeur Mobile,Firebase; Flutter; Dart; Java,Aucune information,3,2,Master,Bac,Français (courant); Anglais (débutant),Français (courant); Anglais (avancé),30.8
+Data Analyst,SQL; Data Visualization; Pandas; Python; Excel; Power BI,Python; Data Visualization,2,1,Licence,Licence,Anglais (courant),Français (intermédiaire),43.3
+UI/UX Designer,Adobe XD; Figma; UX Research; Prototypage; Photoshop,Adobe XD; Prototypage; Photoshop; UX Research; Illustrator,4,3,Bac,Master,Anglais (intermédiaire),Français (avancé),74.0
+UI/UX Designer,UX Research; Figma; Adobe XD,UX Research; Photoshop; Prototypage; Illustrator,2,2,Bac,Bac,Anglais (avancé); Français (intermédiaire),Français (avancé); Anglais (intermédiaire),63.3
+Graphiste,Branding; Photoshop; Illustrator; Canva; Typographie; InDesign,Canva; Illustrator; Photoshop; Branding; InDesign; Typographie,4,0,Licence,Bac,Français (intermédiaire),Français (avancé),72.5
+Social Media Manager,Instagram; TikTok; Analytics,TikTok; Instagram; Meta Ads; Analytics; Facebook; LinkedIn,1,4,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (débutant),100.0
+Developpeur Web,PHP; MySQL; HTML/CSS; Laravel; JavaScript,Git; MySQL; Laravel; JavaScript; PHP; HTML/CSS,4,5,Master,Master,Anglais (avancé),Français (courant); Anglais (courant),100.0
+Content Manager,Canva; Content Strategy; WordPress; SEO; Analytics; Copywriting,Analytics,4,6,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (avancé),54.2
+Content Manager,Canva; SEO; Copywriting; Content Strategy; Analytics,Content Strategy; WordPress; SEO; Copywriting,4,3,Bac,Bac,Français (avancé); Anglais (intermédiaire),Français (avancé),68.0
+Community Manager,Canva; Facebook; Analytics,Copywriting; TikTok,3,0,Bac,Bac,Français (intermédiaire); Anglais (avancé),Français (intermédiaire),20.0
+Chef de projet digital,ClickUp; Scrum; Agile; Asana; Gestion de projet,Gestion de projet; Scrum; ClickUp; Communication; Asana; Agile; TikTok,1,7,Licence,Licence,Anglais (intermédiaire); Français (avancé),Français (courant),95.0
+Developpeur Web,HTML/CSS; JavaScript; PHP; Git,PHP; Laravel; Git; JavaScript; HTML/CSS; MySQL,1,5,Licence,Master,Français (courant); Anglais (intermédiaire),Français (intermédiaire),95.0
+Developpeur Mobile,Kotlin; Flutter; Git; Dart,Java; Git; SEO; Adobe XD,2,2,Licence,Licence,Français (courant); Anglais (courant),Français (avancé); Anglais (courant),58.8
+UI/UX Designer,Photoshop; Prototypage; Figma; UX Research,Figma,4,6,Bac,Master,Anglais (avancé); Français (avancé),Français (intermédiaire); Anglais (courant),58.8
+UI/UX Designer,Adobe XD; Figma; Photoshop,Adobe XD; Photoshop; UX Research; Figma; Canva,4,6,Bac,Licence,Anglais (débutant); Français (courant),Français (intermédiaire); Anglais (intermédiaire),100.0
+Chef de projet digital,Gestion de projet; Scrum; ClickUp; Communication; Asana; Agile,Communication; Asana; Agile; ClickUp; Scrum,2,7,Bac,Licence,Anglais (intermédiaire),Français (avancé); Anglais (débutant),90.8
+Data Analyst,Power BI; SQL; Data Visualization,Data Visualization; Pandas; SQL,1,3,Bac,Licence,Français (intermédiaire),Français (avancé); Anglais (intermédiaire),81.7
+Content Manager,Copywriting; Analytics; WordPress,Canva; Analytics; Content Strategy; SEO; Copywriting,3,3,Licence,Master,Anglais (courant),Français (intermédiaire),71.7
+UI/UX Designer,Illustrator; Photoshop; Adobe XD; Prototypage; Figma; UX Research,Aucune information,4,0,Licence,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (avancé); Anglais (avancé),17.5
+SEO/SEA,SEM; Keyword Research; SEO,SEM; Google Ads; Keyword Research; Search Console; Google Analytics; SEO; Dart,4,2,Master,Licence,Anglais (courant),Français (courant); Anglais (débutant),82.5
+Social Media Manager,Meta Ads; TikTok; Analytics; LinkedIn,Facebook; Analytics; Meta Ads,3,6,Licence,Master,Français (avancé); Anglais (courant),Français (avancé),67.5
+Social Media Manager,Meta Ads; LinkedIn; Instagram; TikTok,Analytics,4,5,Bac,Bac,Français (avancé); Anglais (courant),Français (courant); Anglais (intermédiaire),45.0
+UI/UX Designer,Adobe XD; Figma; UX Research; Photoshop; Prototypage; Illustrator,Figma; PHP,3,5,Master,Master,Anglais (intermédiaire),Français (courant); Anglais (courant),54.2
+Data Analyst,Pandas; Power BI; Python,SQL; Excel; Data Visualization; Pandas; Python,2,6,Licence,Licence,Français (avancé); Anglais (avancé),Français (avancé),76.7
+UI/UX Designer,UX Research; Prototypage; Figma,Photoshop,1,1,Licence,Bac,Français (courant),Français (intermédiaire); Anglais (avancé),37.5
+Graphiste,Photoshop; Canva; Typographie; Illustrator; Branding; InDesign,Typographie; Canva,1,1,Bac,Licence,Français (courant),Français (intermédiaire),63.3
+UI/UX Designer,Figma; Photoshop; Prototypage,UX Research; Photoshop; Figma; Illustrator,4,4,Master,Bac,Français (courant),Français (courant); Anglais (avancé),74.2
+Social Media Manager,Instagram; Facebook; TikTok,TikTok; LinkedIn,2,2,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (courant),63.3
+Chef de projet digital,Gestion de projet; ClickUp; Scrum; Communication; Agile; Asana,Scrum,3,7,Licence,Licence,Anglais (avancé),Français (avancé),44.2
+Community Manager,Copywriting; Facebook; Canva; Instagram; Analytics,Facebook,3,2,Licence,Master,Anglais (débutant),Français (avancé); Anglais (avancé),49.3
+Data Analyst,Power BI; Python; Pandas; Data Visualization; SQL,Data Visualization,4,2,Bac,Licence,Français (courant); Anglais (courant),Français (courant); Anglais (avancé),46.0
+Developpeur Web,Laravel; Git; MySQL; PHP; JavaScript,Aucune information,4,5,Licence,Master,Français (intermédiaire),Français (avancé),45.0
+SEO/SEA,Google Analytics; Search Console; Google Ads; SEO; Keyword Research; SEM,Aucune information,4,4,Bac,Licence,Anglais (avancé); Français (avancé),Français (avancé); Anglais (débutant),45.0
+Developpeur Web,PHP; JavaScript; HTML/CSS; Laravel; MySQL,HTML/CSS; PHP,2,6,Licence,Licence,Français (avancé),Français (courant),67.0
+Social Media Manager,Facebook; Meta Ads; TikTok; Instagram; Analytics; LinkedIn,TikTok; Meta Ads; Facebook; LinkedIn; Analytics; Instagram,3,1,Master,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (courant),74.2
+UI/UX Designer,Adobe XD; Photoshop; Figma,Aucune information,1,0,Licence,Licence,Français (courant),Français (courant); Anglais (avancé),25.0
+SEO/SEA,Search Console; Google Ads; Keyword Research; Google Analytics; SEM,SEM; SEO; Google Ads; Google Analytics; Search Console,1,2,Bac,Licence,Français (avancé); Anglais (intermédiaire),Français (avancé),84.0
+Developpeur Mobile,Firebase; Flutter; Kotlin; Git; Java,Flutter; Dart; Kotlin,2,3,Master,Licence,Français (avancé),Français (avancé); Anglais (intermédiaire),59.5
+Graphiste,InDesign; Canva; Illustrator; Typographie; Photoshop,Branding; Typographie; Illustrator,2,1,Bac,Bac,Français (intermédiaire),Français (avancé),57.0
+UI/UX Designer,Prototypage; Figma; Adobe XD; Illustrator; UX Research,Photoshop; SEM; Meta Ads,1,2,Bac,Licence,Anglais (courant),Français (courant); Anglais (débutant),45.0
+Social Media Manager,Instagram; Analytics; LinkedIn; TikTok; Meta Ads; Facebook,Aucune information,1,5,Licence,Licence,Anglais (avancé); Français (avancé),Français (avancé); Anglais (débutant),45.0
+UI/UX Designer,Prototypage; UX Research; Illustrator; Photoshop; Adobe XD,Aucune information,1,0,Master,Master,Français (courant),Français (courant); Anglais (débutant),25.0
+Developpeur Mobile,Dart; Java; Git; Kotlin; Firebase,Dart,1,2,Bac,Master,Anglais (courant); Français (courant),Français (intermédiaire); Anglais (débutant),56.0
+UI/UX Designer,UX Research; Photoshop; Adobe XD; Figma; Illustrator; Prototypage,Aucune information,2,3,Bac,Licence,Anglais (débutant); Français (courant),Français (courant); Anglais (intermédiaire),45.0
+Developpeur Mobile,Kotlin; Flutter; Firebase; Dart,Aucune information,1,4,Licence,Master,Anglais (intermédiaire),Français (avancé),35.0
+Data Analyst,SQL; Python; Pandas; Data Visualization,Power BI; Excel; Pandas; SQL; Python,3,4,Licence,Master,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (avancé),86.2
+Content Manager,WordPress; Copywriting; Analytics; Canva; SEO; Content Strategy,Analytics; Canva; Copywriting; WordPress,2,1,Licence,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),71.7
+Data Analyst,Pandas; SQL; Excel; Power BI; Data Visualization; Python,Python,4,5,Master,Master,Anglais (intermédiaire); Français (avancé),Français (avancé); Anglais (courant),54.2
+Social Media Manager,Facebook; Analytics; LinkedIn; TikTok; Meta Ads,Meta Ads; Instagram; TikTok; Analytics,4,6,Master,Licence,Anglais (intermédiaire),Français (avancé); Anglais (débutant),70.5
+Community Manager,Facebook; Canva; TikTok,Instagram; TikTok,1,6,Licence,Master,Français (avancé); Anglais (débutant),Français (intermédiaire),58.3
+Developpeur Mobile,Dart; Kotlin; Git; Firebase; Flutter,Dart; Git,3,0,Bac,Licence,Anglais (avancé),Français (avancé),37.0
+UI/UX Designer,UX Research; Photoshop; Adobe XD; Prototypage; Figma; Illustrator,Figma; Photoshop,2,5,Licence,Licence,Anglais (avancé),Français (courant); Anglais (débutant),63.3
+SEO/SEA,Google Ads; Keyword Research; SEM,SEM; Search Console; Keyword Research,3,4,Master,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (courant),69.2
+UI/UX Designer,Adobe XD; Prototypage; Photoshop; Figma; UX Research,Figma; Illustrator; Prototypage; UX Research; Photoshop; Flutter; Canva,1,4,Licence,Bac,Anglais (intermédiaire),Français (courant),71.5
+Social Media Manager,Facebook; Meta Ads; Analytics,Instagram,2,5,Master,Bac,Anglais (intermédiaire),Français (courant); Anglais (courant),37.5
+Developpeur Web,JavaScript; Laravel; PHP; Git; MySQL; HTML/CSS,PHP,1,6,Master,Master,Français (intermédiaire),Français (courant); Anglais (avancé),54.2
+Developpeur Mobile,Git; Kotlin; Dart; Flutter; Java,Kotlin,4,6,Master,Master,Anglais (courant),Français (courant),46.0
+Data Analyst,Power BI; Data Visualization; Excel; SQL,Power BI; Python; Data Visualization,1,6,Master,Bac,Anglais (débutant); Français (courant),Français (courant); Anglais (courant),65.0
+Content Manager,WordPress; Content Strategy; Copywriting; Analytics; SEO; Canva,Aucune information,3,2,Bac,Master,Anglais (avancé); Français (courant),Français (avancé),33.3
+Social Media Manager,Meta Ads; Facebook; Instagram; TikTok; Analytics; LinkedIn,Analytics; TikTok; LinkedIn; Facebook; Instagram; Meta Ads,3,4,Licence,Master,Anglais (courant),Français (intermédiaire); Anglais (avancé),100.0
+Data Analyst,SQL; Excel; Pandas; Power BI; Data Visualization,Python,1,7,Bac,Master,Français (courant),Français (courant); Anglais (débutant),45.0
+Graphiste,Illustrator; Canva; Branding,Aucune information,1,0,Bac,Licence,Français (courant),Français (courant),25.0
+Developpeur Web,MySQL; PHP; Git; Laravel,Git; HTML/CSS,2,1,Master,Bac,Français (courant),Français (courant),41.2
+Data Analyst,Python; Pandas; Data Visualization; Excel,Aucune information,1,6,Bac,Master,Français (intermédiaire),Français (avancé); Anglais (intermédiaire),45.0
+UI/UX Designer,Adobe XD; UX Research; Illustrator; Photoshop; Prototypage; Figma,Figma; Prototypage; UX Research; Illustrator; Adobe XD; Photoshop,2,0,Bac,Master,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (avancé),80.0
+Community Manager,Canva; TikTok; Facebook; Analytics; Instagram,Copywriting; Facebook; Analytics,1,2,Master,Master,Anglais (débutant),Français (courant); Anglais (courant),67.0
+Community Manager,TikTok; Facebook; Instagram; Copywriting,Facebook; Copywriting; Analytics,3,0,Master,Licence,Français (courant),Français (courant); Anglais (courant),45.0
+Developpeur Mobile,Dart; Firebase; Flutter; Git; Java; Kotlin,Dart; Flutter,2,0,Master,Bac,Anglais (avancé); Français (courant),Français (intermédiaire); Anglais (courant),35.8
+Developpeur Web,PHP; Git; JavaScript; MySQL; HTML/CSS; Laravel,PHP; JavaScript; MySQL,4,2,Master,Licence,Français (intermédiaire),Français (courant),55.0
+Developpeur Mobile,Dart; Git; Flutter,UX Research,1,2,Master,Bac,Français (avancé),Français (avancé); Anglais (intermédiaire),37.5
+Graphiste,Illustrator; Branding; Canva; Typographie; Photoshop,Typographie; InDesign; Illustrator,1,2,Bac,Licence,Français (avancé),Français (avancé),67.0
+Graphiste,InDesign; Branding; Photoshop; Canva; Illustrator,Aucune information,4,6,Master,Master,Français (intermédiaire),Français (intermédiaire),45.0
+Data Analyst,Python; Excel; SQL; Data Visualization,Aucune information,2,0,Master,Licence,Anglais (avancé); Français (avancé),Français (courant); Anglais (débutant),17.5
+Developpeur Mobile,Firebase; Java; Git,UX Research,4,5,Bac,Licence,Anglais (avancé); Français (courant),Français (courant); Anglais (débutant),45.0
+Data Analyst,Python; Pandas; Excel; SQL; Data Visualization,Python; Pandas; Power BI; Excel; SQL; Data Visualization,1,4,Licence,Bac,Anglais (débutant); Français (intermédiaire),Français (avancé),87.5
+Graphiste,Photoshop; InDesign; Branding; Typographie,Canva; Photoshop; InDesign; Illustrator,2,2,Master,Master,Français (intermédiaire),Français (courant),72.5
+Developpeur Mobile,Java; Firebase; Kotlin; Flutter; Dart,Aucune information,4,3,Bac,Master,Français (avancé); Anglais (avancé),Français (courant),35.0
+Developpeur Web,MySQL; JavaScript; HTML/CSS,MySQL; HTML/CSS; Git; PHP; JavaScript; Laravel; Communication,1,1,Licence,Bac,Anglais (courant),Français (courant),82.5
+Data Analyst,Pandas; Excel; Python; Data Visualization; Power BI; SQL,Data Visualization; Python; SQL; Power BI; Copywriting; Dart,3,1,Licence,Bac,Anglais (débutant),Français (courant); Anglais (intermédiaire),60.8
+SEO/SEA,Search Console; SEM; Google Analytics,Search Console; Google Analytics; SEM,2,2,Bac,Master,Anglais (intermédiaire); Français (intermédiaire),Français (avancé); Anglais (débutant),100.0
+Community Manager,Copywriting; Facebook; Analytics; TikTok,Copywriting; Facebook; Instagram; Canva; Analytics; TikTok,2,1,Licence,Master,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (débutant),90.0
+Data Analyst,Pandas; Python; Data Visualization; Excel; SQL; Power BI,Excel; Photoshop,3,7,Licence,Licence,Anglais (courant),Français (courant),44.2
+Graphiste,Typographie; Canva; InDesign; Photoshop; Illustrator; Branding,Canva; Illustrator; Branding,3,1,Master,Licence,Français (avancé),Français (intermédiaire),51.7
+UI/UX Designer,Photoshop; UX Research; Prototypage; Figma; Illustrator,Adobe XD; UX Research; Illustrator; Figma; Photoshop; WordPress,4,4,Licence,Master,Anglais (courant),Français (courant),79.0
+Developpeur Web,PHP; Laravel; HTML/CSS; Git; JavaScript; MySQL,Aucune information,3,6,Bac,Licence,Français (courant); Anglais (intermédiaire),Français (avancé); Anglais (débutant),45.0
+Developpeur Web,HTML/CSS; MySQL; Git,Git; Laravel; JavaScript; MySQL; PHP; HTML/CSS,4,4,Master,Master,Anglais (avancé); Français (intermédiaire),Français (courant); Anglais (avancé),100.0
+Social Media Manager,Instagram; Meta Ads; TikTok; Facebook; LinkedIn; Analytics,TikTok; LinkedIn,4,1,Licence,Bac,Anglais (avancé),Français (intermédiaire); Anglais (débutant),40.8
+Data Analyst,Pandas; Data Visualization; Excel; Python; SQL,Power BI; Data Visualization,3,4,Bac,Licence,Anglais (courant),Français (courant),46.0
+Graphiste,Illustrator; Photoshop; Typographie; InDesign; Branding,Aucune information,1,6,Master,Bac,Français (avancé),Français (courant),37.5
+Community Manager,Analytics; Canva; Instagram; Copywriting; TikTok; Facebook,Aucune information,1,2,Licence,Master,Anglais (débutant); Français (courant),Français (intermédiaire),40.0
+Developpeur Mobile,Kotlin; Flutter; Firebase; Java,Aucune information,3,5,Licence,Master,Français (intermédiaire); Anglais (courant),Français (intermédiaire); Anglais (avancé),45.0
+Developpeur Web,Laravel; HTML/CSS; Git,Laravel; Git; HTML/CSS,2,2,Master,Bac,Anglais (débutant),Français (intermédiaire); Anglais (courant),92.5
+Graphiste,Canva; Photoshop; Typographie,Typographie; InDesign; Canva,2,1,Master,Master,Français (intermédiaire),Français (courant),71.7
+Data Analyst,Excel; SQL; Data Visualization; Power BI,Python; SQL; TikTok,4,7,Licence,Licence,Anglais (courant); Français (intermédiaire),Français (avancé); Anglais (avancé),58.8
+UI/UX Designer,Photoshop; Figma; UX Research; Illustrator; Adobe XD; Prototypage,Photoshop; Prototypage; Git,4,4,Licence,Licence,Français (courant); Anglais (intermédiaire),Français (courant); Anglais (courant),63.3
+SEO/SEA,SEM; Search Console; Google Analytics; SEO; Google Ads; Keyword Research,SEM; Google Ads; Keyword Research,2,6,Licence,Master,Anglais (courant),Français (intermédiaire); Anglais (avancé),72.5
+Social Media Manager,Meta Ads; Analytics; Facebook; TikTok,Meta Ads; Facebook,1,4,Licence,Bac,Anglais (débutant),Français (avancé); Anglais (courant),65.0
+Data Analyst,Data Visualization; SQL; Excel; Python; Pandas; Power BI,Aucune information,4,1,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (courant),30.0
+UI/UX Designer,Photoshop; Figma; Adobe XD; UX Research; Prototypage,Illustrator; Adobe XD; Photoshop; Figma; UX Research; Power BI; WordPress,1,5,Licence,Licence,Anglais (courant),Français (intermédiaire); Anglais (courant),89.0
+UI/UX Designer,UX Research; Prototypage; Illustrator,UX Research; Figma; Photoshop; Adobe XD,2,0,Master,Licence,Anglais (intermédiaire); Français (courant),Français (intermédiaire),30.8
+SEO/SEA,SEM; SEO; Google Ads; Search Console; Google Analytics,Aucune information,4,5,Licence,Licence,Anglais (avancé),Français (courant),35.0
+Developpeur Mobile,Dart; Java; Flutter; Kotlin; Git; Firebase,Dart; Flutter,3,1,Licence,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),50.0
+SEO/SEA,Keyword Research; Search Console; Google Ads; SEO; SEM; Google Analytics,Search Console; Keyword Research,4,6,Licence,Bac,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (débutant),55.8
+Data Analyst,Pandas; Power BI; Excel; Data Visualization; Python; SQL,Data Visualization; Python; Power BI,4,2,Master,Master,Français (courant); Anglais (débutant),Français (intermédiaire),57.5
+Chef de projet digital,Agile; ClickUp; Gestion de projet,Agile; Asana; Communication,2,4,Master,Master,Français (avancé); Anglais (débutant),Français (courant),58.3
+Social Media Manager,Meta Ads; Instagram; Analytics; LinkedIn; Facebook,TikTok,3,5,Master,Bac,Anglais (courant); Français (avancé),Français (avancé); Anglais (courant),37.5
+Social Media Manager,Instagram; Analytics; LinkedIn; Facebook; TikTok; Meta Ads,Facebook; Analytics,2,4,Bac,Bac,Anglais (intermédiaire),Français (courant); Anglais (débutant),63.3
+Graphiste,Typographie; Photoshop; Illustrator; Canva; InDesign,Canva; InDesign; Illustrator; Photoshop,4,0,Master,Master,Français (courant),Français (avancé),69.0
+UI/UX Designer,Prototypage; Figma; Adobe XD; Photoshop; Illustrator,Figma,3,1,Master,Bac,Anglais (courant); Français (intermédiaire),Français (avancé),30.2
+UI/UX Designer,Illustrator; Figma; Photoshop; Prototypage,Photoshop; Prototypage,1,1,Bac,Master,Anglais (courant); Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),72.5
+Chef de projet digital,Asana; Gestion de projet; Communication; ClickUp; Agile,ClickUp; Communication; Asana; Gestion de projet; Search Console,2,5,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (courant),89.0
+Chef de projet digital,Communication; ClickUp; Scrum; Asana; Agile,ClickUp,4,3,Licence,Bac,Français (avancé),Français (courant); Anglais (avancé),43.5
+Social Media Manager,Meta Ads; Facebook; TikTok; Analytics; Instagram,Analytics; Facebook,4,6,Licence,Bac,Anglais (débutant),Français (courant),49.5
+Chef de projet digital,Scrum; ClickUp; Agile; Gestion de projet; Communication; Asana,Aucune information,2,1,Master,Bac,Français (intermédiaire),Français (courant); Anglais (avancé),27.5
+Developpeur Mobile,Dart; Java; Flutter; Kotlin; Firebase,Kotlin; Flutter; Java; Illustrator; Pandas,2,2,Master,Bac,Français (avancé); Anglais (débutant),Français (courant); Anglais (courant),70.5
+Content Manager,Analytics; Content Strategy; Canva; WordPress,Canva; Content Strategy,1,0,Licence,Master,Anglais (courant); Français (courant),Français (intermédiaire),47.5
+Developpeur Mobile,Kotlin; Flutter; Dart; Git,Firebase; Git; Flutter; Kotlin; Java,1,5,Bac,Master,Français (avancé),Français (avancé),86.2
+UI/UX Designer,Figma; Illustrator; Photoshop; UX Research; Adobe XD,Adobe XD; Photoshop; UX Research; Figma; Illustrator; Prototypage,2,2,Master,Bac,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (avancé),92.5
+Social Media Manager,Analytics; Instagram; Facebook; TikTok; Meta Ads; LinkedIn,TikTok,2,4,Master,Master,Anglais (intermédiaire); Français (intermédiaire),Français (courant),49.2
+Data Analyst,Excel; SQL; Power BI; Pandas,Power BI,1,5,Bac,Master,Anglais (débutant),Français (avancé); Anglais (débutant),58.8
+Developpeur Web,HTML/CSS; PHP; MySQL; JavaScript; Git,MySQL,4,3,Licence,Master,Anglais (débutant); Français (intermédiaire),Français (intermédiaire); Anglais (débutant),51.0
+Content Manager,Content Strategy; Analytics; Canva; Copywriting; SEO; WordPress,Canva; Copywriting; WordPress; Analytics; Content Strategy,2,6,Licence,Licence,Anglais (débutant); Français (intermédiaire),Français (intermédiaire),85.8
+Developpeur Web,JavaScript; Laravel; MySQL; Git,MySQL; PHP; JavaScript; Laravel; Git,2,3,Master,Licence,Français (intermédiaire),Français (courant); Anglais (intermédiaire),92.5
+UI/UX Designer,Adobe XD; Photoshop; Prototypage; Figma,Aucune information,2,1,Bac,Master,Anglais (courant),Français (courant); Anglais (courant),35.0
+Chef de projet digital,Asana; Agile; ClickUp; Communication,ClickUp; Communication; Scrum; Agile; Gestion de projet,4,6,Master,Licence,Anglais (courant),Français (intermédiaire),68.8
+SEO/SEA,Google Analytics; SEM; SEO,Google Analytics; Search Console,2,0,Master,Master,Français (courant),Français (avancé); Anglais (intermédiaire),43.3
+Developpeur Mobile,Dart; Git; Kotlin; Flutter,Kotlin; Dart; Git; Facebook,2,5,Licence,Licence,Français (courant); Anglais (avancé),Français (avancé); Anglais (courant),86.2
+UI/UX Designer,UX Research; Prototypage; Figma; Adobe XD; Illustrator; Photoshop,Adobe XD; Prototypage,1,5,Master,Licence,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (courant),55.8
+Developpeur Web,Git; MySQL; PHP; JavaScript; Laravel,Laravel; Git; JavaScript; MySQL; PHP; HTML/CSS; Scrum; Branding,3,1,Licence,Master,Anglais (débutant); Français (avancé),Français (intermédiaire),81.7
+Developpeur Web,MySQL; PHP; JavaScript; Laravel; HTML/CSS; Git,HTML/CSS; MySQL,1,0,Master,Master,Anglais (intermédiaire); Français (avancé),Français (intermédiaire); Anglais (intermédiaire),43.3
+SEO/SEA,SEM; Google Analytics; Keyword Research,SEO; Keyword Research; SEM; Search Console; Google Analytics,1,1,Master,Master,Anglais (débutant),Français (avancé); Anglais (courant),100.0
+Community Manager,Canva; Copywriting; Instagram; TikTok; Analytics,Copywriting,1,5,Bac,Bac,Anglais (courant); Français (intermédiaire),Français (courant); Anglais (courant),56.0
+Community Manager,Canva; Facebook; Instagram; TikTok; Analytics; Copywriting,Copywriting; Analytics,4,6,Bac,Bac,Anglais (courant),Français (courant),53.3
+Content Manager,SEO; Canva; Copywriting; Content Strategy; WordPress; Analytics,WordPress; Canva; Agile,1,1,Master,Licence,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),55.8
+Social Media Manager,Instagram; Analytics; Facebook,Analytics; Meta Ads; LinkedIn; TikTok; Instagram,3,2,Bac,Master,Anglais (avancé),Français (avancé); Anglais (courant),75.0
+Social Media Manager,TikTok; Analytics; LinkedIn; Facebook; Instagram,LinkedIn; Facebook,4,4,Bac,Bac,Anglais (débutant),Français (courant); Anglais (débutant),67.0
+Developpeur Mobile,Kotlin; Java; Firebase; Dart,Java,3,4,Licence,Licence,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (courant),58.8
+Developpeur Web,JavaScript; Git; Laravel; HTML/CSS; PHP,Laravel; HTML/CSS; PHP,4,1,Master,Bac,Français (intermédiaire),Français (intermédiaire),55.5
+SEO/SEA,Google Ads; SEM; Google Analytics; Search Console; Keyword Research,SEM; Search Console; Keyword Research; Google Ads; Google Analytics; SEO,1,1,Master,Licence,Anglais (intermédiaire); Français (avancé),Français (intermédiaire); Anglais (débutant),92.5
+Social Media Manager,Analytics; Instagram; Facebook; Meta Ads; TikTok; LinkedIn,Meta Ads,4,0,Bac,Master,Français (avancé),Français (avancé); Anglais (débutant),34.2
+Social Media Manager,Instagram; Meta Ads; LinkedIn; TikTok,Meta Ads; Instagram; Analytics; LinkedIn,1,6,Licence,Bac,Anglais (avancé),Français (intermédiaire); Anglais (avancé),78.8
+UI/UX Designer,Figma; UX Research; Adobe XD; Photoshop; Illustrator,Prototypage; Figma; Photoshop,4,1,Bac,Bac,Français (avancé); Anglais (avancé),Français (intermédiaire); Anglais (intermédiaire),52.0
+Developpeur Web,JavaScript; Git; HTML/CSS; PHP; Laravel; MySQL,HTML/CSS; PHP; MySQL,1,6,Master,Master,Anglais (courant),Français (courant),62.5
+Data Analyst,Power BI; Python; Pandas; Data Visualization; SQL; Excel,Power BI,2,5,Licence,Master,Anglais (avancé); Français (avancé),Français (intermédiaire),49.2
+Chef de projet digital,Asana; Communication; Gestion de projet; ClickUp,Agile; Scrum; Gestion de projet; Asana,4,3,Licence,Licence,Anglais (avancé); Français (intermédiaire),Français (avancé); Anglais (avancé),67.5
+UI/UX Designer,Illustrator; UX Research; Photoshop; Figma; Prototypage,Adobe XD; Figma; UX Research; Photoshop; Illustrator,2,2,Master,Licence,Anglais (avancé); Français (courant),Français (intermédiaire),76.5
+Chef de projet digital,Asana; Scrum; Communication; ClickUp,ClickUp,3,0,Licence,Master,Français (courant); Anglais (intermédiaire),Français (courant),33.8
+Community Manager,Instagram; Analytics; TikTok; Canva,Canva; Copywriting; Facebook,1,6,Master,Master,Anglais (intermédiaire),Français (intermédiaire),48.8
+Developpeur Web,HTML/CSS; PHP; MySQL; Git; JavaScript; Laravel,HTML/CSS; Laravel,1,5,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (débutant),63.3
+Developpeur Web,JavaScript; MySQL; PHP; HTML/CSS; Git,Laravel,1,4,Bac,Licence,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),45.0
+Developpeur Web,HTML/CSS; PHP; Laravel; Git; JavaScript,JavaScript; Laravel; Git; HTML/CSS,4,4,Bac,Licence,Français (avancé); Anglais (courant),Français (courant),84.0
+Chef de projet digital,Gestion de projet; Communication; ClickUp; Agile,Gestion de projet; ClickUp,3,4,Licence,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé),67.5
+Community Manager,Analytics; Canva; Facebook; Copywriting; Instagram,Facebook,1,5,Licence,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé); Anglais (courant),56.0
+Data Analyst,SQL; Python; Data Visualization; Pandas,Aucune information,3,3,Master,Master,Anglais (débutant); Français (intermédiaire),Français (avancé),40.0
+Graphiste,Illustrator; Typographie; Branding; Canva; InDesign; Photoshop,InDesign; Typographie; Illustrator; Canva; Branding; Photoshop,3,2,Bac,Licence,Français (courant),Français (intermédiaire),93.3
+Content Manager,Canva; WordPress; Analytics; Content Strategy; SEO; Copywriting,Analytics,2,2,Licence,Licence,Français (avancé); Anglais (courant),Français (avancé); Anglais (débutant),54.2
+SEO/SEA,Keyword Research; Search Console; Google Ads; SEO; SEM,Google Analytics,3,5,Bac,Master,Français (avancé),Français (avancé); Anglais (intermédiaire),45.0
+SEO/SEA,Google Ads; Google Analytics; SEM; SEO; Keyword Research; Search Console,Aucune information,3,5,Licence,Bac,Anglais (avancé); Français (courant),Français (courant); Anglais (avancé),37.5
+UI/UX Designer,Prototypage; Photoshop; Adobe XD; UX Research,Prototypage; Photoshop; UX Research; Illustrator,1,6,Licence,Master,Anglais (avancé),Français (intermédiaire),76.2
+Social Media Manager,Analytics; Instagram; Meta Ads; LinkedIn; TikTok; Facebook,Meta Ads; Facebook; TikTok; Canva,4,3,Licence,Licence,Français (avancé); Anglais (intermédiaire),Français (avancé),62.5
+Data Analyst,Python; Pandas; Power BI; Data Visualization; SQL,Python; Pandas; Data Visualization; Excel; HTML/CSS; SEO,4,7,Licence,Master,Français (avancé); Anglais (avancé),Français (intermédiaire),73.0
+Developpeur Mobile,Firebase; Git; Java; Kotlin; Flutter; Dart,Aucune information,1,2,Bac,Bac,Anglais (intermédiaire); Français (avancé),Français (courant); Anglais (courant),45.0
+Developpeur Web,MySQL; Git; Laravel; JavaScript,JavaScript; MySQL; Laravel; PHP; HTML/CSS; Git,2,0,Master,Bac,Anglais (courant); Français (avancé),Français (avancé); Anglais (débutant),72.5
+UI/UX Designer,Figma; Photoshop; Prototypage; UX Research; Illustrator,Adobe XD; UX Research,2,0,Licence,Bac,Anglais (courant),Français (avancé),18.5
+SEO/SEA,SEM; Google Ads; Search Console,SEM,1,0,Licence,Bac,Anglais (débutant); Français (courant),Français (intermédiaire),30.8
+Content Manager,SEO; Analytics; WordPress,SEO,4,6,Master,Master,Anglais (débutant); Français (avancé),Français (avancé); Anglais (courant),63.3
+Developpeur Mobile,Flutter; Kotlin; Git; Dart; Firebase; Java,Kotlin; Firebase; Dart; Java; Flutter; Git,3,0,Licence,Licence,Français (avancé); Anglais (avancé),Français (intermédiaire),75.0
+UI/UX Designer,Adobe XD; Prototypage; Figma; Illustrator,Adobe XD; Photoshop; Prototypage; Illustrator,2,1,Bac,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (courant); Anglais (avancé),76.2
+UI/UX Designer,Figma; Adobe XD; UX Research; Prototypage; Illustrator,Aucune information,3,2,Licence,Bac,Anglais (courant); Français (intermédiaire),Français (courant),25.8
+UI/UX Designer,Figma; Prototypage; Illustrator; Photoshop; UX Research; Adobe XD,Figma; UX Research; Illustrator,1,3,Bac,Master,Français (avancé); Anglais (intermédiaire),Français (avancé); Anglais (débutant),72.5
+Developpeur Web,Git; HTML/CSS; MySQL; PHP; Laravel,HTML/CSS; JavaScript; Laravel; Photoshop; Canva,3,1,Master,Bac,Anglais (intermédiaire),Français (intermédiaire),36.2
+SEO/SEA,Keyword Research; SEO; Google Ads; Search Console; SEM,Keyword Research; Search Console; Google Analytics; SEO; Google Ads,2,5,Master,Bac,Anglais (intermédiaire); Français (avancé),Français (intermédiaire); Anglais (débutant),81.5
+SEO/SEA,Google Ads; Search Console; SEO,SEM,2,4,Master,Licence,Français (courant),Français (avancé); Anglais (avancé),37.5
+Content Manager,Canva; SEO; Analytics; Copywriting; Content Strategy; WordPress,Copywriting,1,6,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (intermédiaire),41.7
+Developpeur Mobile,Java; Firebase; Flutter; Dart; Kotlin,Git,1,0,Master,Master,Français (courant),Français (courant),25.0
+Social Media Manager,LinkedIn; Analytics; Facebook; TikTok; Meta Ads,Analytics; Instagram; Facebook; LinkedIn; Meta Ads; TikTok,4,4,Master,Master,Français (courant),Français (intermédiaire); Anglais (courant),100.0
+Data Analyst,Data Visualization; Pandas; SQL; Power BI,Data Visualization; SQL; Power BI; Python; Pandas; Excel,2,6,Bac,Licence,Français (intermédiaire),Français (intermédiaire); Anglais (avancé),100.0
+Chef de projet digital,Asana; Scrum; Communication; Agile; ClickUp; Gestion de projet,ClickUp; Scrum; Gestion de projet; Communication; Agile; Asana,3,2,Bac,Master,Français (courant),Français (avancé); Anglais (intermédiaire),93.3
+Graphiste,Photoshop; Illustrator; InDesign; Typographie; Branding,Illustrator; InDesign; Branding,1,4,Master,Licence,Français (intermédiaire),Français (courant),70.5
+Content Manager,SEO; Canva; Copywriting; WordPress; Analytics; Content Strategy,Copywriting; WordPress; Canva,1,1,Master,Master,Anglais (intermédiaire); Français (intermédiaire),Français (intermédiaire),67.5
+Community Manager,Copywriting; Facebook; Analytics; TikTok,Aucune information,3,6,Bac,Licence,Anglais (avancé); Français (avancé),Français (avancé),40.0
+Community Manager,Canva; TikTok; Copywriting; Facebook; Analytics,Copywriting,1,2,Master,Bac,Français (avancé); Anglais (avancé),Français (avancé),43.5
+Content Manager,Content Strategy; Analytics; Canva; WordPress; Copywriting; SEO,Analytics; Content Strategy; Canva; SEO,1,0,Bac,Licence,Anglais (intermédiaire),Français (courant); Anglais (débutant),61.7
+Chef de projet digital,ClickUp; Communication; Agile,Asana; Agile; Communication; Scrum; Gestion de projet,2,4,Master,Licence,Français (intermédiaire),Français (intermédiaire),74.2
+Graphiste,Canva; Photoshop; InDesign; Illustrator; Typographie,InDesign; Illustrator; Canva; Photoshop; Branding; Typographie,2,5,Bac,Bac,Français (intermédiaire),Français (avancé),100.0
+Community Manager,Analytics; Facebook; Canva,TikTok,3,3,Master,Licence,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (courant),37.5
+Social Media Manager,Instagram; TikTok; Facebook; LinkedIn,Meta Ads; Facebook; Instagram; Asana; Python,2,3,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (avancé); Anglais (débutant),65.0
+Social Media Manager,Instagram; LinkedIn; Facebook; TikTok; Analytics; Meta Ads,Instagram; TikTok; Facebook; Analytics; Photoshop; Illustrator,3,1,Bac,Licence,Français (avancé); Anglais (avancé),Français (courant); Anglais (débutant),68.3
+Developpeur Web,Laravel; PHP; Git; HTML/CSS; MySQL,JavaScript; Git; MySQL; HTML/CSS; Laravel,2,2,Licence,Licence,Anglais (avancé),Français (courant); Anglais (courant),89.0
+Data Analyst,Python; SQL; Excel; Power BI; Data Visualization,Pandas; SQL; Excel; Power BI; Python; Data Visualization,2,0,Bac,Licence,Anglais (débutant); Français (avancé),Français (avancé); Anglais (avancé),80.0
+SEO/SEA,Google Ads; SEO; SEM,Google Analytics; SEO; Search Console; SEM; Google Ads,1,5,Licence,Bac,Français (courant); Anglais (avancé),Français (intermédiaire),87.5
+UI/UX Designer,Adobe XD; Illustrator; Photoshop; Prototypage; UX Research; Figma,Figma; Prototypage; UX Research; Photoshop; Adobe XD; Illustrator,2,0,Master,Master,Français (avancé); Anglais (débutant),Français (avancé); Anglais (courant),80.0
+UI/UX Designer,Adobe XD; Prototypage; UX Research; Figma,Agile,1,5,Master,Master,Français (intermédiaire); Anglais (avancé),Français (avancé); Anglais (débutant),45.0
+Chef de projet digital,Asana; Scrum; Agile; Gestion de projet,Figma,3,3,Bac,Licence,Anglais (courant); Français (intermédiaire),Français (avancé),40.0
+Chef de projet digital,Gestion de projet; Asana; Agile,PHP; InDesign,1,6,Master,Licence,Anglais (courant),Français (intermédiaire); Anglais (débutant),37.5
+Social Media Manager,Instagram; Analytics; LinkedIn,Aucune information,2,1,Master,Master,Anglais (intermédiaire),Français (courant); Anglais (courant),35.0
+Chef de projet digital,Gestion de projet; Scrum; ClickUp; Agile,Agile; Asana,1,8,Master,Bac,Anglais (débutant),Français (intermédiaire),41.2
+Content Manager,Content Strategy; Copywriting; Canva; Analytics,SEO; Copywriting; Figma,4,6,Licence,Licence,Français (courant),Français (intermédiaire); Anglais (avancé),58.8
+Chef de projet digital,Gestion de projet; Agile; Asana,Scrum; ClickUp,4,4,Master,Master,Anglais (débutant),Français (avancé); Anglais (intermédiaire),45.0
+Developpeur Mobile,Flutter; Git; Kotlin; Dart; Firebase; Java,Flutter,3,4,Licence,Master,Français (courant); Anglais (avancé),Français (intermédiaire),49.2
+Social Media Manager,Meta Ads; Facebook; Analytics,Facebook; LinkedIn; Instagram; TikTok,3,5,Licence,Bac,Anglais (intermédiaire),Français (courant),45.8
+UI/UX Designer,UX Research; Photoshop; Figma; Prototypage,Aucune information,2,1,Licence,Master,Français (intermédiaire),Français (avancé); Anglais (intermédiaire),35.0
+Graphiste,Illustrator; Canva; Typographie; Branding; InDesign,Typographie; InDesign; Canva; Branding,1,6,Bac,Master,Français (intermédiaire),Français (intermédiaire),89.0
+Community Manager,Analytics; Facebook; Canva; Instagram; TikTok; Copywriting,Aucune information,2,3,Licence,Bac,Français (courant); Anglais (débutant),Français (courant),32.5
+Developpeur Mobile,Dart; Git; Flutter,Kotlin; Git; Firebase; Java; Dart,2,4,Master,Licence,Français (avancé); Anglais (courant),Français (intermédiaire); Anglais (intermédiaire),74.2
+Graphiste,Branding; Canva; Illustrator,Photoshop; Typographie; Illustrator; Kotlin,2,0,Master,Master,Français (courant),Français (courant),43.3
+SEO/SEA,SEM; Google Ads; Search Console; Google Analytics; SEO,Google Analytics,2,2,Bac,Bac,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (avancé),56.0
+Developpeur Web,Git; Laravel; MySQL; HTML/CSS; PHP; JavaScript,HTML/CSS; Git; PHP; Laravel; JavaScript,2,4,Master,Master,Anglais (avancé),Français (avancé); Anglais (intermédiaire),90.8
+Data Analyst,Python; Data Visualization; Pandas; SQL; Power BI,Python,2,0,Master,Licence,Anglais (avancé); Français (avancé),Français (intermédiaire); Anglais (courant),28.5
+SEO/SEA,Google Ads; SEO; Keyword Research,Keyword Research; SEM; Search Console; Google Analytics; SEO,1,4,Master,Licence,Anglais (avancé); Français (intermédiaire),Français (courant); Anglais (intermédiaire),74.2
+UI/UX Designer,Prototypage; Photoshop; Adobe XD; Figma; Illustrator; UX Research,Figma; Illustrator; Photoshop; UX Research; Prototypage,4,5,Licence,Master,Anglais (intermédiaire),Français (courant),80.8
+Social Media Manager,LinkedIn; Analytics; Meta Ads; Instagram,TikTok; LinkedIn; Adobe XD; Illustrator,4,1,Licence,Master,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (courant),43.8
+Content Manager,Canva; Content Strategy; Analytics; SEO; Copywriting,Aucune information,2,3,Licence,Licence,Anglais (débutant),Français (avancé),35.0
+Developpeur Web,Laravel; MySQL; HTML/CSS; JavaScript,Aucune information,4,3,Master,Master,Français (avancé); Anglais (intermédiaire),Français (courant),35.0
+Content Manager,Analytics; Canva; SEO; WordPress,Canva; Copywriting; WordPress; Content Strategy; Analytics; SEO,4,6,Licence,Bac,Français (courant); Anglais (avancé),Français (avancé); Anglais (débutant),92.5
+Social Media Manager,Analytics; Instagram; Meta Ads; LinkedIn,Analytics; Instagram,1,0,Licence,Master,Anglais (courant); Français (courant),Français (courant); Anglais (intermédiaire),52.5
+SEO/SEA,Keyword Research; Search Console; SEM,Aucune information,2,1,Master,Licence,Anglais (avancé); Français (avancé),Français (avancé); Anglais (avancé),27.5
+SEO/SEA,SEM; Search Console; Google Ads; SEO; Keyword Research; Google Analytics,Keyword Research; Google Analytics; Search Console; SEO; Google Ads,2,4,Licence,Licence,Anglais (courant),Français (avancé),80.8
+Graphiste,InDesign; Photoshop; Typographie; Canva; Illustrator,InDesign; Illustrator,1,4,Master,Bac,Français (courant),Français (courant),59.5
+UI/UX Designer,UX Research; Adobe XD; Photoshop,UX Research; Illustrator,3,2,Licence,Master,Anglais (avancé); Français (avancé),Français (avancé); Anglais (débutant),56.7
+Content Manager,Copywriting; Canva; SEO,Canva; Copywriting; Content Strategy; Analytics; SEO,4,2,Licence,Bac,Français (intermédiaire); Anglais (débutant),Français (avancé),77.5
+Graphiste,InDesign; Typographie; Photoshop; Illustrator; Canva; Branding,Photoshop,1,1,Bac,Master,Français (courant),Français (courant),54.2
+Developpeur Mobile,Flutter; Kotlin; Firebase,Flutter; Kotlin; Dart; Java,1,0,Bac,Bac,Anglais (courant); Français (avancé),Français (avancé); Anglais (avancé),61.7
+SEO/SEA,Google Ads; SEO; Keyword Research; Search Console,Google Ads; SEM; Search Console; Keyword Research; Google Analytics; SEO,3,4,Master,Bac,Anglais (courant),Français (avancé); Anglais (intermédiaire),92.5
+UI/UX Designer,UX Research; Figma; Prototypage; Illustrator,UX Research; Prototypage; Photoshop,2,4,Licence,Master,Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),72.5
+Social Media Manager,Meta Ads; Facebook; TikTok; Instagram,TikTok; Facebook; LinkedIn; Copywriting; PHP,2,5,Bac,Master,Français (courant),Français (avancé); Anglais (intermédiaire),72.5
+Social Media Manager,Meta Ads; TikTok; Analytics,LinkedIn; TikTok,4,5,Licence,Bac,Anglais (débutant); Français (avancé),Français (courant); Anglais (débutant),55.8
+Social Media Manager,LinkedIn; Analytics; TikTok; Instagram; Meta Ads; Facebook,Facebook; Instagram; TikTok,4,6,Bac,Master,Anglais (débutant),Français (courant); Anglais (courant),72.5
+SEO/SEA,Google Ads; Keyword Research; Search Console; SEO,Google Analytics; Google Ads; Java,1,2,Bac,Master,Anglais (avancé); Français (courant),Français (intermédiaire); Anglais (courant),58.8
+Content Manager,Canva; Analytics; SEO; Content Strategy; WordPress; Copywriting,SEO,1,3,Bac,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (avancé); Anglais (débutant),54.2
+UI/UX Designer,UX Research; Photoshop; Illustrator; Prototypage; Figma,UX Research; Adobe XD; Photoshop; Illustrator; Prototypage; Figma; TikTok,2,1,Master,Bac,Anglais (intermédiaire); Français (avancé),Français (courant),77.5
+Social Media Manager,TikTok; Meta Ads; Analytics; LinkedIn; Instagram; Facebook,Instagram; LinkedIn; Meta Ads; Facebook; Analytics; TikTok,2,1,Licence,Master,Français (intermédiaire),Français (avancé); Anglais (débutant),90.0
+Chef de projet digital,Agile; ClickUp; Gestion de projet; Communication; Scrum,Scrum,2,5,Licence,Licence,Anglais (intermédiaire),Français (courant),46.0
+UI/UX Designer,Photoshop; Illustrator; UX Research; Prototypage; Figma,Figma; Adobe XD; Photoshop; UX Research; Prototypage,2,6,Master,Bac,Anglais (avancé),Français (courant); Anglais (débutant),81.5
+Community Manager,Facebook; Canva; Analytics,Canva; Copywriting; Instagram; TikTok; Analytics,3,0,Licence,Licence,Anglais (avancé),Français (courant); Anglais (débutant),61.7
+Content Manager,Copywriting; SEO; Content Strategy; Canva; WordPress; Analytics,Analytics; Canva,1,5,Licence,Licence,Anglais (intermédiaire); Français (courant),Français (courant); Anglais (intermédiaire),63.3
+Social Media Manager,Analytics; TikTok; Meta Ads,Facebook; Analytics; Instagram; Java; Power BI,1,1,Master,Bac,Français (intermédiaire),Français (courant),55.8
+Developpeur Mobile,Firebase; Flutter; Git; Dart; Java; Kotlin,Dart; Git; Kotlin; Flutter; Java; Firebase; SQL; Search Console,4,0,Master,Bac,Français (courant),Français (intermédiaire); Anglais (avancé),72.5
+Developpeur Web,Laravel; HTML/CSS; JavaScript,HTML/CSS; Git; PHP; MySQL; Laravel; JavaScript; Excel; TikTok,2,4,Master,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (intermédiaire); Anglais (courant),92.5
+Graphiste,Branding; Canva; Photoshop; Illustrator,Illustrator; Typographie; Photoshop,1,5,Master,Master,Français (intermédiaire),Français (courant),72.5
+Data Analyst,Pandas; Power BI; SQL; Python; Data Visualization,Aucune information,3,7,Bac,Bac,Anglais (courant); Français (intermédiaire),Français (avancé); Anglais (intermédiaire),45.0
+SEO/SEA,Google Ads; SEO; Keyword Research; Search Console,Keyword Research; Google Analytics; Google Ads; Search Console; SEM; SEO,1,5,Master,Master,Français (courant),Français (intermédiaire); Anglais (débutant),100.0
+Data Analyst,Excel; Python; SQL,Power BI; Excel; Data Visualization; SQL; Python,2,7,Licence,Master,Anglais (débutant),Français (courant); Anglais (courant),100.0
+Content Manager,WordPress; Analytics; Content Strategy,Canva; Content Strategy; SEO; Adobe XD,1,5,Licence,Bac,Anglais (courant),Français (courant),45.8
+Community Manager,Analytics; Facebook; TikTok; Copywriting; Canva; Instagram,Analytics; Facebook; Canva; Copywriting; TikTok; Illustrator,2,6,Licence,Master,Français (courant); Anglais (avancé),Français (intermédiaire),85.8
+Developpeur Web,PHP; Laravel; JavaScript; HTML/CSS; Git; MySQL,Laravel; PHP; JavaScript,1,6,Bac,Licence,Anglais (avancé); Français (avancé),Français (intermédiaire),67.5
+Community Manager,Analytics; TikTok; Instagram,Copywriting; Canva; Analytics; Facebook; TikTok; Instagram,2,4,Master,Licence,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (avancé),92.5
+UI/UX Designer,UX Research; Photoshop; Adobe XD; Illustrator; Prototypage,Photoshop; Adobe XD,4,6,Bac,Licence,Anglais (débutant); Français (intermédiaire),Français (intermédiaire),62.0
+SEO/SEA,Keyword Research; Google Analytics; Google Ads,Aucune information,3,6,Licence,Master,Anglais (courant); Français (courant),Français (intermédiaire); Anglais (débutant),45.0
+UI/UX Designer,Adobe XD; Illustrator; Figma; UX Research,Figma; Photoshop; Adobe XD; Prototypage; Copywriting; Canva,1,3,Master,Bac,Français (avancé),Français (intermédiaire); Anglais (intermédiaire),65.0
+SEO/SEA,Google Ads; Keyword Research; Google Analytics; SEM; Search Console; SEO,SEO; Keyword Research; Search Console; Google Ads; SEM,2,5,Master,Licence,Français (avancé); Anglais (débutant),Français (avancé); Anglais (débutant),83.3
+Graphiste,Illustrator; Photoshop; Branding,Typographie; Meta Ads,1,0,Licence,Licence,Français (avancé),Français (courant),25.0
+SEO/SEA,Search Console; Keyword Research; Google Analytics,Keyword Research; Search Console; SEM,3,4,Licence,Bac,Français (courant); Anglais (avancé),Français (intermédiaire),69.2
+Social Media Manager,Facebook; TikTok; LinkedIn; Instagram; Analytics,Facebook; LinkedIn; Analytics,4,4,Master,Bac,Anglais (débutant); Français (avancé),Français (courant); Anglais (débutant),70.5
+SEO/SEA,Google Ads; Keyword Research; SEM; SEO; Search Console,Aucune information,3,4,Master,Master,Français (courant); Anglais (avancé),Français (courant),40.0
+Developpeur Mobile,Git; Firebase; Kotlin; Java,Git,1,1,Licence,Bac,Anglais (intermédiaire),Français (courant); Anglais (débutant),51.3
+Developpeur Mobile,Flutter; Dart; Git; Java,Aucune information,2,1,Bac,Licence,Français (courant); Anglais (avancé),Français (courant),30.0
+Chef de projet digital,Communication; ClickUp; Agile; Gestion de projet,ClickUp; Asana; Communication; Excel; Typographie,2,8,Bac,Bac,Français (intermédiaire),Français (courant); Anglais (avancé),72.5
+SEO/SEA,SEO; Search Console; Keyword Research; Google Ads; Google Analytics; SEM,Aucune information,4,4,Master,Bac,Français (avancé),Français (courant),37.5
+Data Analyst,Pandas; Excel; Power BI; Python; Data Visualization,SQL,4,6,Bac,Bac,Français (intermédiaire),Français (courant); Anglais (débutant),45.0
+Developpeur Web,JavaScript; MySQL; PHP,Laravel; HTML/CSS; Git; JavaScript; MySQL; PHP; Search Console,3,5,Bac,Master,Français (courant); Anglais (débutant),Français (avancé); Anglais (intermédiaire),100.0
+UI/UX Designer,Figma; Illustrator; UX Research; Photoshop,Photoshop; Illustrator; Figma; Adobe XD; Prototypage; UX Research,2,0,Bac,Bac,Anglais (courant); Français (courant),Français (courant),75.0
+Chef de projet digital,Communication; Scrum; ClickUp; Asana,Gestion de projet; Asana; ClickUp; Agile,4,0,Master,Licence,Français (courant),Français (avancé); Anglais (courant),45.0
+UI/UX Designer,Photoshop; UX Research; Illustrator,Illustrator; Prototypage,3,6,Licence,Master,Anglais (avancé); Français (intermédiaire),Français (intermédiaire); Anglais (courant),63.3
+Content Manager,Canva; Copywriting; WordPress; Content Strategy,Copywriting; Analytics; Content Strategy; Canva; WordPress,4,2,Licence,Bac,Anglais (avancé),Français (avancé); Anglais (intermédiaire),82.5
+Graphiste,Branding; Canva; InDesign; Illustrator; Typographie,Typographie,2,5,Master,Master,Français (avancé),Français (intermédiaire),56.0
+Graphiste,Branding; Typographie; Illustrator; Photoshop; Canva; InDesign,Canva; InDesign; Illustrator; Typographie; Branding,2,4,Master,Licence,Français (courant),Français (avancé),83.3
+UI/UX Designer,Prototypage; Figma; Photoshop; UX Research; Adobe XD,Photoshop; Illustrator; Prototypage; UX Research; Adobe XD; Figma,4,3,Bac,Master,Français (avancé),Français (avancé),95.0
+Chef de projet digital,ClickUp; Asana; Agile; Communication; Gestion de projet; Scrum,Agile; Gestion de projet,3,2,Bac,Bac,Français (courant),Français (avancé),56.7
+Developpeur Web,PHP; HTML/CSS; MySQL,JavaScript,3,6,Licence,Licence,Français (courant); Anglais (débutant),Français (avancé),40.0
+Graphiste,Photoshop; Branding; InDesign; Typographie,Photoshop,2,4,Licence,Licence,Français (intermédiaire),Français (courant),58.8
+Developpeur Mobile,Git; Dart; Java; Kotlin,Instagram; LinkedIn,2,4,Bac,Master,Anglais (débutant),Français (avancé),35.0
+Graphiste,Photoshop; Canva; Branding,Aucune information,4,2,Bac,Bac,Français (avancé),Français (intermédiaire),35.0
+Data Analyst,Excel; Python; Power BI; Data Visualization; SQL,Data Visualization; Scrum; Facebook,4,2,Master,Licence,Anglais (courant),Français (courant); Anglais (courant),38.5
+SEO/SEA,Google Ads; Google Analytics; Search Console; SEM; Keyword Research,Search Console; SEO; SEM,1,2,Master,Licence,Français (intermédiaire),Français (courant); Anglais (débutant),59.5
+Chef de projet digital,Agile; ClickUp; Asana; Scrum; Communication; Gestion de projet,Gestion de projet,3,8,Licence,Bac,Français (avancé); Anglais (intermédiaire),Français (avancé),41.7
+Developpeur Web,PHP; Laravel; HTML/CSS; MySQL,Laravel; MySQL; HTML/CSS,1,2,Licence,Bac,Anglais (avancé),Français (courant); Anglais (débutant),78.8
+Data Analyst,SQL; Python; Pandas,Python,2,3,Licence,Master,Anglais (avancé); Français (courant),Français (courant),58.3
+Developpeur Mobile,Dart; Java; Flutter; Kotlin; Firebase,Flutter; Firebase; Dart; Git; Kotlin; Java,2,1,Bac,Bac,Français (intermédiaire),Français (courant); Anglais (intermédiaire),90.0
+Content Manager,Content Strategy; Copywriting; Canva; WordPress; SEO,Analytics,2,0,Master,Bac,Français (courant),Français (courant),17.5
+Community Manager,Copywriting; Canva; Analytics; TikTok; Instagram; Facebook,Copywriting,3,1,Master,Bac,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (avancé),33.3
+Community Manager,Copywriting; Canva; Analytics,Instagram; Facebook; Analytics,4,5,Licence,Bac,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (courant),55.8
+UI/UX Designer,Illustrator; Adobe XD; Prototypage; Figma; Photoshop,Illustrator; Photoshop; Adobe XD; UX Research; Figma,4,0,Licence,Bac,Anglais (avancé); Français (avancé),Français (courant),56.5
+Social Media Manager,TikTok; LinkedIn; Meta Ads,Aucune information,4,6,Bac,Licence,Anglais (avancé); Français (courant),Français (avancé); Anglais (débutant),45.0
+Community Manager,Facebook; Analytics; Instagram; TikTok,Copywriting; TikTok; Facebook; Instagram; Analytics,3,4,Bac,Licence,Français (intermédiaire),Français (avancé); Anglais (courant),100.0
+Social Media Manager,Meta Ads; Analytics; Facebook,LinkedIn,4,5,Licence,Licence,Français (courant); Anglais (débutant),Français (avancé),40.0
+UI/UX Designer,Figma; Prototypage; Illustrator; Adobe XD,Figma; Adobe XD; Photoshop; TikTok,4,6,Bac,Bac,Français (avancé),Français (intermédiaire); Anglais (intermédiaire),72.5
+Graphiste,Photoshop; Illustrator; Typographie,Canva,3,1,Master,Master,Français (intermédiaire),Français (courant),31.7
+Developpeur Mobile,Firebase; Java; Kotlin; Dart; Git; Flutter,Java; Dart; Kotlin; Flutter; Git; Firebase,3,4,Master,Licence,Anglais (courant),Français (intermédiaire); Anglais (courant),92.5
+Content Manager,Copywriting; WordPress; SEO; Analytics; Content Strategy,Content Strategy; Analytics; Copywriting; SEO; Canva,2,2,Bac,Licence,Français (avancé); Anglais (courant),Français (courant); Anglais (débutant),89.0
+Chef de projet digital,Asana; Agile; ClickUp,Agile; Asana; Gestion de projet,4,7,Licence,Licence,Anglais (avancé),Français (intermédiaire),71.7
+Graphiste,Canva; Illustrator; InDesign; Photoshop; Typographie; Branding,Photoshop; Typographie; Branding; Canva; InDesign; Illustrator,2,3,Master,Bac,Français (intermédiaire),Français (courant),92.5
+Developpeur Web,Laravel; PHP; HTML/CSS; Git; MySQL; JavaScript,PHP; HTML/CSS,1,0,Bac,Bac,Anglais (débutant),Français (avancé); Anglais (courant),43.3
+UI/UX Designer,Illustrator; Figma; Photoshop; UX Research; Adobe XD; Prototypage,Photoshop; Adobe XD; Figma; Prototypage,3,5,Bac,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (débutant),81.7
+UI/UX Designer,Illustrator; Photoshop; Prototypage; Adobe XD; UX Research; Figma,Adobe XD; UX Research; Figma; Dart; Git,2,0,Licence,Licence,Français (avancé); Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),52.5
+Social Media Manager,Meta Ads; Instagram; LinkedIn; Analytics; TikTok,Facebook; TikTok; Instagram; LinkedIn; Analytics,1,0,Master,Bac,Français (intermédiaire); Anglais (débutant),Français (courant),56.5
+UI/UX Designer,Illustrator; UX Research; Photoshop; Adobe XD; Figma; Prototypage,Adobe XD; Photoshop; Illustrator; Figma; UX Research; Prototypage,4,1,Master,Master,Français (intermédiaire); Anglais (courant),Français (courant); Anglais (intermédiaire),85.0
+Graphiste,Canva; Photoshop; Branding; InDesign,Photoshop; Typographie,3,6,Master,Master,Français (intermédiaire),Français (intermédiaire),58.8
+UI/UX Designer,UX Research; Prototypage; Photoshop; Illustrator; Adobe XD,Prototypage; UX Research; Photoshop; Illustrator; Adobe XD; Laravel,2,3,Licence,Master,Anglais (courant),Français (avancé); Anglais (avancé),100.0
+SEO/SEA,Keyword Research; Search Console; Google Ads; SEM; SEO; Google Analytics,Keyword Research; Google Analytics; SEM; Google Ads; SEO,3,0,Licence,Bac,Français (avancé),Français (avancé),63.3
+SEO/SEA,SEM; SEO; Keyword Research,Keyword Research; SEO; SEM; Google Analytics; Search Console; Google Ads,3,6,Master,Bac,Français (courant); Anglais (courant),Français (avancé),87.5
+Social Media Manager,Meta Ads; Instagram; Facebook; TikTok,Pandas; Prototypage,4,1,Bac,Master,Français (avancé); Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),30.0
+UI/UX Designer,Adobe XD; UX Research; Photoshop; Figma; Prototypage; Illustrator,Figma; Adobe XD; UX Research; Prototypage; Illustrator; Photoshop,1,2,Bac,Bac,Français (courant),Français (intermédiaire); Anglais (débutant),100.0
+Data Analyst,Power BI; Pandas; Excel,Power BI,1,4,Licence,Master,Anglais (intermédiaire),Français (courant); Anglais (intermédiaire),63.3
+Developpeur Mobile,Dart; Kotlin; Firebase,Kotlin; Firebase; Flutter; Dart; Java; Git; SEO; Canva,2,3,Master,Bac,Anglais (avancé),Français (intermédiaire); Anglais (avancé),92.5
+Chef de projet digital,Communication; Scrum; ClickUp,Aucune information,4,0,Licence,Master,Anglais (intermédiaire); Français (courant),Français (avancé); Anglais (intermédiaire),25.0
+Social Media Manager,Analytics; Facebook; TikTok; Instagram; Meta Ads; LinkedIn,LinkedIn; Meta Ads; TikTok,1,6,Master,Master,Français (intermédiaire),Français (courant); Anglais (intermédiaire),72.5
+SEO/SEA,SEO; Search Console; Keyword Research; Google Ads; SEM,SEM; SEO,3,2,Licence,Bac,Anglais (intermédiaire),Français (courant); Anglais (intermédiaire),52.8
+Developpeur Web,MySQL; HTML/CSS; Laravel,SEO,1,2,Bac,Licence,Anglais (débutant),Français (courant),35.0
+Graphiste,Illustrator; Photoshop; InDesign,Typographie; InDesign; Photoshop; Illustrator,3,0,Master,Licence,Français (courant),Français (intermédiaire),72.5
+Social Media Manager,Analytics; Facebook; Instagram; Meta Ads; TikTok,TikTok; LinkedIn; Facebook; Instagram; Meta Ads; Analytics,1,1,Bac,Master,Français (intermédiaire); Anglais (avancé),Français (avancé),95.0
+Developpeur Web,Laravel; HTML/CSS; JavaScript; MySQL; PHP; Git,Laravel; PHP; Git; JavaScript,1,3,Master,Bac,Français (courant); Anglais (débutant),Français (courant),69.2
+UI/UX Designer,Prototypage; Illustrator; Photoshop; Adobe XD; Figma; UX Research,Prototypage; Adobe XD; Photoshop,4,4,Licence,Bac,Français (avancé); Anglais (avancé),Français (intermédiaire),60.0
+Graphiste,Typographie; Photoshop; Illustrator; Branding,Illustrator,1,0,Master,Master,Français (intermédiaire),Français (avancé),38.7
+Graphiste,Typographie; Photoshop; Canva,Illustrator,1,6,Licence,Bac,Français (courant),Français (courant),37.5
+SEO/SEA,Search Console; Keyword Research; Google Analytics; Google Ads; SEO; SEM,SEM; Google Analytics; Search Console,2,3,Licence,Licence,Français (avancé); Anglais (avancé),Français (intermédiaire); Anglais (courant),72.5
+Chef de projet digital,Scrum; ClickUp; Agile; Communication; Gestion de projet,Agile; ClickUp; Communication; Asana; Scrum; Gestion de projet,3,3,Licence,Licence,Anglais (courant),Français (intermédiaire); Anglais (débutant),100.0
+Chef de projet digital,Asana; Scrum; ClickUp; Agile; Gestion de projet; Communication,Gestion de projet; Scrum; Agile; Communication,1,8,Bac,Licence,Anglais (débutant); Français (avancé),Français (avancé),76.7
+Data Analyst,Data Visualization; Power BI; Python; Pandas; Excel,Power BI; Pandas; Python; Data Visualization; Excel,2,6,Licence,Master,Français (intermédiaire); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),100.0
+UI/UX Designer,UX Research; Photoshop; Illustrator,Prototypage; UX Research; Photoshop; Figma; Adobe XD,3,1,Master,Bac,Français (intermédiaire); Anglais (avancé),Français (avancé); Anglais (débutant),60.8
+Chef de projet digital,Gestion de projet; Asana; ClickUp; Agile,Aucune information,4,2,Master,Bac,Français (courant),Français (intermédiaire); Anglais (débutant),27.5
+Chef de projet digital,Gestion de projet; Agile; Communication; Asana; Scrum; ClickUp,Agile; Communication,2,6,Master,Bac,Français (intermédiaire),Français (courant),55.8
+Chef de projet digital,Agile; Asana; Scrum; Gestion de projet,Communication; Asana; Scrum,1,0,Bac,Licence,Français (avancé); Anglais (intermédiaire),Français (intermédiaire),47.5
+SEO/SEA,SEO; Search Console; Google Ads; Google Analytics; SEM,Search Console; Google Ads; SEO; Google Analytics; Agile; Laravel,1,5,Licence,Licence,Anglais (avancé); Français (avancé),Français (courant); Anglais (courant),89.0
+Developpeur Web,Laravel; HTML/CSS; JavaScript; PHP,JavaScript,3,5,Licence,Master,Anglais (intermédiaire),Français (intermédiaire); Anglais (avancé),58.8
+SEO/SEA,Search Console; SEO; Google Ads; SEM,Aucune information,4,5,Bac,Licence,Anglais (débutant),Français (avancé); Anglais (avancé),45.0
+Developpeur Mobile,Git; Flutter; Kotlin; Java,Java; Kotlin; Dart; Git; Firebase; Flutter,2,6,Licence,Licence,Anglais (intermédiaire); Français (intermédiaire),Français (courant); Anglais (courant),100.0
+Graphiste,Illustrator; Canva; InDesign,Branding; Photoshop; Illustrator; Typographie; InDesign; Canva,4,3,Master,Master,Français (intermédiaire),Français (courant),95.0
+UI/UX Designer,Prototypage; Adobe XD; UX Research,Prototypage,2,2,Bac,Master,Français (avancé),Français (intermédiaire); Anglais (débutant),63.3
+Social Media Manager,Instagram; Facebook; LinkedIn; Analytics,Instagram; Meta Ads; LinkedIn; Facebook,2,5,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),86.2
+UI/UX Designer,Photoshop; Figma; Prototypage; Illustrator; UX Research,Adobe XD; Prototypage; Photoshop; SEO,1,6,Master,Bac,Français (courant),Français (avancé); Anglais (intermédiaire),59.5
+Social Media Manager,Analytics; Meta Ads; Facebook,Meta Ads; TikTok; Analytics; Instagram; Facebook; LinkedIn,2,1,Licence,Master,Anglais (avancé); Français (intermédiaire),Français (avancé),85.0
+Community Manager,Copywriting; Facebook; Instagram; Analytics; Canva; TikTok,Facebook; Analytics; Copywriting; Illustrator,3,3,Licence,Licence,Français (courant); Anglais (débutant),Français (avancé); Anglais (courant),72.5
+Data Analyst,Pandas; SQL; Power BI; Data Visualization; Python,SQL; Excel; Pandas; Power BI; Content Strategy,2,2,Licence,Master,Anglais (courant),Français (intermédiaire); Anglais (courant),78.0
+Developpeur Web,PHP; Git; Laravel; HTML/CSS; JavaScript; MySQL,Aucune information,3,0,Bac,Licence,Français (avancé),Français (intermédiaire); Anglais (débutant),25.0
+Data Analyst,Excel; Data Visualization; SQL,Data Visualization; SQL; Python,4,3,Licence,Bac,Français (intermédiaire),Français (courant),69.2
+SEO/SEA,Search Console; Google Ads; Google Analytics; Keyword Research; SEM,Search Console; Google Ads; Google Analytics; SEM; Keyword Research; SEO; HTML/CSS,2,3,Bac,Bac,Anglais (courant),Français (avancé),90.0
+SEO/SEA,Google Analytics; Search Console; Keyword Research; SEO,Keyword Research; Google Ads,2,6,Licence,Master,Anglais (intermédiaire),Français (courant); Anglais (débutant),58.8
+SEO/SEA,SEM; Google Analytics; Keyword Research; Search Console; SEO,Keyword Research,2,4,Master,Bac,Anglais (débutant),Français (avancé),38.5
+UI/UX Designer,Prototypage; Figma; Photoshop; UX Research; Adobe XD; Illustrator,Photoshop; Branding; Scrum,3,2,Bac,Master,Français (courant),Français (courant); Anglais (avancé),47.5
+UI/UX Designer,Figma; UX Research; Illustrator,Adobe XD; UX Research; Figma; Photoshop,4,3,Master,Bac,Français (avancé),Français (intermédiaire); Anglais (avancé),69.2
+Developpeur Web,PHP; HTML/CSS; JavaScript; MySQL; Laravel; Git,Aucune information,4,1,Bac,Bac,Anglais (intermédiaire); Français (courant),Français (courant),25.0
+Developpeur Mobile,Git; Flutter; Dart; Firebase; Java,Kotlin; Git; Firebase; Java; Dart,2,4,Master,Bac,Anglais (intermédiaire); Français (intermédiaire),Français (avancé),76.5
+Developpeur Web,Git; MySQL; JavaScript; PHP,JavaScript; HTML/CSS; MySQL; PHP; Laravel; Git; SEO; Canva,1,6,Bac,Bac,Français (avancé); Anglais (avancé),Français (courant); Anglais (intermédiaire),100.0
+UI/UX Designer,Adobe XD; Prototypage; UX Research; Figma,Figma; UX Research; Photoshop,2,5,Licence,Master,Anglais (courant); Français (intermédiaire),Français (intermédiaire),67.5
+Data Analyst,Data Visualization; Python; Excel; Power BI; Pandas; SQL,Data Visualization; Python; Pandas; Power BI; Excel; SQL,2,0,Licence,Bac,Anglais (débutant); Français (avancé),Français (intermédiaire),67.5
+Graphiste,Canva; Typographie; Photoshop; Branding; Illustrator,Typographie; Illustrator,2,6,Master,Bac,Français (avancé),Français (avancé),59.5
+Social Media Manager,Facebook; LinkedIn; Instagram; Meta Ads; Analytics,Instagram; Meta Ads; TikTok; Analytics,4,0,Master,Bac,Anglais (débutant); Français (courant),Français (avancé); Anglais (courant),50.5
+Data Analyst,SQL; Excel; Pandas; Python; Data Visualization; Power BI,Excel; Pandas; Python; Power BI; Data Visualization,4,7,Bac,Master,Français (courant),Français (intermédiaire),90.8
+Developpeur Web,JavaScript; HTML/CSS; PHP; Laravel; MySQL,JavaScript; HTML/CSS; Git,2,4,Bac,Licence,Anglais (intermédiaire); Français (courant),Français (avancé),62.0
+Data Analyst,Python; Pandas; Excel; Data Visualization; SQL; Power BI,Aucune information,2,4,Bac,Master,Français (intermédiaire); Anglais (débutant),Français (courant); Anglais (courant),45.0
+Graphiste,Illustrator; Typographie; InDesign,Branding; Photoshop; Canva; Dart; Analytics,2,6,Licence,Licence,Français (intermédiaire),Français (avancé),45.0
+Chef de projet digital,Communication; Scrum; Asana; ClickUp,Communication; Gestion de projet; Asana; ClickUp; Agile,2,8,Master,Bac,Anglais (débutant),Français (courant),68.8
+Developpeur Web,PHP; MySQL; Git; JavaScript; HTML/CSS,Laravel; Git; MySQL; JavaScript,2,3,Master,Master,Anglais (débutant); Français (intermédiaire),Français (courant); Anglais (avancé),78.0
+Content Manager,Copywriting; Canva; WordPress; Content Strategy; Analytics; SEO,Content Strategy; Copywriting; Analytics; WordPress; SEO; Canva,4,3,Bac,Master,Français (intermédiaire),Français (intermédiaire); Anglais (débutant),95.0
+Community Manager,Analytics; Facebook; Copywriting; Canva; Instagram,Canva; Analytics; Facebook; Copywriting; Google Analytics,2,1,Bac,Bac,Anglais (intermédiaire),Français (courant); Anglais (avancé),79.0
+Content Manager,WordPress; Analytics; Content Strategy; SEO; Canva,Aucune information,3,6,Bac,Bac,Français (courant); Anglais (débutant),Français (avancé),40.0
+Content Manager,Analytics; Canva; SEO; WordPress; Content Strategy; Copywriting,Canva; Content Strategy; Copywriting,3,0,Licence,Master,Anglais (courant),Français (avancé),42.5
+SEO/SEA,Search Console; Google Ads; Keyword Research; SEM; SEO; Google Analytics,Keyword Research,4,4,Master,Bac,Anglais (avancé); Français (courant),Français (intermédiaire),41.7
+SEO/SEA,SEO; Google Ads; Keyword Research; Search Console; SEM,Search Console; Google Ads; Flutter,2,3,Bac,Master,Anglais (courant),Français (intermédiaire),57.0
+Graphiste,Typographie; Photoshop; Branding; InDesign,Canva; Python; TikTok,2,1,Bac,Licence,Français (avancé),Français (courant),35.0
+Content Manager,Canva; WordPress; SEO; Content Strategy; Analytics,WordPress; SEO; Copywriting; Analytics; Photoshop,1,4,Master,Bac,Anglais (débutant); Français (courant),Français (intermédiaire),65.5
+Community Manager,Facebook; Instagram; Canva; Analytics; Copywriting,Analytics; Canva; Instagram,1,0,Licence,Bac,Français (avancé); Anglais (courant),Français (courant),45.5
+Chef de projet digital,Agile; Scrum; Asana; ClickUp,ClickUp,4,3,Bac,Master,Anglais (courant); Français (courant),Français (intermédiaire); Anglais (courant),53.8
+Data Analyst,Pandas; Excel; Power BI; Python,Data Visualization; Pandas; Power BI; SQL; Python; Excel,3,0,Bac,Licence,Français (courant); Anglais (avancé),Français (avancé),75.0
+SEO/SEA,SEO; Google Analytics; Search Console; Google Ads,Search Console,2,5,Bac,Bac,Français (courant),Français (courant); Anglais (courant),58.8
+Social Media Manager,TikTok; Meta Ads; LinkedIn,Facebook; Meta Ads; Instagram; Analytics; TikTok,1,3,Master,Licence,Anglais (débutant); Français (intermédiaire),Français (intermédiaire),69.2
+Content Manager,SEO; Canva; Copywriting; Content Strategy; WordPress,WordPress; Content Strategy; SEO; Copywriting; Canva; Analytics,2,2,Bac,Master,Anglais (débutant),Français (avancé); Anglais (courant),100.0
+Content Manager,Analytics; WordPress; Copywriting,Aucune information,3,1,Licence,Bac,Français (avancé); Anglais (débutant),Français (intermédiaire),19.2
+SEO/SEA,Google Ads; Keyword Research; Search Console; SEO; SEM; Google Analytics,Keyword Research; Search Console; SEM,4,1,Bac,Master,Anglais (courant),Français (courant); Anglais (débutant),57.5
+Chef de projet digital,Scrum; Asana; Communication; ClickUp,Scrum; Communication; Asana; Agile; Gestion de projet,1,5,Master,Licence,Français (avancé); Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),78.8
+Chef de projet digital,Agile; Communication; Scrum,Asana; Communication; Gestion de projet; Agile; Scrum; ClickUp,3,3,Master,Bac,Anglais (débutant),Français (courant); Anglais (courant),92.5
+UI/UX Designer,UX Research; Adobe XD; Photoshop; Prototypage,Adobe XD; Photoshop; Figma,2,2,Bac,Bac,Anglais (courant),Français (avancé); Anglais (débutant),72.5
+Chef de projet digital,Asana; ClickUp; Scrum; Communication,Gestion de projet; Communication,2,5,Licence,Bac,Français (avancé),Français (courant); Anglais (avancé),51.3
+Data Analyst,Excel; Data Visualization; Python; Pandas; SQL; Power BI,Power BI; Excel; Pandas; Python; Data Visualization; SQL,4,1,Master,Master,Français (courant); Anglais (avancé),Français (avancé),80.0
+Developpeur Mobile,Java; Git; Dart; Flutter; Firebase; Kotlin,Firebase; Dart; Git; Java; Flutter; Kotlin,2,0,Licence,Licence,Français (intermédiaire),Français (avancé),80.0
+Graphiste,InDesign; Branding; Illustrator; Canva,Canva; Typographie; InDesign; Photoshop; Branding; Illustrator,4,1,Master,Master,Français (courant),Français (intermédiaire),85.0
+Developpeur Mobile,Firebase; Dart; Git,Flutter; Java; Dart; Git; Photoshop,4,1,Master,Master,Anglais (débutant),Français (courant); Anglais (intermédiaire),66.7
+UI/UX Designer,Photoshop; Prototypage; Illustrator; Adobe XD,Photoshop; Adobe XD; Canva; Google Analytics,1,2,Licence,Master,Anglais (courant); Français (intermédiaire),Français (intermédiaire),67.5
+Social Media Manager,TikTok; Analytics; Meta Ads; Facebook; LinkedIn; Instagram,Facebook,1,0,Bac,Bac,Anglais (courant); Français (intermédiaire),Français (intermédiaire),29.2
+Graphiste,Photoshop; Illustrator; Branding; InDesign,Photoshop,1,3,Licence,Bac,Français (courant),Français (courant),51.3
+SEO/SEA,Search Console; SEO; Google Analytics; Google Ads,SEM,3,5,Master,Bac,Anglais (courant); Français (avancé),Français (intermédiaire); Anglais (débutant),37.5
+Community Manager,Instagram; Facebook; Analytics; Canva; Copywriting; TikTok,Instagram; Copywriting; Facebook; TikTok; Canva; Analytics,3,1,Bac,Bac,Français (courant),Français (courant); Anglais (intermédiaire),86.7
+Community Manager,Facebook; Canva; Analytics,Canva; Instagram; Analytics; Branding,1,0,Master,Master,Anglais (courant),Français (courant); Anglais (intermédiaire),61.7
+Data Analyst,Data Visualization; Power BI; SQL,Data Visualization; Excel,2,4,Licence,Licence,Anglais (débutant); Français (avancé),Français (intermédiaire); Anglais (avancé),63.3
+Content Manager,Copywriting; SEO; WordPress,WordPress; Content Strategy; SEO,4,0,Licence,Master,Français (courant),Français (courant); Anglais (courant),61.7
+Graphiste,Canva; Illustrator; Branding; Photoshop,Branding; Typographie; Illustrator; InDesign,3,1,Bac,Bac,Français (avancé),Français (intermédiaire),59.2
+Social Media Manager,Analytics; TikTok; Instagram,TikTok; Instagram; Meta Ads; LinkedIn; Analytics,2,0,Bac,Licence,Anglais (avancé),Français (avancé),70.0
+Chef de projet digital,Scrum; ClickUp; Asana; Agile,ClickUp; Gestion de projet; Agile; Communication,1,7,Master,Bac,Anglais (courant); Français (courant),Français (avancé); Anglais (débutant),65.0
+Developpeur Mobile,Flutter; Firebase; Dart; Java,Kotlin; Firebase; Dart,4,4,Master,Master,Français (avancé); Anglais (avancé),Français (intermédiaire); Anglais (courant),72.5
+Developpeur Mobile,Firebase; Git; Flutter; Kotlin,Java; Git,2,5,Bac,Licence,Français (intermédiaire),Français (avancé); Anglais (courant),58.8
+Content Manager,Copywriting; SEO; Analytics; Canva; Content Strategy; WordPress,WordPress,2,2,Master,Bac,Français (intermédiaire); Anglais (courant),Français (avancé),41.7
+Content Manager,WordPress; Canva; Analytics; SEO; Content Strategy,SEO; Content Strategy; Analytics; Copywriting; Canva; WordPress,2,3,Master,Licence,Français (avancé),Français (avancé),92.5
+Developpeur Web,PHP; JavaScript; Git; Laravel,Git,1,5,Bac,Bac,Français (avancé); Anglais (débutant),Français (intermédiaire); Anglais (avancé),58.8
+Chef de projet digital,ClickUp; Scrum; Agile; Communication; Asana; Gestion de projet,Agile; MySQL; Copywriting,1,2,Licence,Master,Français (avancé); Anglais (débutant),Français (avancé); Anglais (avancé),54.2
+Chef de projet digital,Scrum; Gestion de projet; Communication; Agile,Asana; Scrum; Agile,3,7,Master,Master,Anglais (intermédiaire),Français (avancé),62.5
+Data Analyst,SQL; Excel; Data Visualization,Pandas; SQL; Excel; Python; Data Visualization,1,2,Bac,Master,Français (courant); Anglais (courant),Français (courant); Anglais (avancé),100.0
+Content Manager,Analytics; Copywriting; Content Strategy; Canva,Analytics; Content Strategy; Copywriting; WordPress; SEO,4,6,Bac,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (débutant),86.2
+UI/UX Designer,Adobe XD; Illustrator; Photoshop; Prototypage; UX Research,Figma; Photoshop; UX Research; Prototypage; Illustrator; Adobe XD; Git,3,3,Licence,Bac,Français (courant); Anglais (débutant),Français (courant); Anglais (débutant),92.5
+Graphiste,InDesign; Photoshop; Illustrator; Typographie; Branding; Canva,Illustrator; Typographie; Branding,1,4,Licence,Master,Français (avancé),Français (avancé),72.5
+Social Media Manager,Instagram; Facebook; Analytics; TikTok; LinkedIn,Aucune information,1,3,Bac,Licence,Français (intermédiaire),Français (intermédiaire); Anglais (courant),45.0
+SEO/SEA,Keyword Research; SEO; Google Analytics; Google Ads; SEM,SEM; SEO; Analytics,3,3,Licence,Bac,Français (intermédiaire); Anglais (courant),Français (avancé); Anglais (débutant),59.5
+Developpeur Mobile,Flutter; Dart; Kotlin,Git; Firebase; Flutter,4,3,Master,Master,Français (intermédiaire),Français (courant); Anglais (avancé),58.3
+Developpeur Mobile,Git; Flutter; Dart; Firebase; Java,Aucune information,1,3,Licence,Licence,Anglais (intermédiaire),Français (intermédiaire); Anglais (intermédiaire),45.0
+Graphiste,Photoshop; Typographie; InDesign; Illustrator; Canva,Photoshop,4,0,Licence,Bac,Français (avancé),Français (courant),28.5
+UI/UX Designer,Prototypage; UX Research; Photoshop; Adobe XD; Illustrator,Figma,4,2,Master,Bac,Anglais (débutant); Français (avancé),Français (intermédiaire),22.5
+SEO/SEA,SEM; Google Analytics; Search Console; Google Ads,SEO; Keyword Research; Google Ads; Search Console,4,3,Bac,Bac,Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),67.5
+SEO/SEA,SEO; Google Analytics; Keyword Research; SEM; Search Console; Google Ads,Aucune information,1,0,Bac,Bac,Anglais (avancé); Français (courant),Français (intermédiaire),20.0
+Graphiste,Typographie; Branding; InDesign,Illustrator; Photoshop,1,4,Licence,Master,Français (intermédiaire),Français (courant),45.0
+Content Manager,Analytics; Content Strategy; Canva; SEO; Copywriting,Content Strategy; Canva; WordPress,2,3,Master,Master,Français (intermédiaire),Français (intermédiaire); Anglais (avancé),67.0
+SEO/SEA,SEO; Google Ads; Keyword Research; SEM; Google Analytics; Search Console,Google Ads; Google Analytics; SEM; SEO; Keyword Research; Search Console,4,0,Licence,Master,Français (courant); Anglais (débutant),Français (avancé); Anglais (avancé),80.0
+Community Manager,Canva; Instagram; Facebook; Analytics,Aucune information,4,6,Bac,Bac,Français (courant); Anglais (courant),Français (courant),40.0
+Community Manager,Copywriting; Facebook; Instagram,Aucune information,3,0,Master,Master,Français (avancé); Anglais (intermédiaire),Français (courant),20.0
+Content Manager,Analytics; Content Strategy; WordPress; Canva; SEO,WordPress; Canva; Copywriting; Content Strategy; Analytics; SEO,3,2,Licence,Licence,Français (courant),Français (courant),93.3
+Developpeur Web,MySQL; JavaScript; PHP,Laravel; HTML/CSS; Git; MySQL; PHP; JavaScript,4,0,Licence,Master,Anglais (avancé); Français (courant),Français (avancé),75.0
+Chef de projet digital,Scrum; Gestion de projet; ClickUp; Asana; Agile,Agile; Gestion de projet,4,1,Master,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé),39.5
+Content Manager,WordPress; Copywriting; Canva; Analytics; SEO; Content Strategy,Canva; Copywriting; WordPress; SEO; Content Strategy; MySQL; Google Analytics,2,3,Licence,Master,Français (courant); Anglais (débutant),Français (courant); Anglais (avancé),90.8
+SEO/SEA,Search Console; Google Analytics; SEM; SEO,SEO; Google Ads; Google Analytics,3,1,Licence,Licence,Français (intermédiaire); Anglais (intermédiaire),Français (intermédiaire); Anglais (courant),59.2
+SEO/SEA,Keyword Research; Search Console; Google Ads; SEO; Google Analytics,Google Ads; Google Analytics; SEM,3,6,Master,Master,Français (intermédiaire); Anglais (débutant),Français (avancé); Anglais (débutant),67.0
+SEO/SEA,Keyword Research; SEO; Search Console,Search Console; Google Ads; Google Analytics; SEM,3,4,Bac,Master,Français (intermédiaire),Français (avancé),63.3
+SEO/SEA,Google Ads; Search Console; SEM,Aucune information,4,2,Bac,Master,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (intermédiaire),35.0
+Developpeur Web,MySQL; HTML/CSS; JavaScript; Laravel,MySQL; PHP; Laravel,2,2,Licence,Bac,Français (intermédiaire),Français (avancé),65.0
+Developpeur Mobile,Kotlin; Git; Flutter; Firebase; Java; Dart,Java; Dart; Flutter,1,3,Master,Licence,Anglais (courant),Français (courant); Anglais (courant),65.0
+Graphiste,Branding; Illustrator; Canva; InDesign; Typographie,Branding; Canva; Typographie; Illustrator; InDesign,3,5,Master,Bac,Français (courant),Français (avancé),92.5
+Content Manager,Copywriting; WordPress; Content Strategy; Canva; Analytics,Canva; WordPress; Copywriting; Content Strategy; Analytics,2,3,Bac,Master,Anglais (avancé); Français (avancé),Français (courant),95.0
+Content Manager,SEO; Canva; Copywriting; WordPress; Analytics; Content Strategy,WordPress; Canva; Content Strategy; Analytics; Search Console; SEO,1,2,Master,Bac,Anglais (avancé); Français (avancé),Français (avancé); Anglais (courant),83.3
+UI/UX Designer,Photoshop; Illustrator; Prototypage,Figma; Photoshop; Illustrator,3,0,Master,Licence,Anglais (courant); Français (courant),Français (avancé); Anglais (débutant),54.2
+Chef de projet digital,Gestion de projet; Agile; ClickUp; Scrum; Asana,Scrum,2,5,Bac,Licence,Anglais (débutant),Français (avancé),46.0
+UI/UX Designer,Illustrator; Photoshop; Prototypage; Figma,LinkedIn; Java,1,6,Licence,Bac,Anglais (courant); Français (avancé),Français (intermédiaire); Anglais (avancé),37.5
+UI/UX Designer,Illustrator; UX Research; Prototypage; Adobe XD; Photoshop; Figma,Aucune information,3,2,Master,Master,Anglais (avancé),Français (intermédiaire),28.3
+Data Analyst,Pandas; Data Visualization; Power BI; Python; Excel,Power BI; Pandas; SQL; Python; Excel; Branding; Copywriting,1,0,Bac,Licence,Anglais (courant); Français (courant),Français (courant); Anglais (intermédiaire),69.0
+Community Manager,Analytics; Canva; Facebook; Copywriting,TikTok; Instagram; Canva; Copywriting; Excel,1,4,Bac,Master,Français (avancé),Français (avancé); Anglais (intermédiaire),72.5
+Chef de projet digital,Communication; Scrum; Asana; Gestion de projet; Agile,Asana; Communication; Gestion de projet; Scrum; Canva; Prototypage,3,4,Bac,Master,Français (intermédiaire),Français (courant); Anglais (débutant),89.0
+UI/UX Designer,Figma; UX Research; Adobe XD; Prototypage,Prototypage; Figma; Illustrator; Adobe XD; Photoshop,2,1,Master,Master,Anglais (avancé); Français (courant),Français (courant); Anglais (courant),76.2
+UI/UX Designer,Adobe XD; Prototypage; Illustrator,Prototypage; Figma; UX Research; Photoshop; Adobe XD,2,6,Bac,Bac,Anglais (débutant); Français (avancé),Français (courant); Anglais (courant),81.7
+SEO/SEA,Google Analytics; Keyword Research; Google Ads; SEM,Copywriting; Gestion de projet,2,5,Licence,Bac,Anglais (courant),Français (avancé); Anglais (courant),37.5
+Chef de projet digital,Gestion de projet; Agile; ClickUp; Scrum; Communication,ClickUp; Agile,3,3,Licence,Master,Anglais (débutant); Français (courant),Français (avancé),62.0
+Content Manager,Canva; Content Strategy; WordPress; Analytics,Canva; Content Strategy; Copywriting; Analytics,3,6,Bac,Master,Français (courant),Français (intermédiaire); Anglais (courant),86.2
+Data Analyst,Data Visualization; Pandas; Python; SQL,Aucune information,3,7,Licence,Master,Anglais (avancé),Français (intermédiaire); Anglais (courant),45.0
+Developpeur Web,HTML/CSS; JavaScript; Git,JavaScript; Laravel; Git; PHP; MySQL; HTML/CSS,3,0,Bac,Bac,Français (avancé); Anglais (intermédiaire),Français (avancé),75.0
+Developpeur Web,Laravel; JavaScript; HTML/CSS; PHP; MySQL; Git,PHP; HTML/CSS; Laravel; JavaScript; MySQL; Git; SEM; Facebook,2,3,Bac,Licence,Français (intermédiaire),Français (avancé); Anglais (débutant),100.0
+Developpeur Web,HTML/CSS; Git; PHP; JavaScript; MySQL; Laravel,Aucune information,2,1,Licence,Master,Français (intermédiaire); Anglais (débutant),Français (avancé); Anglais (débutant),35.0
+Graphiste,Branding; Typographie; Photoshop,InDesign,4,6,Licence,Master,Français (courant),Français (avancé),45.0
+Developpeur Mobile,Flutter; Dart; Kotlin,Firebase; Kotlin,4,4,Licence,Licence,Français (intermédiaire),Français (avancé); Anglais (courant),63.3
+Developpeur Web,Git; HTML/CSS; JavaScript,Aucune information,4,3,Licence,Licence,Français (avancé),Français (courant); Anglais (avancé),40.0
+Developpeur Mobile,Firebase; Flutter; Git; Kotlin,Aucune information,3,0,Bac,Licence,Anglais (intermédiaire); Français (avancé),Français (avancé),20.0
+SEO/SEA,Google Analytics; Keyword Research; Google Ads; SEM,Google Ads; Keyword Research; SEM; Google Analytics,4,5,Bac,Master,Anglais (intermédiaire); Français (avancé),Français (intermédiaire); Anglais (débutant),100.0
+Chef de projet digital,Asana; Agile; Communication,ClickUp; Communication; Agile; Asana,4,2,Bac,Bac,Anglais (avancé); Français (avancé),Français (intermédiaire),85.0
+Social Media Manager,Analytics; Meta Ads; Instagram; LinkedIn; Facebook; TikTok,Facebook,1,2,Master,Licence,Anglais (débutant),Français (intermédiaire); Anglais (avancé),46.7
+Chef de projet digital,Asana; Agile; Scrum; ClickUp; Communication; Gestion de projet,Agile; Gestion de projet,2,6,Bac,Bac,Français (courant),Français (intermédiaire); Anglais (avancé),63.3
+UI/UX Designer,Photoshop; Prototypage; Figma; Adobe XD; Illustrator; UX Research,Prototypage; Photoshop; UX Research; Adobe XD; Illustrator; Figma,3,6,Licence,Master,Français (avancé),Français (courant); Anglais (courant),100.0
+UI/UX Designer,Illustrator; Figma; Prototypage; Photoshop; UX Research,Photoshop; Figma; Illustrator,1,2,Master,Licence,Français (intermédiaire); Anglais (courant),Français (intermédiaire),65.5
+Data Analyst,Data Visualization; Excel; Python; Power BI; Pandas,Excel; Power BI; SQL; Python; Data Visualization,4,1,Master,Licence,Français (intermédiaire),Français (avancé),66.5
+Social Media Manager,LinkedIn; Facebook; Meta Ads,Aucune information,3,0,Master,Master,Français (avancé),Français (avancé); Anglais (intermédiaire),25.0
+Developpeur Mobile,Firebase; Dart; Git,Git; Photoshop,1,0,Master,Bac,Anglais (avancé),Français (courant); Anglais (intermédiaire),35.8
+Social Media Manager,Facebook; LinkedIn; TikTok,Analytics; SEM,1,3,Master,Master,Anglais (débutant); Français (intermédiaire),Français (intermédiaire); Anglais (courant),45.0
+SEO/SEA,Google Ads; Keyword Research; Google Analytics; Search Console; SEM,Google Ads; Google Analytics; SEO; JavaScript,1,0,Licence,Licence,Français (intermédiaire),Français (avancé); Anglais (intermédiaire),47.0
+Data Analyst,SQL; Data Visualization; Python; Pandas; Excel; Power BI,SQL; Power BI; Python; Data Visualization; Excel; Pandas; Copywriting,3,3,Licence,Master,Français (courant); Anglais (débutant),Français (intermédiaire); Anglais (intermédiaire),100.0
+Community Manager,Copywriting; TikTok; Instagram; Canva,Facebook; TikTok; Copywriting; Analytics,2,3,Licence,Licence,Anglais (courant); Français (courant),Français (courant),67.5
+Chef de projet digital,Asana; Agile; Communication; Scrum; Gestion de projet,Agile; Gestion de projet; Asana; Scrum; Keyword Research,2,4,Master,Master,Français (intermédiaire),Français (courant); Anglais (courant),89.0
+Graphiste,Photoshop; Typographie; Canva,InDesign; Canva,4,0,Bac,Master,Français (avancé),Français (intermédiaire),43.3
+Developpeur Web,HTML/CSS; JavaScript; MySQL; PHP; Laravel; Git,Aucune information,1,1,Master,Licence,Français (avancé),Français (courant),37.5
+Developpeur Web,Laravel; Git; PHP,HTML/CSS,1,2,Licence,Master,Anglais (courant),Français (intermédiaire),35.0
+Chef de projet digital,Agile; ClickUp; Asana; Communication; Scrum,Gestion de projet; Communication; Agile,1,5,Licence,Master,Français (courant),Français (courant); Anglais (courant),67.0
+Developpeur Mobile,Flutter; Git; Firebase,Java; Flutter; Kotlin; Dart; Firebase,2,1,Licence,Licence,Français (avancé),Français (avancé); Anglais (avancé),71.7
+Community Manager,Facebook; Copywriting; TikTok,Instagram; TikTok,1,2,Bac,Bac,Français (courant); Anglais (avancé),Français (intermédiaire); Anglais (courant),63.3
+Developpeur Web,Git; HTML/CSS; PHP,Git; HTML/CSS; JavaScript; Laravel; Canva; SEO,1,4,Licence,Licence,Français (intermédiaire); Anglais (avancé),Français (intermédiaire),76.7
+Graphiste,Branding; InDesign; Typographie; Canva,Canva; Typographie; Branding,3,6,Bac,Bac,Français (intermédiaire),Français (courant),86.2
+Developpeur Web,Laravel; MySQL; PHP; Git,Git,4,3,Bac,Master,Anglais (avancé); Français (courant),Français (avancé); Anglais (avancé),53.8
+UI/UX Designer,Adobe XD; UX Research; Photoshop; Prototypage,Figma; Illustrator; UX Research; Adobe XD; WordPress; Keyword Research,1,4,Bac,Licence,Français (courant),Français (avancé); Anglais (débutant),72.5
+UI/UX Designer,Figma; Illustrator; Prototypage,UX Research; Photoshop,4,3,Bac,Licence,Français (courant),Français (intermédiaire),40.0
+Data Analyst,Excel; Pandas; SQL; Python; Data Visualization; Power BI,SQL; Power BI; Data Visualization; Python; Excel; Pandas,3,2,Bac,Bac,Français (courant); Anglais (intermédiaire),Français (intermédiaire); Anglais (débutant),93.3
+Developpeur Web,PHP; Git; HTML/CSS; JavaScript,Laravel,3,1,Bac,Bac,Français (courant),Français (intermédiaire); Anglais (avancé),31.7
+UI/UX Designer,Photoshop; Prototypage; Figma,Figma; Illustrator; UX Research; Prototypage,4,1,Master,Master,Anglais (intermédiaire),Français (courant); Anglais (avancé),66.7
+Developpeur Mobile,Java; Git; Kotlin; Flutter; Firebase,Firebase; Dart; Git; Kotlin; Flutter; Java,4,3,Master,Master,Français (avancé),Français (courant),95.0
+Content Manager,SEO; Content Strategy; Copywriting; Analytics; Canva; WordPress,Canva; SEO; WordPress; Analytics; Copywriting,1,4,Master,Licence,Français (intermédiaire),Français (avancé); Anglais (débutant),83.3
+UI/UX Designer,Photoshop; Figma; UX Research,Prototypage; Figma; UX Research; Adobe XD; Photoshop,3,5,Licence,Bac,Français (avancé); Anglais (courant),Français (intermédiaire),87.5
+Developpeur Web,PHP; Laravel; HTML/CSS; JavaScript,Git; HTML/CSS; MySQL; PHP; JavaScript; Photoshop; Firebase,2,6,Bac,Bac,Français (avancé),Français (courant); Anglais (avancé),86.2
+Developpeur Web,MySQL; Git; Laravel; PHP; HTML/CSS; JavaScript,JavaScript; PHP; Laravel,2,5,Licence,Bac,Anglais (courant); Français (avancé),Français (avancé),60.0
+SEO/SEA,SEM; Google Analytics; Search Console,SEO; Google Analytics; Google Ads; Keyword Research; SEM; Search Console,1,3,Bac,Bac,Français (intermédiaire),Français (intermédiaire); Anglais (courant),100.0
+Graphiste,Canva; Typographie; Photoshop,Canva; Typographie; Branding; Photoshop; Illustrator; InDesign,1,1,Licence,Bac,Français (intermédiaire),Français (courant),92.5
+SEO/SEA,Google Analytics; SEO; Search Console; SEM; Google Ads,SEM; Google Ads; Google Analytics,3,1,Licence,Master,Anglais (débutant),Français (courant); Anglais (courant),64.7
+Developpeur Web,HTML/CSS; JavaScript; Git; PHP; Laravel,Git,2,0,Bac,Bac,Anglais (courant),Français (avancé); Anglais (avancé),36.0
+Graphiste,Typographie; Illustrator; InDesign; Canva; Branding; Photoshop,Typographie; Branding; Photoshop; InDesign,2,3,Bac,Bac,Français (avancé),Français (avancé),81.7
+Community Manager,Analytics; Copywriting; Canva,Instagram; Analytics; TikTok; Copywriting; Facebook; Canva,3,2,Bac,Master,Anglais (intermédiaire),Français (courant); Anglais (avancé),93.3
+Graphiste,Typographie; Illustrator; Photoshop,Photoshop; InDesign; Branding,1,3,Master,Master,Français (intermédiaire),Français (avancé),63.3
+Content Manager,Canva; Copywriting; Analytics; SEO; Content Strategy,Content Strategy; Canva,3,2,Bac,Licence,Français (intermédiaire); Anglais (courant),Français (intermédiaire); Anglais (avancé),60.3
+Data Analyst,Python; Power BI; SQL; Pandas; Data Visualization; Excel,Data Visualization; Python; Excel; Power BI,2,4,Licence,Master,Anglais (avancé); Français (avancé),Français (avancé); Anglais (courant),81.7
+SEO/SEA,Google Analytics; Search Console; SEM; Google Ads,Google Ads; SEO; SEM; Search Console; Keyword Research; Google Analytics,3,5,Licence,Master,Français (intermédiaire),Français (courant),100.0
+SEO/SEA,Google Analytics; SEO; Search Console,SEO; Google Analytics; Keyword Research; Google Ads; Search Console; SEM,2,3,Bac,Bac,Anglais (courant),Français (avancé),90.0
+Developpeur Mobile,Flutter; Java; Kotlin,Search Console; Meta Ads,4,0,Master,Master,Français (avancé); Anglais (courant),Français (courant); Anglais (débutant),25.0

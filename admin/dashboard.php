@@ -1,0 +1,168 @@
+<?php
+require_once '../includes/auth.php';
+verifierRole('Administrateur RH'); // bloque l'accès si pas admin connecté
+
+require_once '../config/db.php';
+
+// 1. Nombre d'employés actifs
+$stmt = $pdo->query("SELECT COUNT(*) FROM employe WHERE statut = 'Actif'");
+$nbemployes = $stmt->fetchColumn();
+
+// 2. Score moyen de l'entreprise (basé sur la dernière évaluation de chaque employé)
+$stmt = $pdo->query("
+    SELECT AVG(t.score_final) as moyenne
+    FROM evaluation t
+    INNER JOIN (
+        SELECT id_employe, MAX(date_evaluation) AS derniere_date
+        FROM evaluation
+        GROUP BY id_employe
+    ) dernier ON t.id_employe = dernier.id_employe AND t.date_evaluation = dernier.derniere_date
+");
+$scoreMoyen = $stmt->fetchColumn();
+$scoreMoyen = $scoreMoyen ? round($scoreMoyen) : 0;
+
+// 3. Nombre de demandes en attente
+$stmt = $pdo->query("SELECT COUNT(*) FROM demande WHERE statut = 'En attente'");
+$nbdemandes = $stmt->fetchColumn();
+
+// 4. Derniers scores (les 5 évaluations les plus récentes)
+$stmt = $pdo->query("
+    SELECT u.nom, u.prenom, e.poste, ev.score_final, ev.date_evaluation
+    FROM evaluation ev
+    INNER JOIN employe e ON ev.id_employe = e.id_employe
+    INNER JOIN utilisateur u ON e.id_utilisateur = u.id_utilisateur
+    ORDER BY ev.date_evaluation DESC
+    LIMIT 5
+");
+$derniersScores = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+// 5. demandes en attente (les 5 plus récentes)
+$stmt = $pdo->query("
+    SELECT u.nom, u.prenom, d.type, d.date_debut, d.date_fin
+    FROM demande d
+    INNER JOIN employe e ON d.id_employe = e.id_employe
+    INNER JOIN utilisateur u ON e.id_utilisateur = u.id_utilisateur
+    WHERE d.statut = 'En attente'
+    ORDER BY d.date_demande DESC
+    LIMIT 5
+");
+$demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord — Administrateur RH</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="conteneur-app">
+
+    <!-- Menu latéral -->
+   <div class="menu-lateral">
+     <div class="logo-menu" style="padding: 20px 15px 15px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="background: white; border-radius: 10px; padding: 8px 12px; display: inline-block; margin-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+        <img src="../assets/images/logo-bsm-groupe - Copie.png" alt="BSM groupe" style="height: 35px; width: auto; display: block;">
+    </div>
+    <!-- <p style="color: white; font-size: 13px; font-weight: 600; margin: 0; letter-spacing: 1px;">BSM groupe</p> -->
+</div>
+
+    <!-- GROUPE 1 : RECRUTEMENT -->
+    <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Recrutement</p>
+    
+    <a href="ajouter_offre.php" class="lien-menu">Offres d'emploi</a>
+    <a href="candidatures.php" class="lien-menu">candidatures</a>
+
+    <!-- GROUPE 2 : GESTION -->
+    <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Gestion</p>
+    
+    <a href="dashboard.php" class="lien-menu">Tableau de bord</a>
+    <a href="employes.php" class="lien-menu">Employés</a>
+     <a href="criteres.php" class="lien-menu">Critères</a>
+    <a href="mon_equipe.php" class="lien-menu">Mon équipe</a>
+    <a href="evaluations.php" class="lien-menu">Évaluations</a>
+    <a href="demandes.php" class="lien-menu">demandes</a>
+   
+
+    <!-- PIED DE MENU (Profil et Déconnexion) -->
+    <div class="pied-menu">
+        <div class="avatar-mini"><?= strtoupper(substr($_SESSION['prenom'],0,1) . substr($_SESSION['nom'],0,1)) ?></div>
+        <span><?= htmlspecialchars($_SESSION['prenom']) ?></span>
+        <a href="../logout.php" class="icone-deconnexion" title="Déconnexion">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+        </a>
+    </div>
+</div>
+
+    <!-- Zone de contenu -->
+    <div class="zone-contenu">
+
+        <div class="entete-page">
+            <div>
+                <p class="titre-page">Tableau de bord</p>
+                <p class="sous-titre-page">Espace Administrateur RH — <?= htmlspecialchars($_SESSION['prenom']) ?></p>
+            </div>
+            <a href="ajouter_employe.php" class="bouton-principal-inline">+ Ajouter un employé</a>
+        </div>
+
+        <div class="grille-cartes">
+            <div class="carte-stat">
+                <p class="label-stat">Employés actifs</p>
+                <p class="valeur-stat"><?= $nbemployes ?></p>
+            </div>
+            <div class="carte-stat">
+                <p class="label-stat">Score moyen</p>
+                <p class="valeur-stat"><?= $scoreMoyen ?>%</p>
+            </div>
+            <div class="carte-stat">
+                <p class="label-stat">demandes en attente</p>
+                <p class="valeur-stat"><?= $nbdemandes ?></p>
+            </div>
+        </div>
+
+        <div class="grille-panneaux">
+            <div class="panneau">
+                <p class="titre-panneau">Derniers scores de performance</p>
+                <table class="tableau-donnees">
+                    <tr><th>Employé</th><th>Poste</th><th>Score</th></tr>
+                    <?php if (empty($derniersScores)): ?>
+                        <tr><td colspan="3" class="texte-vide">Aucune évaluation enregistrée pour le moment</td></tr>
+                    <?php else: ?>
+                        <?php foreach ($derniersScores as $s): ?>
+                            <tr>
+                                <td><?= htmlspecialchars($s['prenom'] . ' ' . $s['nom']) ?></td>
+                                <td><?= htmlspecialchars($s['poste']) ?></td>
+                                <td class="score-positif"><?= $s['score_final'] ?>%</td>
+                            </tr>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                </table>
+            </div>
+
+            <div class="panneau">
+                <p class="titre-panneau">demandes en attente</p>
+                <?php if (empty($demandesEnAttente)): ?>
+                    <p class="texte-vide">Aucune demande en attente</p>
+                <?php else: ?>
+                    <?php foreach ($demandesEnAttente as $d): ?>
+                       <div class="ligne-demande">
+    <div>
+        <p class="nom-demande"><?= htmlspecialchars($d['prenom'] . ' ' . $d['nom']) ?></p>
+        <p class="detail-demande"><?= htmlspecialchars($d['type']) ?> · <?= date('d/m', strtotime($d['date_debut'])) ?> - <?= date('d/m', strtotime($d['date_fin'])) ?></p>
+    </div>
+    <span class="icone-alarme">⏰</span>
+</div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../assets/js/app.js" defer></script>
+</body>
+</html>
