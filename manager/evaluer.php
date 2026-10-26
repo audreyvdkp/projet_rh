@@ -138,6 +138,7 @@ $scoreFinal = min($scoreFinal, 100);
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Évaluer <?= htmlspecialchars($employeCible['prenom']) ?> — Manager</title>
@@ -165,7 +166,7 @@ $scoreFinal = min($scoreFinal, 100);
         <div class="pied-menu">
             <div class="avatar-mini"><?= strtoupper(substr($_SESSION['prenom'],0,1) . substr($_SESSION['nom'],0,1)) ?></div>
             <span><?= htmlspecialchars($_SESSION['prenom']) ?></span>
-            <a href="../logout.php" class="icone-deconnexion" title="Déconnexion">
+            <a href="../logout.php" class="icone-deconnexion" style="text-decoration: none;" title="Déconnexion">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                     <polyline points="16 17 21 12 16 7"></polyline>

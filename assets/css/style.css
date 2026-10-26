@@ -1281,3 +1281,12 @@ body {
     max-width: 100%;
     margin: 0 auto;
 }
+
+/* === CENTRAGE FORCÉ DES FORMULAIRES === */
+.carte, .card, .form-container, .box, form {
+    max-width: 700px !important;
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+}   

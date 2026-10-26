@@ -51,6 +51,7 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau de bord — Administrateur RH</title>
@@ -73,7 +74,7 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Recrutement</p>
     
     <a href="ajouter_offre.php" class="lien-menu">Offres d'emploi</a>
-    <a href="candidatures.php" class="lien-menu">candidatures</a>
+    <a href="candidatures.php" class="lien-menu">Candidatures</a>
 
     <!-- GROUPE 2 : GESTION -->
     <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Gestion</p>
@@ -83,15 +84,15 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
      <a href="criteres.php" class="lien-menu">Critères</a>
     <a href="mon_equipe.php" class="lien-menu">Mon équipe</a>
     <a href="evaluations.php" class="lien-menu">Évaluations</a>
-    <a href="demandes.php" class="lien-menu">demandes</a>
+    <a href="demandes.php" class="lien-menu">Demandes</a>
    
 
     <!-- PIED DE MENU (Profil et Déconnexion) -->
     <div class="pied-menu">
         <div class="avatar-mini"><?= strtoupper(substr($_SESSION['prenom'],0,1) . substr($_SESSION['nom'],0,1)) ?></div>
         <span><?= htmlspecialchars($_SESSION['prenom']) ?></span>
-        <a href="../logout.php" class="icone-deconnexion" title="Déconnexion">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+        <a href="../logout.php" class="icone-deconnexion" style="text-decoration: none;" title="Déconnexion" style="text-decoration: none;">
+            <i class="fa-solid fa-right-from-bracket"></i>
         </a>
     </div>
 </div>
@@ -152,7 +153,7 @@ $demandesEnAttente = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <p class="nom-demande"><?= htmlspecialchars($d['prenom'] . ' ' . $d['nom']) ?></p>
         <p class="detail-demande"><?= htmlspecialchars($d['type']) ?> · <?= date('d/m', strtotime($d['date_debut'])) ?> - <?= date('d/m', strtotime($d['date_fin'])) ?></p>
     </div>
-    <span class="icone-alarme">⏰</span>
+    <span class="icone-alarme"><i class="fa-solid fa-clock"></i></span>
 </div>
                     <?php endforeach; ?>
                 <?php endif; ?>

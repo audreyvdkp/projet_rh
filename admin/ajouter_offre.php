@@ -36,6 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publier une offre d'emploi — Admin RH</title>
@@ -55,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Recrutement</p>
     
     <a href="ajouter_offre.php" class="lien-menu">Offres d'emploi</a>
-    <a href="candidatures.php" class="lien-menu">candidatures</a>
+    <a href="candidatures.php" class="lien-menu">Candidatures</a>
 
     <!-- GROUPE 2 : GESTION -->
     <p style="color: #cbd5e1; font-size: 11px; font-weight: bold; text-transform: uppercase; margin: 20px 0 8px 15px; letter-spacing: 1px; opacity: 0.7;">Gestion</p>
@@ -65,15 +66,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <a href="criteres.php" class="lien-menu">Critères</a>
     <a href="mon_equipe.php" class="lien-menu">Mon équipe</a>
     <a href="evaluations.php" class="lien-menu">Évaluations</a>
-    <a href="demandes.php" class="lien-menu">demandes</a>
+    <a href="demandes.php" class="lien-menu">Demandes</a>
     
 
     <!-- PIED DE MENU (Profil et Déconnexion) -->
     <div class="pied-menu">
         <div class="avatar-mini"><?= strtoupper(substr($_SESSION['prenom'],0,1) . substr($_SESSION['nom'],0,1)) ?></div>
         <span><?= htmlspecialchars($_SESSION['prenom']) ?></span>
-        <a href="../logout.php" class="icone-deconnexion" title="Déconnexion">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+        <a href="../logout.php" class="icone-deconnexion" style="text-decoration: none;" title="Déconnexion">
+            <i class="fa-solid fa-right-from-bracket"></i>
         </a>
     </div>
 </div>
@@ -90,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?= $message ?>
             </div>
         <?php endif; ?>
-        <form method="POST" action="" class="panneau">
+        <form method="POST" action="" class="panneau" style="max-width: 700px; margin: 0 auto;">
             <h3 style="margin-top: 0; color: #1f2937; border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; margin-bottom: 20px;">Informations sur le poste</h3>
             <div class="champ" style="margin-bottom: 20px;">
                 <label>Titre du poste *</label>
@@ -111,10 +112,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label>Lieu de travail</label>
                     <input type="text" name="lieu" value="<?= htmlspecialchars($lieu) ?>" placeholder="Ex: Paris, Télétravail..." style="width: 100%; padding: 10px; border: 1px solid #e0e0e0; border-radius: 6px;">
                 </div>
-                <div class="champ">
-                    <label>Date limite de candidature *</label>
-                    <input type="date" name="date_limite" value="<?= htmlspecialchars($date_limite) ?>" required style="width: 100%; padding: 10px; border: 1px solid #e0e0e0; border-radius: 6px;">
-                </div>
+               <div class="champ">
+    <label>Date limite de candidature *</label>
+    <div style="position: relative;">
+        <input type="date" name="date_limite" value="<?= htmlspecialchars($date_limite) ?>" required style="width: 100%; padding: 10px 40px 10px 10px; border: 1px solid #e0e0e0; border-radius: 6px;">
+        <i class="fa-solid fa-calendar" style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: #64748b; pointer-events: none;"></i>
+    </div>
+</div>
             </div>
             <h3 style="color: #1f2937; border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; margin: 30px 0 20px 0;">Description du poste</h3>
             <div class="champ" style="margin-bottom: 24px;">
@@ -125,6 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <a href="offres.php" class="bouton-secondaire" style="padding: 12px 24px; text-decoration: none;">Annuler</a>
                 <button type="submit" class="bouton-principal" style="padding: 12px 24px;">Publier l'offre</button>
             </div>
+            
         </form>
     </div>
 </div>
